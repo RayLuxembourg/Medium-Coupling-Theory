@@ -111,6 +111,27 @@ The theory developed through the following progression:
 - Present the theory seriously but without overclaiming. State what the framework does, show the mechanism, let the results speak.
 - The informal name "the smoke ring model" is fine for casual reference.
 
+### Cross-Referencing
+When content in one file relates to content in another, link to it explicitly. This keeps the reader oriented across the project and avoids duplicating explanations.
+
+**Format:** Use markdown links with relative paths. Include the section name when pointing to a specific part of a file.
+
+```markdown
+See [Phase 2, Section 2](phase2/mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow) for the full derivation.
+```
+
+**When to reference:**
+- A concept introduced in one file is derived or formalized in another.
+- A qualitative claim (README) has a mathematical treatment (phase2/).
+- A prediction references the derivation it depends on.
+- Phase 2 sections build on each other (reference earlier sections by number).
+
+**When not to reference:**
+- Self-contained statements that need no elaboration.
+- Concepts explained in the same file within a few paragraphs.
+
+Keep reference text short. "See [Section 5](phase2/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum) for the quantization argument" is better than repeating the argument.
+
 ### Math Formatting
 - All mathematical expressions use GitHub-flavored LaTeX.
 - Inline math: `$...$` (e.g., `$F = ma$`).

@@ -6,9 +6,11 @@
 
 ## Abstract
 
-Medium Coupling Theory (MCT) proposes that the observable universe is embedded within a dynamic, self-sustaining toroidal flow — a medium undergoing continuous multi-axis motion analogous to a toroidal vortex (smoke ring). All fundamental physical phenomena — gravity, mass, inertia, the constancy of the speed of light, entropy, and quantized particle properties — emerge from the degree and nature of coupling between localized structures and this underlying medium.
+Medium Coupling Theory (MCT) proposes that the observable universe is embedded within a dynamic, self-sustaining toroidal flow. All fundamental physical phenomena (gravity, mass, inertia, the constancy of the speed of light, entropy, and quantized particle properties) emerge from the degree and nature of coupling between localized structures and this underlying medium.
 
-MCT does not dispute the mathematical validity of General Relativity or Quantum Mechanics. It proposes that these frameworks describe the *measurable consequences* of medium dynamics rather than the dynamics themselves. Einstein's field equations describe the accounting — the relationship between energy distribution and geometric outcome. MCT asks: what is the mechanism underneath?
+MCT does not dispute the mathematical validity of General Relativity or Quantum Mechanics. It proposes that these frameworks describe the *measurable consequences* of medium dynamics rather than the dynamics themselves. Einstein's field equations describe the accounting: the relationship between energy distribution and geometric outcome. MCT asks what mechanism produces that outcome.
+
+For the full mathematical treatment, see the [Phase 2 formalization](phase2/mathematical-framework.md).
 
 ---
 
@@ -18,68 +20,78 @@ MCT does not dispute the mathematical validity of General Relativity or Quantum 
 
 The medium is modeled as a toroidal flow field exhibiting three simultaneous motions:
 
-- **Axial translation** — the torus moves along its central axis.
-- **Toroidal circulation** — rotation around the ring's central loop.
-- **Poloidal circulation** — the critical motion. The medium continuously rolls through itself: outward along the exterior, inward through the core, forming a self-sustaining inside-out flow pattern.
+- **Axial translation**: the torus moves along its central axis.
+- **Toroidal circulation**: rotation around the ring's central loop.
+- **Poloidal circulation**: the critical motion. The medium continuously rolls through itself, outward along the exterior, inward through the core, forming a self-sustaining inside-out flow pattern.
 
 This is the same compound motion observed in toroidal vortices (smoke rings), which are notable for their coherence, stability, and self-contained dynamics.
 
 ### 1.2 Properties
 
-- The medium has **no rest frame**. There is no stationary background against which motion can be measured. Everything — matter, energy, light — exists as structures or states within the flow.
-- The medium is the **irreducible substrate**. Asking "what is the medium made of?" may be equivalent to asking "what is existence made of?" — a metaphysical question outside the scope of the theory. The medium is treated as the brute fact from which all else emerges.
-- The medium is **pre-geometric**. Spacetime, as described by General Relativity, is an emergent macroscopic description of the medium's flow topology, not a fundamental entity.
+The medium has **no rest frame**. There is no stationary background against which motion can be measured. Everything (matter, energy, light) exists as structures or states within the flow. This is why Michelson-Morley found nothing and why relativity works: there is no aether to detect because the medium is not stationary. Everything *is* the flow.
+
+The medium is the **irreducible substrate**. Asking "what is the medium made of?" may be equivalent to asking "what is existence made of?", a metaphysical question outside the scope of the theory.
+
+The medium is **pre-geometric**. Spacetime, as described by General Relativity, is an emergent macroscopic description of the medium's flow topology, not a fundamental entity.
 
 ---
 
 ## 2. Core Postulates
 
-### Postulate 1 — Gravity is poloidal acceleration
+### Postulate 1: Gravity is poloidal acceleration
 
 The poloidal circulation of the medium continuously sweeps its contents inward toward the core of the toroidal cross-section. Objects embedded in the medium experience persistent acceleration toward the flow center.
 
-By the **equivalence principle** (Einstein, 1907), an observer in a continuously accelerating frame cannot distinguish that acceleration from a gravitational field. MCT proposes that this equivalence is not merely formal — it is *literal*. Gravity is not a force, not curvature, but the direct experience of being carried by a medium in poloidal motion.
+By the equivalence principle (Einstein, 1907), an observer in a continuously accelerating frame cannot distinguish that acceleration from a gravitational field. MCT proposes that this equivalence is not merely formal but *literal*. Gravity is not a force, not curvature, but the direct experience of being carried by a medium in poloidal motion.
 
 What General Relativity describes as spacetime curvature is the mathematical characterization of the poloidal flow field as measured from within, by observers who cannot perceive the medium directly.
 
-### Postulate 2 — Mass is coupling to the medium via angular momentum
+The [Phase 2 derivation](phase2/mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow) recovers Newton's law $\mathbf{F} = -\frac{GMm}{r^2}\hat{\mathbf{r}}$ from the medium's linear response to a coupling source. The [equivalence principle](phase2/mathematical-framework.md#3-derivation-the-equivalence-principle) is shown to be a structural identity, not an assumption.
+
+### Postulate 2: Mass is coupling to the medium via angular momentum
 
 Mass is not an intrinsic property of matter. It is the **degree of coupling** between a localized structure and the medium's flow.
 
-The coupling mechanism is **angular momentum**. A structure with angular momentum creates a rotational profile that interlocks with the medium's own flow dynamics. The greater and more complex the angular momentum structure, the stronger the coupling, and the greater the observed mass.
+The coupling mechanism is **angular momentum**. A structure with angular momentum creates a rotational profile that interlocks with the medium's own flow dynamics. Greater and more complex angular momentum structure produces stronger coupling and greater observed mass.
 
 This postulate implies:
 
 - **Massless entities** (photons) have no angular momentum coupling to the medium. They do not participate in the flow.
-- **Massive particles** are rotational structures — vortex knots or eddies — whose spin creates mechanical engagement with the medium.
+- **Massive particles** are rotational structures (vortex knots or eddies) whose spin creates mechanical engagement with the medium.
 - **Mass is quantized** because angular momentum is quantized. Discrete spin states produce discrete coupling levels, yielding discrete mass values without requiring a separate mass-granting mechanism.
 - **Different particles have different masses** because they represent different angular momentum topologies. A proton (three quarks, gluon flux tubes, complex internal angular momentum) is a tighter, more elaborate knot in the flow than an electron (simpler rotational structure). The difference is structural complexity, not kind.
 
-### Postulate 3 — Inertia is resistance from medium coupling
+See [Section 5](phase2/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum) of the Phase 2 document for the quantization argument and the connection to the Higgs mechanism.
+
+### Postulate 3: Inertia is resistance from medium coupling
 
 An object at rest in the medium frame is already being accelerated by the flow. Applying an external force to change its motion requires working against the medium's grip on the object.
 
-Inertia is therefore not a mysterious intrinsic resistance to acceleration. It is the **mechanical resistance of the medium-object coupling** to perturbation. More coupling (more angular momentum, more mass) means more resistance. This provides a direct mechanical origin for Newton's second law: F = ma reflects the relationship between applied force, coupling strength, and resulting deviation from the medium's flow.
+Inertia is therefore not a mysterious intrinsic resistance to acceleration. It is the **mechanical resistance of the medium-object coupling** to perturbation. More coupling (more angular momentum, more mass) means more resistance. This provides a direct mechanical origin for Newton's second law: $F = ma$ reflects the relationship between applied force, coupling strength, and resulting deviation from the medium's flow.
 
-### Postulate 4 — Light is the uncoupled state
+### Postulate 4: Light is the uncoupled state
 
-Light does not travel through the medium. Light is **minimally coupled** to the medium — effectively stationary relative to it.
+Light does not travel through the medium. Light is **minimally coupled** to the medium, effectively stationary relative to it.
 
-What we measure as the speed of light (c) is not the speed at which photons move. It is the **rate at which mass-coupled matter is swept away from light's rest state** by the medium. The speed of light is a separation rate, not a propagation speed.
+What we measure as the speed of light ($c$) is not the speed at which photons move. It is the **rate at which mass-coupled matter is swept away from light's rest state** by the medium. The speed of light is a separation rate, not a propagation speed.
 
 This reframes several features of Special Relativity:
 
-- **The speed limit c** is not arbitrary. Mass-coupled objects cannot outrun the medium carrying them, so the separation rate between matter and light asymptotically approaches but never exceeds c.
+- **The speed limit $c$** is not arbitrary. Mass-coupled objects cannot outrun the medium carrying them, so the separation rate between matter and light asymptotically approaches but never exceeds $c$.
 - **Lorentz invariance** emerges geometrically from the flow dynamics rather than being postulated.
 - **Light has no rest mass** because "mass" means "coupled to the medium," and light, by definition, is not.
 
-### Postulate 5 — Gravitational interaction with light is partial entrainment
+The [Phase 2 treatment](phase2/mathematical-framework.md#4-derivation-the-speed-of-light-as-separation-rate) formalizes this and derives the Lorentz transformation from the medium's finite characteristic speed.
 
-In regions of extreme medium flow — near large mass concentrations — the flow intensity is sufficient to partially entrain even uncoupled light. This produces:
+### Postulate 5: Gravitational interaction with light is partial entrainment
 
-- **Gravitational lensing** — light paths deflected by intense local flow.
-- **Gravitational redshift** — light losing energy as it climbs out of a high-flow region.
-- **Black holes** — regions where the medium flow exceeds the threshold at which even uncoupled light is fully entrained and cannot escape.
+In regions of extreme medium flow (near large mass concentrations), the flow intensity is sufficient to partially entrain even uncoupled light. This produces:
+
+- **Gravitational lensing**: light paths deflected by intense local flow.
+- **Gravitational redshift**: light losing energy as it climbs out of a high-flow region.
+- **Black holes**: regions where the medium flow exceeds the threshold at which even uncoupled light is fully entrained and cannot escape.
+
+The [Schwarzschild derivation](phase2/mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response) recovers GR's black hole solution from the nonlinear medium response. The [black hole information section](phase2/mathematical-framework.md#11-the-black-hole-information-paradox) addresses the information paradox.
 
 ---
 
@@ -87,23 +99,41 @@ In regions of extreme medium flow — near large mass concentrations — the flo
 
 ### 3.1 Entropy
 
-In standard physics, the second law of thermodynamics is treated as a statistical axiom. MCT provides a **mechanical cause**: the medium is continuously churning. Entropy is what being stirred looks like from inside. Systems disperse not because of an abstract tendency toward disorder, but because the medium is actively dispersing them. Entropy is a symptom of the ride, not a law.
+In standard physics, the second law of thermodynamics is treated as a statistical axiom. MCT provides a **mechanical cause**: the medium is continuously churning. Entropy is what being stirred looks like from inside. Systems disperse not because of an abstract tendency toward disorder, but because the medium is actively dispersing them through its toroidal circulation.
+
+See [Section 7](phase2/mathematical-framework.md#7-derivation-entropy-from-medium-dynamics) for the entropy derivation.
 
 ### 3.2 Cosmological Expansion
 
-The poloidal flow naturally produces an expansion effect. The outer surface of the toroidal flow moves outward. Observers embedded within the medium would measure surrounding objects receding — consistent with observed cosmological expansion. Accelerating expansion may correspond to non-constant poloidal circulation rates, potentially removing the need for dark energy as a separate entity.
+The poloidal flow naturally produces an expansion effect. The outer surface of the toroidal flow moves outward. Observers embedded within the medium would measure surrounding objects receding, consistent with observed cosmological expansion. Accelerating expansion may correspond to non-constant poloidal circulation rates, potentially removing the need for dark energy as a separate entity.
+
+MCT also dissolves the cosmological constant problem (the $10^{122}$ discrepancy between predicted and observed vacuum energy). Vacuum fluctuations are symmetric medium noise with no net flow, so they do not gravitate. See [Section 10](phase2/mathematical-framework.md#10-the-cosmological-constant-problem).
 
 ### 3.3 Dark Matter
 
-MCT suggests a candidate explanation: structures within the medium that possess angular momentum (and therefore mass and gravitational coupling) but whose rotational symmetry prevents electromagnetic interaction with ordinary matter. Such structures would be invisible, massive, and gravitationally active — matching the observed properties of dark matter.
+MCT provides a structural explanation: dark matter consists of topological structures in the medium with angular momentum that couples to the gravitational mode but not the electromagnetic mode. These structures would be invisible, massive, and gravitationally active, matching observations.
+
+This explains the Bullet Cluster observation (gravitational lensing separated from visible matter) and predicts a discrete mass spectrum for dark matter particles. See [Section 12](phase2/mathematical-framework.md#12-dark-matter-from-medium-topology).
 
 ### 3.4 Cosmic Microwave Background Topology
 
-A toroidal large-scale structure predicts that sufficiently distant observations could reveal topological signatures — such as matched circles in the CMB. Some analyses of CMB data have shown hints consistent with toroidal topology.
+A toroidal large-scale structure predicts that sufficiently distant observations could reveal topological signatures, such as matched circles in the CMB, suppressed large-angle correlations, and alignment of low multipoles (the "axis of evil"). Some analyses of CMB data have shown hints consistent with these predictions. See [Prediction 2](phase2/mathematical-framework.md#143-prediction-2-cmb-toroidal-topology-signatures).
 
 ### 3.5 Universal Particle Spin
 
-Every known fundamental particle possesses intrinsic angular momentum (spin). Standard physics treats spin as an abstract quantum number with no mechanical explanation for its universality. MCT provides one: angular momentum is the coupling mechanism to the medium. A structure with zero angular momentum has zero mass and zero gravitational participation. Spin is not incidental — it is **constitutive**.
+Every known fundamental particle possesses intrinsic angular momentum (spin). Standard physics treats spin as an abstract quantum number with no mechanical explanation for its universality. MCT provides one: angular momentum is the coupling mechanism to the medium. A structure with zero angular momentum has zero mass and zero gravitational participation. Spin is not incidental; it is **constitutive**.
+
+### 3.6 Quantum Mechanics
+
+MCT derives the Schrodinger equation from the medium's micro-structure via Nelson's stochastic mechanics (1966). The medium has discrete micro-structure at the Planck scale. Coupled particles undergo Brownian motion from interactions with this micro-structure, and the resulting stochastic dynamics reproduce quantum mechanics exactly.
+
+This dissolves the measurement problem, derives the Born rule as an equilibrium theorem, and explains the uncertainty principle as the medium's resolution limit. See [Section 9](phase2/mathematical-framework.md#9-quantum-mechanics-from-medium-micro-structure).
+
+### 3.7 The Aharonov-Bohm Effect
+
+The AB effect (particles affected by electromagnetic potentials in regions of zero field) is mysterious only if fields are taken as fundamental and potentials as mathematical artifacts. MCT reverses this: the electromagnetic potential $\mathbf{A}$ is the medium's actual flow state. Fields $\mathbf{E}$ and $\mathbf{B}$ are derived quantities (gradients and curls). Particles couple to the medium, not to curls of the medium.
+
+See [Section 8](phase2/mathematical-framework.md#8-the-aharonov-bohm-effect-potentials-are-the-medium).
 
 ---
 
@@ -112,35 +142,42 @@ Every known fundamental particle possesses intrinsic angular momentum (spin). St
 | Framework | MCT Interpretation |
 |---|---|
 | **General Relativity** | Correct mathematical description of the medium's flow field as experienced from within. The stress-energy and curvature tensors are measurements of medium dynamics, not the dynamics themselves. |
-| **Special Relativity** | Lorentz invariance and the constancy of c emerge from the flow geometry and the nature of light as an uncoupled state. |
-| **Quantum Mechanics** | Quantized angular momentum produces quantized mass and coupling levels. Wave-particle duality may reflect the dual nature of structures as both localized eddies and extended flow disturbances. |
+| **Special Relativity** | Lorentz invariance and the constancy of $c$ emerge from the flow geometry and the nature of light as an uncoupled state. |
+| **Quantum Mechanics** | Derived from stochastic interactions with the medium's Planck-scale micro-structure. The wavefunction is a statistical description of coupling to the medium. |
 | **Thermodynamics** | The second law is a consequence of medium dynamics rather than a statistical axiom. |
-| **Higgs Mechanism** | MCT proposes an alternative mass-origin mechanism. If angular momentum coupling fully accounts for observed mass values, the Higgs field may describe the *local flow properties* of the medium rather than an independent field. |
+| **Higgs Mechanism** | The Higgs field describes the local coupling properties of the medium. Spontaneous symmetry breaking corresponds to the medium's preferred flow state. |
 
 ---
 
-## 5. Roadmap
+## 5. Testable Predictions
 
-### Phase 1 — Conceptual Framework *(current)*
-Establish the model's architecture, core postulates, and qualitative mapping to observed phenomena.
+MCT makes seven predictions that differ from standard physics. See [Section 14](phase2/mathematical-framework.md#14-testable-predictions-unique-to-mct) for full details.
 
-### Phase 2 — Mathematical Formalization
-Derive known physical results from MCT postulates:
-- Newtonian gravitational acceleration from poloidal flow dynamics.
-- Recovery of the Schwarzschild metric from toroidal vortex geometry.
-- Mass ratios from angular momentum coupling topologies.
-- Lorentz transformations from flow-separation dynamics.
-- Entropy increase rates from medium turbulence models.
+| Prediction | Testable With |
+|---|---|
+| Gravitational Aharonov-Bohm effect | Atom interferometry |
+| CMB toroidal topology signatures | CMB-S4, LiteBIRD |
+| Evolving dark energy ($w \neq -1$) | DESI, Euclid, Rubin |
+| Regge slope tied to $G$ | Hadron spectroscopy |
+| Planck-scale decoherence rate | MAQRO, macroscopic QM experiments |
+| Hubble tension from torus geometry | CMB + distance ladder cross-correlation |
+| Absolute proton stability | Hyper-Kamiokande, DUNE |
 
-### Phase 3 — Predictions
-Identify measurable consequences unique to MCT that distinguish it from standard models:
-- Novel topological signatures in CMB data.
-- Predicted relationships between angular momentum structure and mass values.
-- Dark matter candidate properties derived from flow symmetry constraints.
-- Testable deviations from GR in extreme-flow regimes.
+---
 
-### Phase 4 — Simulation
-Computational modeling of toroidal vortex dynamics with embedded test structures to verify qualitative and quantitative predictions.
+## 6. Roadmap
+
+### Phase 1: Conceptual Framework ✅
+This document. Core postulates, qualitative phenomenon mapping, relationship to existing frameworks.
+
+### Phase 2: Mathematical Formalization ✅
+[Complete.](phase2/mathematical-framework.md) Derives Newtonian gravity, the equivalence principle, Lorentz invariance, the Schrodinger equation, the Schwarzschild metric, and more from MCT postulates. Includes seven unique testable predictions.
+
+### Phase 3: Predictions
+Quantitative calculation of MCT-specific observables. CMB toroidal signatures, dark matter mass spectrum, Planck-scale decoherence rates, and gravitational AB effect magnitudes.
+
+### Phase 4: Simulation
+Computational modeling of toroidal vortex dynamics with embedded topological structures.
 
 ---
 
@@ -152,8 +189,8 @@ This is an open theoretical project. Contributions in the form of mathematical f
 
 ## License
 
-This work is released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — free to share and adapt with attribution and same license.
+This work is released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), free to share and adapt with attribution and same license.
 
 ---
 
-*Medium Coupling Theory originated from independent conceptual work by Ray, developed and formalized in collaboration with Claude (Anthropic). 2025–2026.*
+*Medium Coupling Theory originated from independent conceptual work by Ray, developed and formalized in collaboration with Claude (Anthropic). 2025-2026.*
