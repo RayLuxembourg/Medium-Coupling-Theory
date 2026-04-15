@@ -996,14 +996,16 @@ If proton decay is ever observed, MCT in its current form is falsified.
 
 ### Open Problems for Continued Development
 
-1. **Quantitative mass spectrum.** Calculate mass ratios ($m_p/m_e$, etc.) from angular momentum topology. Requires solving medium flow equations for specific knot configurations.
+Each problem has its own working document in this directory.
 
-2. **Gravitational waves.** Full post-Newtonian waveform calculation in MCT, identifying potential deviations from GR at high PN order.
+1. **[Quantitative mass spectrum](mass-spectrum.md).** Calculate mass ratios ($m_p/m_e$, etc.) from angular momentum topology. Requires solving medium flow equations for specific knot configurations.
 
-3. **Kaluza-Klein connection.** Formalize the two-mode medium (gravitational + electromagnetic) and its relationship to higher-dimensional unification.
+2. **[Gravitational waves](gravitational-waves.md).** Full post-Newtonian waveform calculation in MCT, identifying potential deviations from GR at high PN order.
 
-4. **Strong and weak forces.** Extend the medium coupling framework to the nuclear forces. Are they additional medium coupling modes?
+3. **[Kaluza-Klein connection](kaluza-klein.md).** Formalize the two-mode medium (gravitational + electromagnetic) and its relationship to higher-dimensional unification.
 
-5. **Torus parameters.** Determine $R_T$, $a_T$, $\Gamma_p$, $\Gamma_t$ from observational data. These are the fundamental parameters of the universe in MCT.
+4. **[Strong and weak forces](nuclear-forces.md).** Extend the medium coupling framework to the nuclear forces. Are they additional medium coupling modes?
 
-6. **Simulation.** Computational modeling of medium dynamics with embedded topological structures, the MCT equivalent of lattice QCD.
+5. **[Torus parameters](torus-parameters.md).** Determine $R_T$, $a_T$, $\Gamma_p$, $\Gamma_t$ from observational data. These are the fundamental parameters of the universe in MCT.
+
+6. **[Simulation](simulation.md).** Computational modeling of medium dynamics with embedded topological structures, the MCT equivalent of lattice QCD.

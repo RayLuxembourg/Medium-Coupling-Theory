@@ -152,8 +152,17 @@ MCT/
 ├── CLAUDE.md                        # This file, project context for Claude Code
 ├── README.md                        # Phase 1, Conceptual Framework (public-facing)
 ├── conversation-transcript.md       # Original development conversation
+├── .claude/rules/                   # Claude Code rules for this project
+│   ├── readme-maintenance.md        # When/how to update README.md
+│   └── cross-referencing.md         # Cross-reference format and conventions
 ├── phase2/
-│   └── mathematical-framework.md    # Phase 2, Mathematical formalization (active)
+│   ├── mathematical-framework.md    # Phase 2 main document (15 sections)
+│   ├── mass-spectrum.md             # Open Problem 1: mass ratios from topology
+│   ├── gravitational-waves.md       # Open Problem 2: post-Newtonian waveforms
+│   ├── kaluza-klein.md              # Open Problem 3: EM + gravity unification
+│   ├── nuclear-forces.md            # Open Problem 4: strong and weak forces
+│   ├── torus-parameters.md          # Open Problem 5: medium geometry from data
+│   └── simulation.md                # Open Problem 6: computational modeling
 ├── phase3/                          # Predictions (upcoming)
 └── phase4/                          # Simulations (upcoming)
 ```
