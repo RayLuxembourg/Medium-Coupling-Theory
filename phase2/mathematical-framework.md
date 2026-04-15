@@ -346,7 +346,110 @@ The microscopic laws of physics appear time-reversible because, locally, the med
 
 ---
 
-## 8. Summary and Open Problems
+## 8. The Aharonov-Bohm Effect: Potentials Are the Medium
+
+### 8.1 The Problem
+
+In 1959, Aharonov and Bohm predicted — and experiments later confirmed — that a charged particle is physically affected by electromagnetic potentials even in regions where the electromagnetic fields are exactly zero.
+
+The standard setup: a long solenoid carries magnetic flux Φ. Outside the solenoid, the magnetic field **B** = ∇ × **A** = 0. But the vector potential **A** ≠ 0 — it circulates around the solenoid. An electron beam split around the solenoid picks up a phase difference:
+
+Δθ = (e/ℏ) ∮ **A** · d**l** = (e/ℏ) Φ
+
+This phase shift is measurable as an interference pattern shift, even though the electron never encounters any field. The effect has been confirmed to high precision.
+
+This troubled physics deeply. In classical electromagnetism, **A** is a mathematical convenience — only the fields **E** and **B** are "real." The AB effect says otherwise: the potential has direct physical consequences. Mainstream physics accepts this formally (gauge theory requires it), but has no mechanical explanation for *why* the potential is physical.
+
+### 8.2 MCT Resolution
+
+In MCT, the resolution is immediate and mechanical.
+
+**The electromagnetic potential A describes the medium's local flow state. The fields E and B are derived quantities — gradients and curls of the medium state. The electron is coupled to the medium itself, not to derived quantities of the medium.**
+
+This is the complete answer. But let's make it precise.
+
+### 8.3 The Fluid Dynamics Analogy (Exact, Not Approximate)
+
+Consider a bathtub vortex. Inside the vortex core, the water rotates with nonzero vorticity (∇ × **v** ≠ 0). Outside the core, the flow is irrotational (∇ × **v** = 0) — but the water is still moving. It circulates around the core with velocity:
+
+v(r) = Γ / (2πr)
+
+where Γ is the circulation. A small boat floating outside the core gets carried by this flow. The boat doesn't care that the local vorticity is zero. It responds to the water, not to the curl of the water.
+
+Now the key point: this isn't an analogy. In MCT, this IS the physics.
+
+The solenoid creates a vortex structure in the medium. Inside the solenoid, the medium has electromagnetic vorticity (**B** ≠ 0). Outside, the medium flow is irrotational (**B** = 0) but has nonzero circulation (**A** ≠ 0). The electron, coupled to the medium, responds to the medium's actual state — the flow **A** — not to the derived vorticity **B**.
+
+### 8.4 Formal Statement
+
+In MCT, identify:
+
+- **A**(**x**) = electromagnetic component of the medium's flow velocity at **x**
+- **B** = ∇ × **A** = local vorticity of the electromagnetic flow
+- **E** = −∂**A**/∂t − ∇φ = acceleration of the electromagnetic flow
+
+A coupled charged particle at position **x** interacts with the medium via:
+
+H_coupling = (e/c) **A** · **v**_particle
+
+where e is the electromagnetic coupling strength (charge) and **v**_particle is the particle's velocity through the medium.
+
+The phase accumulated by a quantum particle moving through the medium is:
+
+θ = (e/ℏc) ∫ **A** · d**l**
+
+This phase depends on **A** along the path, not on **B**. For two paths encircling the solenoid:
+
+Δθ = (e/ℏc) ∮ **A** · d**l** = (e/ℏc) Φ
+
+by Stokes' theorem (the line integral of **A** equals the enclosed flux).
+
+### 8.5 Why This Was Mysterious (And Why It Shouldn't Have Been)
+
+The AB effect was mysterious because of an ontological mistake: treating the fields as fundamental and the potentials as mathematical artifacts.
+
+In MCT, the hierarchy is reversed:
+
+| Conventional View | MCT View |
+|---|---|
+| **E**, **B** are the physical reality | **A**, φ are the physical reality (medium state) |
+| **A**, φ are gauge-dependent math tools | **E**, **B** are derived quantities (curls/gradients) |
+| AB effect is paradoxical | AB effect is obvious |
+
+The "gauge freedom" in choosing **A** reflects the freedom to add any gradient to the flow without changing the vorticity — analogous to choosing a reference frame for the fluid velocity. The physics (the actual medium flow as experienced by coupled particles) doesn't change.
+
+### 8.6 Predictions
+
+MCT's interpretation of the AB effect makes specific predictions:
+
+1. **Gravitational AB effect**: If gravity is also a medium flow (Section 2), there should be a gravitational analogue of the AB effect — a phase shift from gravitational potentials in regions of zero gravitational field. This would be detectable via matter-wave interferometry around a carefully shielded mass distribution. The phase shift would be:
+
+   Δθ_grav = (m/ℏ) ∮ **Φ**_g · d**l**
+
+   where **Φ**_g is the gravitational flow potential. This is an extremely small effect but in principle measurable with atom interferometry.
+
+2. **Topological quantization**: The AB phase must be single-valued for consistency (the wavefunction must return to itself around a loop). This requires:
+
+   eΦ/(ℏc) = 2πn
+
+   leading to flux quantization in superconductors — which is observed. In MCT, this is the condition that the medium's electromagnetic flow admits only discrete winding numbers. The medium itself is quantized topologically.
+
+3. **No AB effect without the medium**: If the AB effect is the particle coupling to the medium's flow, then any attempt to shield the particle from the medium (if that were possible) would eliminate the effect. In practice, coupling to the medium cannot be turned off for charged particles — but this prediction distinguishes MCT from purely geometric/topological interpretations.
+
+### 8.7 Connection to Electromagnetism in MCT
+
+The AB effect points toward how electromagnetism fits into MCT more broadly. The electromagnetic potential **A** is a component of the medium's flow — specifically, a flow mode that couples to charge rather than mass.
+
+This suggests the medium carries (at minimum) two independent flow modes:
+
+- **Gravitational mode**: couples to angular momentum topology (mass). Described by the metric/gravitational potential.
+- **Electromagnetic mode**: couples to a different topological property (charge). Described by the 4-potential A_μ.
+
+Both are aspects of the same medium. The separation between gravity and electromagnetism is the separation between two coupling channels to the same underlying flow. This is consistent with Kaluza-Klein theory, which unifies gravity and electromagnetism by adding a fifth dimension — in MCT, that "extra dimension" may be an additional degree of freedom of the medium's flow.
+
+---
+
+## 9. Summary and Open Problems
 
 ### What We Have Derived
 
@@ -359,6 +462,7 @@ The microscopic laws of physics appear time-reversible because, locally, the med
 | Mass quantization | Quantized angular momentum → quantized coupling | Framework (Section 5) |
 | Schwarzschild metric | Nonlinear medium response | Recovery via uniqueness argument (Section 6) |
 | Second law of thermodynamics | Medium churning dynamics | Qualitative (Section 7) |
+| Aharonov-Bohm effect | Particle couples to medium flow (A), not derived fields (B) | Complete (Section 8) |
 
 ### Open Problems for Further Development
 
