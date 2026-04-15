@@ -1009,3 +1009,19 @@ Each problem has its own working document in this directory.
 5. **[Torus parameters](torus-parameters.md).** Determine $R_T$, $a_T$, $\Gamma_p$, $\Gamma_t$ from observational data. These are the fundamental parameters of the universe in MCT.
 
 6. **[Simulation](simulation.md).** Computational modeling of medium dynamics with embedded topological structures, the MCT equivalent of lattice QCD.
+
+### Foundational Extensions
+
+These documents address deeper structural questions about the theory.
+
+7. **[The MCT action](mct-action.md).** A unified Lagrangian from which all equations of motion follow. Recovers the Standard Model + GR action from higher-dimensional medium geometry.
+
+8. **[Fine structure constant](fine-structure-constant.md).** Deriving $\alpha_\text{EM} \approx 1/137$ from the compact dimension geometry and the medium's moduli stabilization.
+
+9. **[Fermions and spin-statistics](fermions-and-spin-statistics.md).** Why half-integer spin produces Pauli exclusion. Topological distinction between fermions (oriented knots) and bosons (unoriented structures). Antimatter as mirror topology.
+
+10. **[Matter-antimatter asymmetry](matter-antimatter.md).** Baryogenesis from the medium's chirality. The poloidal flow direction selects matter over antimatter during the electroweak epoch.
+
+11. **[Quantum field theory](quantum-field-theory.md).** Extending Nelson's stochastic mechanics to relativistic field theory. Stochastic fields, the path integral, particle creation/annihilation, and UV finiteness from medium micro-structure.
+
+12. **[Why 3+1 dimensions](why-3plus1.md).** The toroidal vortex is stable only in 3 spatial dimensions. Dynamical compactification explains why extra dimensions are compact.

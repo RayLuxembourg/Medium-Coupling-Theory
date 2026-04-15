@@ -162,7 +162,13 @@ MCT/
 │   ├── kaluza-klein.md              # Open Problem 3: EM + gravity unification
 │   ├── nuclear-forces.md            # Open Problem 4: strong and weak forces
 │   ├── torus-parameters.md          # Open Problem 5: medium geometry from data
-│   └── simulation.md                # Open Problem 6: computational modeling
+│   ├── simulation.md                # Open Problem 6: computational modeling
+│   ├── mct-action.md                # Foundational: unified Lagrangian
+│   ├── fine-structure-constant.md   # Foundational: deriving alpha ~ 1/137
+│   ├── fermions-and-spin-statistics.md  # Foundational: spin-statistics, Pauli exclusion
+│   ├── matter-antimatter.md         # Foundational: baryogenesis
+│   ├── quantum-field-theory.md      # Foundational: Nelson QM to full QFT
+│   └── why-3plus1.md                # Foundational: dimensional stability
 ├── phase3/                          # Predictions (upcoming)
 └── phase4/                          # Simulations (upcoming)
 ```
