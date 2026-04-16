@@ -149,9 +149,27 @@ See [Section 8](formalization/mathematical-framework.md#8-the-aharonov-bohm-effe
 
 ---
 
-## 5. Testable Predictions
+## 5. Engineering Implications
 
-MCT makes seven predictions that differ from standard physics. See [Section 14](formalization/mathematical-framework.md#14-testable-predictions-unique-to-mct) for full details.
+If mass is coupling to the medium, and coupling depends on how angular momentum interlocks with the medium's flow, then coupling can be modulated. This has direct consequences for propulsion and inertia control. See the full treatment in [propulsion.md](applications/propulsion.md) and [coupling-modulation.md](applications/coupling-modulation.md).
+
+The key insight: you cannot reduce a particle's intrinsic spin (it is quantized and fixed), but you can change the *collective arrangement* of angular momenta in a bulk material. The total coupling of a macroscopic object is the vector sum of its constituents' couplings. Modifying the coherence, orientation, or topology of that collective state changes the sum.
+
+Three near-term candidates:
+
+**Superconducting phase transition.** Cooper pairs link two spin-1/2 electrons with opposite orientation. The pair's winding topology differs from two independent electrons, changing the collective coupling. Precision weighing of a superconductor through $T_c$ should reveal a sudden, reversible mass anomaly. Standard physics predicts exactly zero.
+
+**Rotating superconductors.** The London moment links mechanical rotation to the condensate's angular momentum state. A spinning superconducting disc has a different coupling configuration than the same disc spinning in the normal state. This is the closest thing to a coupling "dial" that current technology can build.
+
+**Bose-Einstein condensates.** All atoms in one quantum state form a single collective topology rather than independent couplings. Atom interferometry can measure mass ratios to parts in $10^{12}$, potentially enough to detect the coupling change.
+
+None of these experiments require new technology. They require doing a measurement nobody has done with precision, because standard physics provides no motivation to look. MCT provides the motivation.
+
+---
+
+## 6. Testable Predictions
+
+MCT makes predictions that differ from standard physics. See [Section 14](formalization/mathematical-framework.md#14-testable-predictions-unique-to-mct) for the full derivations.
 
 | Prediction | Testable With |
 |---|---|
@@ -162,22 +180,31 @@ MCT makes seven predictions that differ from standard physics. See [Section 14](
 | Planck-scale decoherence rate | MAQRO, macroscopic QM experiments |
 | Hubble tension from torus geometry | CMB + distance ladder cross-correlation |
 | Absolute proton stability | Hyper-Kamiokande, DUNE |
+| Mass anomaly at superconducting $T_c$ | Precision weighing (Kibble balance) |
+
+The last prediction is the most immediately accessible. The equipment exists. The measurement takes days, not decades. A nonzero result would confirm that mass depends on angular momentum topology. A null result at sufficient precision would constrain MCT's coupling mechanism.
 
 ---
 
-## 6. Roadmap
+## 7. Roadmap
 
-### Phase 1: Conceptual Framework ✅
+### Conceptual Framework ✅
 This document. Core postulates, qualitative phenomenon mapping, relationship to existing frameworks.
 
-### Phase 2: Mathematical Formalization ✅
-[Complete.](formalization/mathematical-framework.md) Derives Newtonian gravity, the equivalence principle, Lorentz invariance, the Schrodinger equation, the Schwarzschild metric, and more from MCT postulates. Includes seven unique testable predictions.
+### Mathematical Formalization ✅
+[Complete.](formalization/mathematical-framework.md) Derives Newtonian gravity, the equivalence principle, Lorentz invariance, the Schrodinger equation, the Schwarzschild metric, and more from MCT postulates.
 
-### Phase 3: Predictions
-Quantitative calculation of MCT-specific observables. CMB toroidal signatures, dark matter mass spectrum, Planck-scale decoherence rates, and gravitational AB effect magnitudes.
+### Foundations ✅
+[Complete.](foundations/) The [unified action principle](foundations/mct-action.md), [quantum field theory](foundations/quantum-field-theory.md) from medium dynamics, [fermion spin-statistics](foundations/fermions-and-spin-statistics.md) from topology, the [fine structure constant](foundations/fine-structure-constant.md) from compact geometry, [matter-antimatter asymmetry](foundations/matter-antimatter.md) from medium chirality, and [why 3+1 dimensions](foundations/why-3plus1.md) from vortex stability.
 
-### Phase 4: Simulation
-Computational modeling of toroidal vortex dynamics with embedded topological structures.
+### Extensions (Active)
+Open problems under development: [mass spectrum](extensions/mass-spectrum.md) from knot topology, [gravitational waves](extensions/gravitational-waves.md) beyond GR, [Kaluza-Klein unification](extensions/kaluza-klein.md), [nuclear forces](extensions/nuclear-forces.md) as medium modes, and [torus parameters](extensions/torus-parameters.md) from observational data.
+
+### Applications (Active)
+Engineering implications: [propulsion](applications/propulsion.md) and [coupling modulation](applications/coupling-modulation.md).
+
+### Simulation (Planned)
+[Computational modeling](simulation/simulation.md) of medium dynamics with embedded topological structures. SPH-based, phased from single-knot verification to full cosmological simulation.
 
 ---
 
