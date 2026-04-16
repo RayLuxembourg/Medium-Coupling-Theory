@@ -45,9 +45,39 @@ It means the coupling mechanism needs reformulation. Options:
 
 The most physically motivated fix is option 1: **use compressible Navier-Stokes**. A real medium has finite sound speed. MCT's medium should too.
 
+## Finding 2: Compressible Formulation is Numerically Unstable
+
+Spectral methods for compressible NS blow up due to Gibbs phenomenon at density gradients. Even with 2/3 dealiasing and density diffusion, simulations at c_s=5 explode by step 560. A proper compressible simulation needs shock-capturing schemes (WENO, TVD) which are fundamentally different from spectral methods.
+
+## Finding 3: Variable Viscosity Coupling Works But Goes the Wrong Way
+
+Reformulating the coupling as variable viscosity (nu_eff = nu_0 * (1 - beta * |omega|/omega_ref)) produces a real dynamical effect:
+
+| Topology | beta=0 (control) | beta=0.3 | beta=0.6 | beta=0.9 |
+|---|---|---|---|---|
+| Ring (survival ratio) | 0.1397 | 0.1446 | 0.1502 | 0.2500 |
+| Trefoil (survival ratio) | 0.1124 | 0.1160 | 0.1201 | 0.1241 |
+
+The coupling stabilizes structures (more enstrophy survives). This is real and nonlinear.
+
+**Problem:** The ring benefits MORE from coupling than the trefoil (at beta=0.9: ring 1.79x vs trefoil 1.10x). MCT predicts the opposite: more complex topology should couple more strongly. The ring is simpler (lower crossing number, zero writhe), yet it responds more to the coupling.
+
+**Explanation:** The ring has a more compact, symmetric vorticity core. Reduced viscosity in a compact core has a larger relative effect than in a diffuse, asymmetric distribution like the trefoil. This is geometry, not topology.
+
+**Implication for MCT:** The naive "more vorticity = less viscosity" coupling does not produce the right topology dependence. If MCT is correct, the coupling mechanism must be more subtle than spatially variable viscosity proportional to vorticity magnitude.
+
+## Open Questions
+
+1. Is there any coupling formulation that survives the Leray projection AND produces topology-dependent stabilization in the correct direction?
+2. Does MCT fundamentally require a compressible medium? If so, the entire spectral approach may need to be replaced with finite-volume methods.
+3. Can topological invariants (writhe, linking number) be meaningfully incorporated into the coupling without being ad hoc?
+
 ## Lessons
 
 - Always run controls
 - A gradient force in incompressible flow does nothing
 - Measuring a diagnostic (Poisson solve on the vorticity) is not the same as proving dynamical feedback
 - Self-criticism catches fundamental errors that enthusiasm hides
+- Variable viscosity coupling works dynamically but the topology dependence is wrong
+- Simpler structures benefit more from local viscosity reduction (compact core effect)
+- Ad hoc formulations are quick but may not test the right physics
