@@ -97,6 +97,48 @@ The theory developed through the following progression:
 
 ---
 
+## Intellectual Honesty (MANDATORY)
+
+This is the most important section in this file. Every other rule is secondary.
+
+### The standard
+
+MCT is a hypothesis. It may be wrong. The goal of this project is to discover whether it works, not to prove that it does. Every simulation, derivation, and document must meet this standard:
+
+1. **Never claim a result is new if it follows trivially from the equations.** Solving Poisson's equation gives 1/r. That is math, not physics. Different source shapes giving different amplitudes is geometry. Changing a parameter and seeing the output change is tautology. Say so explicitly when results are trivially expected.
+
+2. **Never dress up parameter dependence as a discovery.** If the equations contain alpha and the output scales with alpha, that is not "mass modulation." That is a parameter in an equation. A genuine result must emerge from the dynamics in a way that was not directly encoded.
+
+3. **Distinguish these three categories in all writing:**
+   - **Mathematical identity:** follows from the equation structure regardless of physics (e.g., Poisson gives 1/r).
+   - **Self-consistency check:** the coupled system produces the behavior MCT requires, but does not prove the universe works this way (e.g., different topologies give different masses).
+   - **Genuine prediction:** something MCT predicts that standard physics does not, testable by experiment, and not built into the equations by construction (e.g., GW echoes, superconductor mass anomaly, specific mass ratios matching particles).
+
+4. **Never overclaim.** "Computational proof" is almost always wrong. Use "computational evidence" or "self-consistency check" or "mathematical verification." Real proof comes from experiment.
+
+5. **Actively look for ways MCT could be wrong.** Every simulation should include a control case. Every derivation should note what assumptions were made and what would break if they fail. If a result could be explained by known physics without MCT, say so.
+
+6. **No confirmation bias.** Do not select parameters, initial conditions, or analysis methods to make results look better. Report all results, including failures and null results. The two-body dynamic test showing ~10^-7 effect is a null result. Say so.
+
+7. **Compare against known physics explicitly.** For every MCT "result," ask: does standard fluid dynamics, standard QFT, or standard GR already predict this? If yes, it is not new. If no, explain precisely what is different and how to test it.
+
+### What counts as genuinely new
+
+A simulation result is genuinely new only if ALL of these hold:
+- It was not directly encoded in the equations
+- It cannot be reproduced by standard physics without the MCT coupling term
+- It makes a specific quantitative prediction that can be checked against measurement
+- The prediction is not sensitive to parameter choices (robust across a range of alpha, nu, etc.)
+
+### Lessons learned
+
+- The coupling modulation simulation (alpha on/off) was trivially expected from the linear dependence of the Poisson source on alpha. It was presented as a discovery. It was not.
+- The mass spectrum (different knots give different GM) is a geometric fact about different source distributions, not new physics.
+- The 1/r potential and 1/r^2 force are properties of Poisson's equation, not MCT.
+- The dynamic two-body test produced a null result (~10^-7 separation difference). This is honest. Do not hide it.
+
+---
+
 ## Style & Approach
 
 ### Writing Rules
