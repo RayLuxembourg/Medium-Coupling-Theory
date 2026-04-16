@@ -1,6 +1,6 @@
 # Kaluza-Klein Connection: Unifying Medium Coupling Modes
 
-This document addresses Open Problem 3 from the [main framework](mathematical-framework.md#15-summary). The medium carries at least two coupling modes: gravitational and electromagnetic ([Section 8.7](mathematical-framework.md#87-connection-to-electromagnetism-in-mct)). Here we formalize this structure and connect it to the Kaluza-Klein framework.
+This document addresses Open Problem 3 from the [main framework](../formalization/mathematical-framework.md#15-summary). The medium carries at least two coupling modes: gravitational and electromagnetic ([Section 8.7](../formalization/mathematical-framework.md#87-connection-to-electromagnetism-in-mct)). Here we formalize this structure and connect it to the Kaluza-Klein framework.
 
 ---
 
@@ -8,7 +8,7 @@ This document addresses Open Problem 3 from the [main framework](mathematical-fr
 
 ### 1.1 The observation
 
-The Aharonov-Bohm analysis ([Section 8](mathematical-framework.md#8-the-aharonov-bohm-effect-potentials-are-the-medium)) showed that electromagnetic potentials are the medium's flow state, just as gravitational potentials are. This means the medium supports (at minimum) two independent flow modes:
+The Aharonov-Bohm analysis ([Section 8](../formalization/mathematical-framework.md#8-the-aharonov-bohm-effect-potentials-are-the-medium)) showed that electromagnetic potentials are the medium's flow state, just as gravitational potentials are. This means the medium supports (at minimum) two independent flow modes:
 
 - **Gravitational mode**: described by the metric $g_{\mu\nu}$ (10 independent components in 4D). Couples to angular momentum topology (mass).
 - **Electromagnetic mode**: described by the 4-potential $A_\mu$ (4 components). Couples to a different topological property (charge).
@@ -43,7 +43,7 @@ The 5D metric $\hat{g}_{AB}$ is the full description of the medium's flow state.
 
 ### 2.1 The 5D medium
 
-Extend the medium formalism from [Section 1](mathematical-framework.md#1-mathematical-setup) to five dimensions. The medium velocity field becomes:
+Extend the medium formalism from [Section 1](../formalization/mathematical-framework.md#1-mathematical-setup) to five dimensions. The medium velocity field becomes:
 
 $$
 \hat{\mathbf{u}}(\mathbf{x}, x^5, t) = \left(\mathbf{u}(\mathbf{x}, t),\; u_5(\mathbf{x}, t)\right)
@@ -126,7 +126,7 @@ This unifies the origin of mass and charge. Both are coupling to the medium. The
 | Mass | Extended 3D (poloidal winding) | Gravitational |
 | Electric charge | Compact 5th dimension | Electromagnetic |
 
-A photon has winding in the compact dimension (spin-1 along $x^5$) but no winding in the extended dimensions. It couples electromagnetically (it mediates EM interactions) but not gravitationally (it is massless). This resolves the puzzle from [Section 5.3](mathematical-framework.md#53-why-the-photon-is-massless): the photon's spin is in the "wrong" direction for gravitational coupling.
+A photon has winding in the compact dimension (spin-1 along $x^5$) but no winding in the extended dimensions. It couples electromagnetically (it mediates EM interactions) but not gravitationally (it is massless). This resolves the puzzle from [Section 5.3](../formalization/mathematical-framework.md#53-why-the-photon-is-massless): the photon's spin is in the "wrong" direction for gravitational coupling.
 
 ---
 
@@ -140,7 +140,7 @@ In MCT, the dilaton describes **local variations in the medium's internal struct
 
 ### 4.2 Connection to the Higgs
 
-The Higgs field in the Standard Model has vacuum expectation value $v = 246$ GeV and gives particles mass through spontaneous symmetry breaking. In MCT, the Higgs field was identified with the medium's local coupling properties ([Section 5.5](mathematical-framework.md#55-the-higgs-field-in-mct)).
+The Higgs field in the Standard Model has vacuum expectation value $v = 246$ GeV and gives particles mass through spontaneous symmetry breaking. In MCT, the Higgs field was identified with the medium's local coupling properties ([Section 5.5](../formalization/mathematical-framework.md#55-the-higgs-field-in-mct)).
 
 The dilaton and the Higgs may be related. If the Higgs field IS the dilaton (or a function of it), then the Higgs mechanism is the process by which the compact dimension's size determines mass. Spontaneous symmetry breaking corresponds to the medium settling into a state with a definite $R_5$ rather than a symmetric state.
 

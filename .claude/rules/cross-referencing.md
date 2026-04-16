@@ -19,15 +19,26 @@ These are the standard reference patterns in this project:
 
 | From | To | When |
 |---|---|---|
-| README.md postulates | phase2/ derivations | A postulate has a formal derivation |
-| README.md phenomena | phase2/ sections | A phenomenon has a mathematical treatment |
-| README.md predictions | phase2/ Section 14 | A prediction is listed in the table |
-| phase2/ sections | earlier phase2/ sections | A derivation builds on a previous result |
-| CLAUDE.md roadmap | phase2/, phase3/, phase4/ | A phase has content |
+| README.md postulates | formalization/ | A postulate has a formal derivation |
+| README.md phenomena | formalization/ sections | A phenomenon has a mathematical treatment |
+| README.md predictions | formalization/ Section 14 | A prediction is listed in the table |
+| formalization/ sections | earlier formalization/ sections | A derivation builds on a previous result |
+| foundations/ | formalization/ | Foundational work references core derivations |
+| foundations/ | extensions/ | Foundational work references open problems |
+| extensions/ | formalization/ | Open problems reference core derivations |
+| extensions/ | foundations/ | Open problems reference foundational theory |
+| extensions/ | sibling extensions/ | Open problems cross-reference each other |
+| applications/ | formalization/, extensions/, simulation/ | Applications reference theory they depend on |
+| simulation/ | formalization/, extensions/ | Simulation references what it tests |
+
+**Path conventions:** Use relative paths from the file's location.
+- From formalization/ to extensions/: `../extensions/file.md`
+- From foundations/ to formalization/: `../formalization/file.md`
+- Between siblings in the same directory: `file.md`
 
 ## Principles
 
-- Reference forward (README to phase2) more than backward. The reader moves from conceptual to formal.
-- Within phase2/, reference earlier sections freely. Section 6 depends on Section 2; say so.
+- Reference forward (README to formalization to foundations/extensions) more than backward.
+- Within formalization/, reference earlier sections freely. Section 6 depends on Section 2; say so.
 - One reference per concept. Don't scatter three links to the same derivation across a paragraph.
 - If you are about to repeat an explanation that exists elsewhere, link to it instead.

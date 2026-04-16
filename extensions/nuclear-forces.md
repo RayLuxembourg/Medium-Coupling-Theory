@@ -1,6 +1,6 @@
 # Strong and Weak Nuclear Forces as Medium Coupling Modes
 
-This document addresses Open Problem 4 from the [main framework](mathematical-framework.md#15-summary). Building on the [Kaluza-Klein connection](kaluza-klein.md), we extend the medium coupling framework to the nuclear forces.
+This document addresses Open Problem 4 from the [main framework](../formalization/mathematical-framework.md#15-summary). Building on the [Kaluza-Klein connection](kaluza-klein.md), we extend the medium coupling framework to the nuclear forces.
 
 ---
 
@@ -80,7 +80,7 @@ In MCT, the running of couplings reflects the energy dependence of the medium's 
 
 ### 3.3 Proton stability revisited
 
-GUTs typically predict proton decay because the unified group connects quarks and leptons. In MCT, the proton is topologically stable ([Prediction 7](mathematical-framework.md#148-prediction-7-no-proton-decay)). How is this consistent with gauge unification?
+GUTs typically predict proton decay because the unified group connects quarks and leptons. In MCT, the proton is topologically stable ([Prediction 7](../formalization/mathematical-framework.md#148-prediction-7-no-proton-decay)). How is this consistent with gauge unification?
 
 The resolution: topological stability in MCT is a property of the *extended* dimensions. The proton is a knot in 3D space that cannot be untied. Grand unification operates in the *compact* dimensions, connecting color and electroweak charges. The compact-dimension transitions that GUTs predict (quark $\to$ lepton) require the knot in 3D to change topology, which is forbidden.
 

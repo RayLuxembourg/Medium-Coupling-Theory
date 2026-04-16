@@ -10,7 +10,7 @@ In MCT, $\alpha_\text{EM}$ should be determined by the geometry of the compact d
 
 ### 1.1 From Kaluza-Klein
 
-From [kaluza-klein.md](kaluza-klein.md#23-the-electromagnetic-coupling-constant), the electromagnetic coupling is related to the compact dimension radius $R_5$ and the gravitational constant $G$:
+From [kaluza-klein.md](../extensions/kaluza-klein.md#23-the-electromagnetic-coupling-constant), the electromagnetic coupling is related to the compact dimension radius $R_5$ and the gravitational constant $G$:
 
 $$
 \alpha_\text{EM} = \frac{e^2}{4\pi\hbar c} = \frac{4G\hbar}{R_5^2 c^3} \cdot \frac{1}{4\pi}
@@ -174,7 +174,7 @@ $$
 \alpha_\text{GUT} \sim \frac{1}{1.5^7} = \frac{1}{17.1} \approx 1/17
 $$
 
-Close but not exact. The precise value depends on the specific compact manifold, which is an open problem (see [nuclear-forces.md](nuclear-forces.md#5-open-questions), question 1).
+Close but not exact. The precise value depends on the specific compact manifold, which is an open problem (see [nuclear-forces.md](../extensions/nuclear-forces.md#5-open-questions), question 1).
 
 ### 3.2 Why $1/137$ is not fundamental
 
@@ -202,4 +202,4 @@ Question 2 is already answered by the Standard Model renormalization group. Ques
 - Verification that the moduli stabilization gives $R_5$ consistent with the observed $\alpha_\text{EM}$
 
 ### Falsifiability
-If MCT's compact manifold can be identified (e.g., through its predictions for the number of generations or the mass spectrum from [mass-spectrum.md](mass-spectrum.md)), then $\alpha_\text{GUT}$ is a derived number, not a free parameter. Any inconsistency between the predicted and observed running of couplings would falsify the geometric interpretation.
+If MCT's compact manifold can be identified (e.g., through its predictions for the number of generations or the mass spectrum from [mass-spectrum.md](../extensions/mass-spectrum.md)), then $\alpha_\text{GUT}$ is a derived number, not a free parameter. Any inconsistency between the predicted and observed running of couplings would falsify the geometric interpretation.

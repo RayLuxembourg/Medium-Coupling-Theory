@@ -1,6 +1,6 @@
 # Quantitative Mass Spectrum from Angular Momentum Topology
 
-This document addresses Open Problem 1 from the [main framework](mathematical-framework.md#15-summary). The goal is to calculate particle mass ratios from angular momentum topology alone, with no free parameters beyond $\alpha$ and $\rho_m$.
+This document addresses Open Problem 1 from the [main framework](../formalization/mathematical-framework.md#15-summary). The goal is to calculate particle mass ratios from angular momentum topology alone, with no free parameters beyond $\alpha$ and $\rho_m$.
 
 ---
 
@@ -8,7 +8,7 @@ This document addresses Open Problem 1 from the [main framework](mathematical-fr
 
 The Standard Model contains roughly 20 free parameters, most of which are particle masses or coupling constants. These values are measured but not explained. Why is the proton 1836 times heavier than the electron? Why do the three charged leptons ($e$, $\mu$, $\tau$) have the mass ratios they do? No existing theory predicts the particle mass spectrum from first principles.
 
-In MCT, mass is angular momentum coupling to the medium ([Section 5](mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum)). Different particles are different topological structures (knots, links, solitons) in the medium flow. Each topology has a specific effective angular momentum $L_\text{eff}$ that determines its coupling $\kappa = \alpha L_\text{eff}$ and therefore its mass. The mass spectrum should, in principle, be calculable from topology.
+In MCT, mass is angular momentum coupling to the medium ([Section 5](../formalization/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum)). Different particles are different topological structures (knots, links, solitons) in the medium flow. Each topology has a specific effective angular momentum $L_\text{eff}$ that determines its coupling $\kappa = \alpha L_\text{eff}$ and therefore its mass. The mass spectrum should, in principle, be calculable from topology.
 
 This is the MCT equivalent of computing hadron masses from lattice QCD, but more ambitious: the framework should predict *all* particle masses, not just hadrons.
 
@@ -23,7 +23,7 @@ In MCT, a stable particle corresponds to a stable topological configuration of t
 Key properties of knots relevant to MCT:
 
 - **Knot invariants** are quantities that do not change under smooth deformation. These include the crossing number, the Jones polynomial, and the writhe. In MCT, knot invariants correspond to conserved quantum numbers.
-- **Topological stability** prevents a knot from unwinding smoothly. In MCT, this is particle stability. The trefoil knot cannot become the unknot without cutting, which is why the proton does not decay ([Prediction 7](mathematical-framework.md#148-prediction-7-no-proton-decay)).
+- **Topological stability** prevents a knot from unwinding smoothly. In MCT, this is particle stability. The trefoil knot cannot become the unknot without cutting, which is why the proton does not decay ([Prediction 7](../formalization/mathematical-framework.md#148-prediction-7-no-proton-decay)).
 - **Composite knots** (knots that can be decomposed into simpler knots) correspond to composite particles. A proton is not a prime knot; it is a composite structure of three quarks, each of which may be a simpler topological object.
 
 ### 2.2 Candidate topology-particle mapping
@@ -55,7 +55,7 @@ where $f_p$, $f_t$, $f_{pt}$ are geometric factors determined by the medium's fl
 
 ### 3.1 The coupling-mass relation
 
-From [Section 1.2](mathematical-framework.md#12-coupling) of the main framework:
+From [Section 1.2](../formalization/mathematical-framework.md#12-coupling) of the main framework:
 
 $$
 m = \frac{\kappa}{\sqrt{4\pi \tilde{G}}} = \frac{\alpha L_\text{eff}}{\sqrt{4\pi \tilde{G}}}
@@ -95,7 +95,7 @@ where $g$ is a nonlinear function determined by the medium's response to the top
 
 ### 3.3 Nonlinear coupling: a necessary refinement
 
-The linear relation $\kappa = \alpha L$ assumed in [Section 1.2](mathematical-framework.md#12-coupling) is the leading-order approximation. For the actual mass spectrum, the coupling must be sensitive to the full topological complexity, not just the total angular momentum magnitude.
+The linear relation $\kappa = \alpha L$ assumed in [Section 1.2](../formalization/mathematical-framework.md#12-coupling) is the leading-order approximation. For the actual mass spectrum, the coupling must be sensitive to the full topological complexity, not just the total angular momentum magnitude.
 
 Define the **topological coupling function**:
 
@@ -129,7 +129,7 @@ $$
 
 where $J$ is the total angular momentum, $\alpha' \approx 0.9\;\text{GeV}^{-2}$ is the Regge slope, and $m_0$ is an intercept.
 
-In MCT, this follows from [Prediction 4](mathematical-framework.md#145-prediction-4-mass-angular-momentum-correlation): the mass squared of a composite structure is linear in its angular momentum because the coupling grows with the square root of the angular momentum for extended (string-like) configurations. The Regge slope is:
+In MCT, this follows from [Prediction 4](../formalization/mathematical-framework.md#145-prediction-4-mass-angular-momentum-correlation): the mass squared of a composite structure is linear in its angular momentum because the coupling grows with the square root of the angular momentum for extended (string-like) configurations. The Regge slope is:
 
 $$
 \alpha' = \frac{1}{2\pi \sigma}
@@ -174,7 +174,7 @@ where $\kappa_q$ is the quark coupling, $\sigma\ell$ is the flux tube energy, an
 
 This is the same structure as the QCD prediction: $m_p \approx 3m_q^\text{constituent} + E_\text{binding}$. Most of the proton mass comes from the binding energy (the flux tubes and linking topology), not from the quark masses. In MCT, this binding energy IS medium coupling: the flux tubes are medium flow structures, and their energy is their coupling to the medium.
 
-The ratio $m_p/m_e$ then depends on the ratio of the proton's total topological complexity to the electron's. Getting 1836 from topology alone requires solving the medium flow equations for these specific configurations, which is a computational problem addressed in the [simulation document](simulation.md).
+The ratio $m_p/m_e$ then depends on the ratio of the proton's total topological complexity to the electron's. Getting 1836 from topology alone requires solving the medium flow equations for these specific configurations, which is a computational problem addressed in the [simulation document](../simulation/simulation.md).
 
 ---
 
@@ -210,11 +210,11 @@ In MCT, this is a topological question. A Majorana neutrino corresponds to an **
 
 To go from framework to numbers, we need:
 
-1. **The medium flow equations for topological structures.** Solve the Euler-type medium equations (Section 1.1 of the [main framework](mathematical-framework.md#11-the-medium)) for steady-state flow around a specified knot topology. Extract the effective coupling $\kappa$.
+1. **The medium flow equations for topological structures.** Solve the Euler-type medium equations (Section 1.1 of the [main framework](../formalization/mathematical-framework.md#11-the-medium)) for steady-state flow around a specified knot topology. Extract the effective coupling $\kappa$.
 
 2. **A classification of stable topologies.** Not every knot is stable in the medium flow. Determine which topological configurations minimize the medium energy functional for a given set of quantum numbers.
 
-3. **Numerical computation.** The flow equations for nontrivial knot topologies are not analytically solvable. Computational methods (see [simulation](simulation.md)) are required.
+3. **Numerical computation.** The flow equations for nontrivial knot topologies are not analytically solvable. Computational methods (see [simulation](../simulation/simulation.md)) are required.
 
 ### 6.2 Immediate targets
 

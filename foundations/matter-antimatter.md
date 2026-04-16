@@ -36,7 +36,7 @@ From [fermions-and-spin-statistics.md](fermions-and-spin-statistics.md#5-antimat
 
 The toroidal medium flow has a definite handedness. The poloidal circulation has a direction: it rolls one way, not both. This breaks parity (P) at the cosmological level.
 
-Combined with the compact dimension structure: the $SU(2)$ weak sector couples preferentially to left-handed structures ([nuclear-forces.md](nuclear-forces.md#23-weak-force-as-su2-flow)). This breaks C (charge conjugation) and CP (the combination of charge and parity).
+Combined with the compact dimension structure: the $SU(2)$ weak sector couples preferentially to left-handed structures ([nuclear-forces.md](../extensions/nuclear-forces.md#23-weak-force-as-su2-flow)). This breaks C (charge conjugation) and CP (the combination of charge and parity).
 
 ### 2.3 The three Sakharov conditions in MCT
 
@@ -44,7 +44,7 @@ Combined with the compact dimension structure: the $SU(2)$ weak sector couples p
 
 **C and CP violation.** The medium's toroidal flow has a definite handedness (poloidal direction). The compact $SU(2)$ manifold has a preferred orientation. Together, these break both C and CP. The CP violation observed in kaon and B-meson systems is a low-energy manifestation of the medium's fundamental chirality.
 
-**Departure from thermal equilibrium.** As the medium's toroidal flow expands (cosmological expansion from [Section 10](mathematical-framework.md#10-the-cosmological-constant-problem)), regions fall out of causal contact. The expansion rate exceeds the interaction rate at certain epoch, producing departure from equilibrium. In MCT, this is kinematic: the poloidal flow carries regions apart faster than they can equilibrate.
+**Departure from thermal equilibrium.** As the medium's toroidal flow expands (cosmological expansion from [Section 10](../formalization/mathematical-framework.md#10-the-cosmological-constant-problem)), regions fall out of causal contact. The expansion rate exceeds the interaction rate at certain epoch, producing departure from equilibrium. In MCT, this is kinematic: the poloidal flow carries regions apart faster than they can equilibrate.
 
 ### 2.4 Why the excess is matter, not antimatter
 
@@ -94,7 +94,7 @@ The naive estimate misses several potentially large factors:
 
 3. **Phase transition dynamics.** If the electroweak transition in MCT is first-order (bubble nucleation rather than smooth crossover), the asymmetry can be generated at bubble walls where the medium's compact-dimension flow changes rapidly. This is the electroweak baryogenesis mechanism, which in the Standard Model requires BSM physics but in MCT may be natural if the dilaton potential produces a first-order transition.
 
-The quantitative calculation requires solving the medium's compact-dimension dynamics through the electroweak epoch, which is a problem for the [simulation program](simulation.md).
+The quantitative calculation requires solving the medium's compact-dimension dynamics through the electroweak epoch, which is a problem for the [simulation program](../simulation/simulation.md).
 
 ---
 
@@ -104,12 +104,12 @@ The quantitative calculation requires solving the medium's compact-dimension dyn
 
 2. **No new CP violation beyond the Standard Model.** If all CP violation comes from the medium's handedness, and the Standard Model correctly parametrizes the low-energy effects through the CKM and PMNS matrices, then searches for new sources of CP violation (e.g., electric dipole moments of fundamental particles) should find nothing beyond Standard Model predictions. Current bounds on the electron EDM ($|d_e| < 4.1 \times 10^{-30}$ e$\cdot$cm) are consistent with this.
 
-3. **The baryon asymmetry encodes the medium's chirality.** The value of $\eta$ is not a random initial condition but a calculable consequence of the medium's geometry. The same parameters that determine the torus shape ([torus-parameters.md](torus-parameters.md)) should predict $\eta$.
+3. **The baryon asymmetry encodes the medium's chirality.** The value of $\eta$ is not a random initial condition but a calculable consequence of the medium's geometry. The same parameters that determine the torus shape ([torus-parameters.md](../extensions/torus-parameters.md)) should predict $\eta$.
 
 ---
 
 ## 4. Connection to Other Problems
 
 - The medium's chirality connects to [fermions-and-spin-statistics.md](fermions-and-spin-statistics.md): left-handed and right-handed fermions are distinguished by their alignment with the medium's flow.
-- The electroweak transition dynamics connect to the [dilaton/Higgs potential](kaluza-klein.md#4-the-dilaton-field): whether the transition is first-order determines the baryogenesis mechanism.
-- The quantitative calculation requires the [simulation program](simulation.md) at Level 3 (cosmological simulation through the electroweak epoch).
+- The electroweak transition dynamics connect to the [dilaton/Higgs potential](../extensions/kaluza-klein.md#4-the-dilaton-field): whether the transition is first-order determines the baryogenesis mechanism.
+- The quantitative calculation requires the [simulation program](../simulation/simulation.md) at Level 3 (cosmological simulation through the electroweak epoch).

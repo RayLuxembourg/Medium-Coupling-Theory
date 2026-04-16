@@ -28,7 +28,7 @@ The proof works but explains nothing mechanically. It is a consistency requireme
 
 ### 2.1 Knots vs. links in the medium
 
-In MCT, particles are topological structures in the medium flow ([mass-spectrum.md](mass-spectrum.md)). The key distinction between fermions and bosons is topological:
+In MCT, particles are topological structures in the medium flow ([mass-spectrum.md](../extensions/mass-spectrum.md)). The key distinction between fermions and bosons is topological:
 
 **Fermions are oriented knots.** They have a definite handedness (chirality) in the medium. Rotating a fermion by $2\pi$ does not return it to its original state; it picks up a sign change. A $4\pi$ rotation is required for a full return. This is the topological property of **double-covering**: the fermion's topological structure wraps the medium in a way that requires traversing the loop twice.
 
@@ -82,7 +82,7 @@ In MCT, a particle's spin is determined by its topological structure's transform
 
 Structures that return to themselves under $2\pi$ rotation have integer spin. Structures that require $4\pi$ have half-integer spin. This is determined by whether the coupling to the medium has an even or odd number of "twists" (how many times the flow pattern wraps around the structure's axis).
 
-A trefoil knot, for example, has 3 crossings. Under a $2\pi$ rotation, the three crossings cycle, but the overall handedness inverts. A $4\pi$ rotation restores the original state. The trefoil is therefore a spin-1/2 object. This connects to the candidate identification of the trefoil with the electron from [mass-spectrum.md](mass-spectrum.md#22-candidate-topology-particle-mapping).
+A trefoil knot, for example, has 3 crossings. Under a $2\pi$ rotation, the three crossings cycle, but the overall handedness inverts. A $4\pi$ rotation restores the original state. The trefoil is therefore a spin-1/2 object. This connects to the candidate identification of the trefoil with the electron from [mass-spectrum.md](../extensions/mass-spectrum.md#22-candidate-topology-particle-mapping).
 
 ### 4.2 Spin quantum number from crossing number
 

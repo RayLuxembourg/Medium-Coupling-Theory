@@ -122,15 +122,16 @@ See [Phase 2, Section 2](phase2/mathematical-framework.md#2-derivation-newtonian
 
 **When to reference:**
 - A concept introduced in one file is derived or formalized in another.
-- A qualitative claim (README) has a mathematical treatment (phase2/).
+- A qualitative claim (README) has a mathematical treatment (formalization/).
 - A prediction references the derivation it depends on.
-- Phase 2 sections build on each other (reference earlier sections by number).
+- Formalization sections build on each other (reference earlier sections by number).
+- Foundations, extensions, and applications reference formalization sections and each other.
 
 **When not to reference:**
 - Self-contained statements that need no elaboration.
 - Concepts explained in the same file within a few paragraphs.
 
-Keep reference text short. "See [Section 5](phase2/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum) for the quantization argument" is better than repeating the argument.
+Keep reference text short. "See [Section 5](formalization/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum) for the quantization argument" is better than repeating the argument.
 
 ### Math Formatting
 - All mathematical expressions use GitHub-flavored LaTeX.
@@ -149,26 +150,34 @@ Keep reference text short. "See [Section 5](phase2/mathematical-framework.md#5-d
 
 ```
 MCT/
-├── CLAUDE.md                        # This file, project context for Claude Code
-├── README.md                        # Phase 1, Conceptual Framework (public-facing)
-├── conversation-transcript.md       # Original development conversation
-├── .claude/rules/                   # Claude Code rules for this project
-│   ├── readme-maintenance.md        # When/how to update README.md
-│   └── cross-referencing.md         # Cross-reference format and conventions
-├── phase2/
-│   ├── mathematical-framework.md    # Phase 2 main document (15 sections)
-│   ├── mass-spectrum.md             # Open Problem 1: mass ratios from topology
-│   ├── gravitational-waves.md       # Open Problem 2: post-Newtonian waveforms
-│   ├── kaluza-klein.md              # Open Problem 3: EM + gravity unification
-│   ├── nuclear-forces.md            # Open Problem 4: strong and weak forces
-│   ├── torus-parameters.md          # Open Problem 5: medium geometry from data
-│   ├── simulation.md                # Open Problem 6: computational modeling
-│   ├── mct-action.md                # Foundational: unified Lagrangian
-│   ├── fine-structure-constant.md   # Foundational: deriving alpha ~ 1/137
-│   ├── fermions-and-spin-statistics.md  # Foundational: spin-statistics, Pauli exclusion
-│   ├── matter-antimatter.md         # Foundational: baryogenesis
-│   ├── quantum-field-theory.md      # Foundational: Nelson QM to full QFT
-│   └── why-3plus1.md                # Foundational: dimensional stability
-├── phase3/                          # Predictions (upcoming)
-└── phase4/                          # Simulations (upcoming)
+├── CLAUDE.md                            # This file, project context for Claude Code
+├── README.md                            # Public-facing overview
+├── conversation-transcript.md           # Original development conversation
+├── .claude/rules/                       # Claude Code rules for this project
+│   ├── readme-maintenance.md
+│   └── cross-referencing.md
+│
+├── formalization/                       # Core derivations (15-section main document)
+│   └── mathematical-framework.md
+│
+├── foundations/                          # Deep theoretical structure
+│   ├── mct-action.md                    # Unified Lagrangian/action principle
+│   ├── quantum-field-theory.md          # Nelson QM to full QFT
+│   ├── fermions-and-spin-statistics.md  # Spin-statistics, Pauli exclusion, antimatter
+│   ├── fine-structure-constant.md       # Deriving alpha ~ 1/137
+│   ├── matter-antimatter.md             # Baryogenesis from medium chirality
+│   └── why-3plus1.md                    # Dimensional stability argument
+│
+├── extensions/                          # Open problems, further development
+│   ├── mass-spectrum.md                 # Mass ratios from angular momentum topology
+│   ├── gravitational-waves.md           # Post-Newtonian waveforms, echoes
+│   ├── kaluza-klein.md                  # EM + gravity unification via compact dimensions
+│   ├── nuclear-forces.md                # Strong and weak forces as medium modes
+│   └── torus-parameters.md              # Medium geometry from observational data
+│
+├── applications/                        # Engineering implications
+│   └── propulsion.md                    # Coupling modulation, inertia reduction
+│
+└── simulation/                          # Computational program
+    └── simulation.md                    # SPH modeling, verification tests, roadmap
 ```

@@ -27,7 +27,7 @@ In MCT, there is a second variable: $\kappa$, the coupling strength. Reducing $\
 
 **Principle.** Reduce the angular momentum coupling between a vehicle's constituent matter and the medium. This lowers the vehicle's effective inertial mass, making conventional thrust more effective.
 
-**Mechanism.** Mass arises from angular momentum topology coupling to the medium ([Section 5](mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum)). The coupling of a macroscopic body is the sum of couplings of its constituent particles. If the coherent alignment of these couplings with the medium flow can be partially disrupted (randomized, reoriented, or screened), the net coupling decreases.
+**Mechanism.** Mass arises from angular momentum topology coupling to the medium ([Section 5](../formalization/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum)). The coupling of a macroscopic body is the sum of couplings of its constituent particles. If the coherent alignment of these couplings with the medium flow can be partially disrupted (randomized, reoriented, or screened), the net coupling decreases.
 
 Consider: a ferromagnet has a large net magnetic moment because its atomic moments are aligned. Heating it past the Curie temperature randomizes the moments, and the net magnetism vanishes. The individual atomic moments still exist, but they cancel collectively.
 
@@ -83,7 +83,7 @@ This force is analogous to the force on an electric dipole in a non-uniform elec
 
 ### 2.3 Medium Flow Harvesting (Poloidal Drive)
 
-**Principle.** The medium's poloidal circulation is the cosmological background acceleration ([Section 1.3](mathematical-framework.md#13-background-state)). Everything is being accelerated by this flow at all times. Locally, it manifests as gravity. But the poloidal flow has a specific direction within the torus cross-section. If a vehicle can modulate its coupling synchronously with the flow oscillations (like a surfer catching a wave), it can extract net momentum from the cosmological flow.
+**Principle.** The medium's poloidal circulation is the cosmological background acceleration ([Section 1.3](../formalization/mathematical-framework.md#13-background-state)). Everything is being accelerated by this flow at all times. Locally, it manifests as gravity. But the poloidal flow has a specific direction within the torus cross-section. If a vehicle can modulate its coupling synchronously with the flow oscillations (like a surfer catching a wave), it can extract net momentum from the cosmological flow.
 
 **Mechanism.** In the torus rest frame, the poloidal flow is periodic with frequency:
 
@@ -91,7 +91,7 @@ $$
 f_p = \frac{\Gamma_p}{2\pi a_T}
 $$
 
-From [torus-parameters.md](torus-parameters.md), $\Gamma_p/a_T \approx H_0 \approx 2.3 \times 10^{-18}\;\text{s}^{-1}$, so:
+From [torus-parameters.md](../extensions/torus-parameters.md), $\Gamma_p/a_T \approx H_0 \approx 2.3 \times 10^{-18}\;\text{s}^{-1}$, so:
 
 $$
 f_p \approx 3.6 \times 10^{-19}\;\text{Hz}
@@ -195,7 +195,7 @@ The Podkletnov experiments in the 1990s (rotating superconductors with claimed w
 
 ## 7. Relation to Other Work
 
-- The coupling constant $\alpha$ and medium impedance $\rho_m$ determine the sensitivity of mass to angular momentum changes. Constraining these from existing data ([torus-parameters.md](torus-parameters.md)) gives predicted effect sizes.
-- The topological coupling functional $\mathcal{T}$ from [mass-spectrum.md](mass-spectrum.md) determines how different angular momentum configurations map to coupling strengths.
-- The simulation program ([simulation.md](simulation.md)) could model a rotating structure in the medium and predict the coupling change from first principles.
-- The [MCT action](mct-action.md) provides the theoretical framework for computing the coupling response to externally applied angular momentum changes.
+- The coupling constant $\alpha$ and medium impedance $\rho_m$ determine the sensitivity of mass to angular momentum changes. Constraining these from existing data ([torus-parameters.md](../extensions/torus-parameters.md)) gives predicted effect sizes.
+- The topological coupling functional $\mathcal{T}$ from [mass-spectrum.md](../extensions/mass-spectrum.md) determines how different angular momentum configurations map to coupling strengths.
+- The simulation program ([simulation.md](../simulation/simulation.md)) could model a rotating structure in the medium and predict the coupling change from first principles.
+- The [MCT action](../foundations/mct-action.md) provides the theoretical framework for computing the coupling response to externally applied angular momentum changes.

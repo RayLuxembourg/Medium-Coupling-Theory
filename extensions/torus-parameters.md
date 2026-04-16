@@ -1,6 +1,6 @@
 # Torus Parameters: Determining the Medium's Geometry from Observation
 
-This document addresses Open Problem 5 from the [main framework](mathematical-framework.md#15-summary). MCT has four fundamental cosmological parameters: $R_T$ (major radius), $a_T$ (minor radius), $\Gamma_p$ (poloidal circulation), and $\Gamma_t$ (toroidal circulation). Here we constrain them from observational data.
+This document addresses Open Problem 5 from the [main framework](../formalization/mathematical-framework.md#15-summary). MCT has four fundamental cosmological parameters: $R_T$ (major radius), $a_T$ (minor radius), $\Gamma_p$ (poloidal circulation), and $\Gamma_t$ (toroidal circulation). Here we constrain them from observational data.
 
 ---
 
@@ -41,7 +41,7 @@ These determine $G = \alpha^2/(4\pi\rho_m)$ and are constrained by laboratory me
 
 ### 2.1 Hubble's law in MCT
 
-From [Section 10.3](mathematical-framework.md#103-expansion-from-toroidal-geometry), the local Hubble parameter is:
+From [Section 10.3](../formalization/mathematical-framework.md#103-expansion-from-toroidal-geometry), the local Hubble parameter is:
 
 $$
 H(\theta) = \frac{\Gamma_p}{a_T} \cdot f(\theta)
@@ -81,7 +81,7 @@ $$
 a_T \geq 4.4 \times 10^{26}\;\text{m}
 $$
 
-If $a_T$ is only slightly larger than $r_\text{obs}$, the torus topology should be detectable in the CMB (matched circles, see [Prediction 2](mathematical-framework.md#143-prediction-2-cmb-toroidal-topology-signatures)). If $a_T \gg r_\text{obs}$, the topology is undetectable.
+If $a_T$ is only slightly larger than $r_\text{obs}$, the torus topology should be detectable in the CMB (matched circles, see [Prediction 2](../formalization/mathematical-framework.md#143-prediction-2-cmb-toroidal-topology-signatures)). If $a_T \gg r_\text{obs}$, the topology is undetectable.
 
 ### 3.2 Combined constraint
 
@@ -138,7 +138,7 @@ The low CMB multipoles ($\ell = 2, 3$) are aligned along a preferred direction. 
 
 ### 5.1 The tension
 
-From [Prediction 6](mathematical-framework.md#147-prediction-6-hubble-tension-resolution):
+From [Prediction 6](../formalization/mathematical-framework.md#147-prediction-6-hubble-tension-resolution):
 
 - Planck CMB: $H_0 = 67.4 \pm 0.5$ km/s/Mpc
 - SH0ES: $H_0 = 73.0 \pm 1.0$ km/s/Mpc
@@ -167,7 +167,7 @@ For a simple model where $f(\theta) = 1 + \epsilon \cos\theta$, the 8% variation
 
 ### 6.1 The effective $\Lambda$
 
-From [Section 10.4](mathematical-framework.md#104-accelerating-expansion):
+From [Section 10.4](../formalization/mathematical-framework.md#104-accelerating-expansion):
 
 $$
 \Lambda_\text{eff} = \frac{1}{c_0^2}\left(\frac{dH}{dt} + H^2\right)

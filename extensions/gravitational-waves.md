@@ -1,12 +1,12 @@
 # Gravitational Waves: Post-Newtonian Waveforms in MCT
 
-This document addresses Open Problem 2 from the [main framework](mathematical-framework.md#15-summary). Section 13 of the main document established that MCT reproduces GR's gravitational wave predictions at leading order. Here we go further: compute post-Newtonian corrections and identify where MCT might deviate from GR.
+This document addresses Open Problem 2 from the [main framework](../formalization/mathematical-framework.md#15-summary). Section 13 of the main document established that MCT reproduces GR's gravitational wave predictions at leading order. Here we go further: compute post-Newtonian corrections and identify where MCT might deviate from GR.
 
 ---
 
 ## 1. Review: GW Basics in MCT
 
-Gravitational waves in MCT are propagating disturbances in the medium's flow field ([Section 13](mathematical-framework.md#13-gravitational-waves-as-medium-propagation)). The linearized wave equation:
+Gravitational waves in MCT are propagating disturbances in the medium's flow field ([Section 13](../formalization/mathematical-framework.md#13-gravitational-waves-as-medium-propagation)). The linearized wave equation:
 
 $$
 \frac{\partial^2 \mathbf{h}}{\partial t^2} - c_0^2 \nabla^2 \mathbf{h} = 0
@@ -32,7 +32,7 @@ The post-Newtonian expansion organizes corrections in powers of $v/c$, where $v$
 
 In GR, the PN expansion has been computed to high order (4.5PN for the phase, 3.5PN for the amplitude). LIGO/Virgo analyses use these templates to extract binary parameters from observed signals.
 
-In MCT, the PN expansion proceeds identically to GR through several orders because the medium equations reduce to Einstein's equations in the continuum limit ([Section 6.3](mathematical-framework.md#63-the-nonlinear-flow-equation)). Deviations appear only where the medium's micro-structure matters.
+In MCT, the PN expansion proceeds identically to GR through several orders because the medium equations reduce to Einstein's equations in the continuum limit ([Section 6.3](../formalization/mathematical-framework.md#63-the-nonlinear-flow-equation)). Deviations appear only where the medium's micro-structure matters.
 
 ### 2.2 Where MCT deviates from GR
 
@@ -80,7 +80,7 @@ This is completely unmeasurable with any foreseeable detector. The medium's micr
 
 The PN approximation breaks down when $v \to c$, i.e., during the final few orbits before merger. In this regime, both GR and MCT require full numerical solutions.
 
-If the merging objects are compact enough (neutron stars or black holes), the separation approaches $r_s = 2GM/c^2$. At $r \sim r_s$, the medium flow is relativistic (Section 6.4 of [the main framework](mathematical-framework.md#64-schwarzschild-solution)) and the full nonlinear medium equations apply.
+If the merging objects are compact enough (neutron stars or black holes), the separation approaches $r_s = 2GM/c^2$. At $r \sim r_s$, the medium flow is relativistic (Section 6.4 of [the main framework](../formalization/mathematical-framework.md#64-schwarzschild-solution)) and the full nonlinear medium equations apply.
 
 MCT predicts the merger waveform is identical to GR until the objects approach separations where the medium's micro-structure becomes relevant, i.e., $r \sim l_P$. This occurs only inside the merged object, not in the observable waveform. There is no measurable deviation during merger.
 
@@ -88,7 +88,7 @@ MCT predicts the merger waveform is identical to GR until the objects approach s
 
 After merger, the remnant black hole settles into a steady state through quasinormal mode ringing. In GR, the ringdown frequencies are determined by the final black hole's mass and spin. In MCT, the same calculation applies because the medium equations and GR agree at scales $r \gg l_P$.
 
-However, if the medium's micro-structure modifies the interior of the black hole (replacing the singularity with a finite core, see [Section 11](mathematical-framework.md#11-the-black-hole-information-paradox)), then reflections from the core could produce **gravitational wave echoes**: repeated, attenuated copies of the ringdown signal arriving at late times.
+However, if the medium's micro-structure modifies the interior of the black hole (replacing the singularity with a finite core, see [Section 11](../formalization/mathematical-framework.md#11-the-black-hole-information-paradox)), then reflections from the core could produce **gravitational wave echoes**: repeated, attenuated copies of the ringdown signal arriving at late times.
 
 The echo time delay is:
 
@@ -135,6 +135,6 @@ The most promising observational target is **post-merger echoes**. A confirmed d
 
 ## 5. Relation to Other Problems
 
-- The echo time delay depends on $r_\text{core}$, which connects to the medium's micro-structure and the [simulation program](simulation.md).
-- The dispersion relation depends on the micro-structure's detailed form, which connects to [quantum mechanics from medium micro-structure](mathematical-framework.md#9-quantum-mechanics-from-medium-micro-structure).
+- The echo time delay depends on $r_\text{core}$, which connects to the medium's micro-structure and the [simulation program](../simulation/simulation.md).
+- The dispersion relation depends on the micro-structure's detailed form, which connects to [quantum mechanics from medium micro-structure](../formalization/mathematical-framework.md#9-quantum-mechanics-from-medium-micro-structure).
 - A stochastic background from medium phase transitions connects to the [torus parameters](torus-parameters.md) and cosmological history.

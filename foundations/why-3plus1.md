@@ -56,7 +56,7 @@ In physical terms: with 2 time dimensions, there is no deterministic physics. Th
 
 The medium's flow has one distinguished direction: the poloidal circulation. This is the direction along which the system evolves. "Time" in MCT is the medium's internal clock, set by the poloidal flow. There is one flow direction, so there is one time dimension.
 
-The toroidal circulation and axial translation are spatial motions (they move contents around in the extended dimensions). Only the poloidal circulation creates the irreversible, directed evolution that we experience as time (see [Section 7.3](mathematical-framework.md#73-arrow-of-time) on the arrow of time).
+The toroidal circulation and axial translation are spatial motions (they move contents around in the extended dimensions). Only the poloidal circulation creates the irreversible, directed evolution that we experience as time (see [Section 7.3](../formalization/mathematical-framework.md#73-arrow-of-time) on the arrow of time).
 
 ---
 
@@ -64,7 +64,7 @@ The toroidal circulation and axial translation are spatial motions (they move co
 
 ### 4.1 The extended/compact split
 
-MCT has 3 extended spatial dimensions plus $d$ compact dimensions (7 for the full Standard Model gauge group, see [nuclear-forces.md](nuclear-forces.md)). Why are some dimensions large and others small?
+MCT has 3 extended spatial dimensions plus $d$ compact dimensions (7 for the full Standard Model gauge group, see [nuclear-forces.md](../extensions/nuclear-forces.md)). Why are some dimensions large and others small?
 
 ### 4.2 Dynamical compactification
 

@@ -26,7 +26,7 @@ MCT has the following dynamical fields:
 
 ### 2.1 The medium flow
 
-The primary variable is the medium's flow state. In the [Kaluza-Klein framework](kaluza-klein.md), this is a metric on the full $(4+d)$-dimensional spacetime, where $d$ is the number of compact dimensions.
+The primary variable is the medium's flow state. In the [Kaluza-Klein framework](../extensions/kaluza-klein.md), this is a metric on the full $(4+d)$-dimensional spacetime, where $d$ is the number of compact dimensions.
 
 For the minimal case ($d = 1$, gravity + electromagnetism), the fields are:
 
@@ -45,7 +45,7 @@ Matter (particles) corresponds to topological structures in the medium. In the c
 
 ### 2.3 The medium micro-structure
 
-At the Planck scale, the medium has discrete micro-structure ([Section 9.2](mathematical-framework.md#92-the-medium-has-micro-structure)). In the effective field theory approach, this micro-structure contributes higher-derivative corrections to the action, suppressed by powers of $l_P$.
+At the Planck scale, the medium has discrete micro-structure ([Section 9.2](../formalization/mathematical-framework.md#92-the-medium-has-micro-structure)). In the effective field theory approach, this micro-structure contributes higher-derivative corrections to the action, suppressed by powers of $l_P$.
 
 ---
 
@@ -69,7 +69,7 @@ $$
 
 where $\hat{g}$ is the determinant of the $(4+d)$-dimensional metric, $\hat{R}$ is the $(4+d)$-dimensional Ricci scalar, and $\hat{G}$ is the higher-dimensional gravitational constant.
 
-After dimensional reduction over the compact space (following [kaluza-klein.md](kaluza-klein.md#22-dimensional-reduction)), this becomes the 4D action:
+After dimensional reduction over the compact space (following [kaluza-klein.md](../extensions/kaluza-klein.md#22-dimensional-reduction)), this becomes the 4D action:
 
 $$
 S_\text{medium} = \int d^4x \sqrt{-g} \left[ \frac{R}{16\pi G} - \frac{1}{4} F_{\mu\nu}F^{\mu\nu} - \frac{1}{2}(\partial_\mu \phi)^2 - V(\phi) + \mathcal{L}_\text{gauge} \right]
@@ -93,7 +93,7 @@ $$
 
 where $D_\mu = \partial_\mu + \Gamma_\mu + ig_s G_\mu^a T^a + ig_w W_\mu^i \tau^i + ig' B_\mu Y$ is the covariant derivative containing gravitational ($\Gamma_\mu$), strong ($G_\mu^a$), weak ($W_\mu^i$), and hypercharge ($B_\mu$) connections.
 
-The mass $m_f$ is not a free parameter. It is determined by the topology of the fermion field configuration (see [mass-spectrum.md](mass-spectrum.md)):
+The mass $m_f$ is not a free parameter. It is determined by the topology of the fermion field configuration (see [mass-spectrum.md](../extensions/mass-spectrum.md)):
 
 $$
 m_f = \frac{\alpha}{\sqrt{4\pi\tilde{G}}} \cdot \mathcal{T}(\mathcal{K}_f)
@@ -115,7 +115,7 @@ $$
 
 where $\alpha_1, \alpha_2, \alpha_3$ are dimensionless coefficients of order unity, determined by the specific micro-structure. These terms are suppressed by $l_P^2 \sim 10^{-70}\;\text{m}^2$ relative to the leading terms and are negligible at all currently accessible energies.
 
-These corrections become important only at Planck-scale energies, where they regulate the singularities of GR (see [Section 11](mathematical-framework.md#11-the-black-hole-information-paradox)).
+These corrections become important only at Planck-scale energies, where they regulate the singularities of GR (see [Section 11](../formalization/mathematical-framework.md#11-the-black-hole-information-paradox)).
 
 ---
 
@@ -129,7 +129,7 @@ $$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G \left(T_{\mu\nu}^\text{matter} + T_{\mu\nu}^\text{gauge} + T_{\mu\nu}^\text{dilaton}\right)
 $$
 
-The medium flow equations from [Section 6.3](mathematical-framework.md#63-the-nonlinear-flow-equation) are recovered. The cosmological constant $\Lambda$ comes from the dilaton potential $V(\phi)$, not from vacuum energy.
+The medium flow equations from [Section 6.3](../formalization/mathematical-framework.md#63-the-nonlinear-flow-equation) are recovered. The cosmological constant $\Lambda$ comes from the dilaton potential $V(\phi)$, not from vacuum energy.
 
 ### 4.2 $\delta S / \delta A^\mu = 0$: Maxwell's equations
 
@@ -137,7 +137,7 @@ $$
 \nabla_\nu F^{\mu\nu} = J^\mu
 $$
 
-where $J^\mu$ is the electromagnetic current from charged matter fields. The Aharonov-Bohm effect ([Section 8](mathematical-framework.md#8-the-aharonov-bohm-effect-potentials-are-the-medium)) follows from the fact that $A_\mu$ (not $F_{\mu\nu}$) appears in the covariant derivative.
+where $J^\mu$ is the electromagnetic current from charged matter fields. The Aharonov-Bohm effect ([Section 8](../formalization/mathematical-framework.md#8-the-aharonov-bohm-effect-potentials-are-the-medium)) follows from the fact that $A_\mu$ (not $F_{\mu\nu}$) appears in the covariant derivative.
 
 ### 4.3 $\delta S / \delta \phi = 0$: Dilaton/Higgs equation
 
@@ -153,7 +153,7 @@ $$
 \left(i\gamma^\mu D_\mu - m_f\right)\psi_f = 0
 $$
 
-The Schrödinger equation ([Section 9.3](mathematical-framework.md#93-stochastic-dynamics-nelsons-program-completed)) is the non-relativistic limit of this equation, with stochastic corrections from the medium micro-structure.
+The Schrödinger equation ([Section 9.3](../formalization/mathematical-framework.md#93-stochastic-dynamics-nelsons-program-completed)) is the non-relativistic limit of this equation, with stochastic corrections from the medium micro-structure.
 
 ---
 
@@ -177,7 +177,7 @@ The medium's toroidal flow state breaks several symmetries:
 
 - **Global Lorentz invariance** is broken by the toroidal geometry (the torus has a preferred axis). Locally, Lorentz invariance holds because the medium looks uniform at small scales.
 - **$SU(2) \times U(1)$ electroweak symmetry** is broken by the dilaton/Higgs VEV, giving mass to the $W$ and $Z$ bosons.
-- **Time reversal** is broken by the poloidal flow direction, producing the arrow of time ([Section 7.3](mathematical-framework.md#73-arrow-of-time)).
+- **Time reversal** is broken by the poloidal flow direction, producing the arrow of time ([Section 7.3](../formalization/mathematical-framework.md#73-arrow-of-time)).
 
 ---
 
@@ -221,10 +221,10 @@ This integrates over all field configurations weighted by $e^{iS/\hbar}$. The pa
 
 In standard QFT, the path integral is formally divergent and requires renormalization. In MCT, the medium's micro-structure provides a natural ultraviolet cutoff at the Planck scale. The higher-derivative terms in $S_\text{micro}$ suppress contributions from modes with wavelength $\lesssim l_P$.
 
-This means MCT is UV-finite. There are no infinities to renormalize because the medium's granularity prevents arbitrarily short-wavelength fluctuations. The renormalization group running of couplings (see [nuclear-forces.md](nuclear-forces.md#32-running-of-couplings)) is a consequence of integrating out modes between $l_P$ and the observation scale, which is a finite computation.
+This means MCT is UV-finite. There are no infinities to renormalize because the medium's granularity prevents arbitrarily short-wavelength fluctuations. The renormalization group running of couplings (see [nuclear-forces.md](../extensions/nuclear-forces.md#32-running-of-couplings)) is a consequence of integrating out modes between $l_P$ and the observation scale, which is a finite computation.
 
 ### 7.3 Connection to Nelson
 
-The Nelson stochastic mechanics derivation ([Section 9.3](mathematical-framework.md#93-stochastic-dynamics-nelsons-program-completed)) is the non-relativistic, single-particle limit of the full path integral. The stochastic fluctuations from the medium micro-structure correspond to the quantum fluctuations in the path integral. The diffusion coefficient $D = \hbar/(2m)$ is the non-relativistic limit of the path integral measure weighted by $e^{iS/\hbar}$.
+The Nelson stochastic mechanics derivation ([Section 9.3](../formalization/mathematical-framework.md#93-stochastic-dynamics-nelsons-program-completed)) is the non-relativistic, single-particle limit of the full path integral. The stochastic fluctuations from the medium micro-structure correspond to the quantum fluctuations in the path integral. The diffusion coefficient $D = \hbar/(2m)$ is the non-relativistic limit of the path integral measure weighted by $e^{iS/\hbar}$.
 
 This connects the "top-down" (action principle) and "bottom-up" (stochastic mechanics) approaches to quantum behavior in MCT. They are different descriptions of the same physics.

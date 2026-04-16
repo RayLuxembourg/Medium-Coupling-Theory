@@ -10,7 +10,7 @@ Medium Coupling Theory (MCT) proposes that the observable universe is embedded w
 
 MCT does not dispute the mathematical validity of General Relativity or Quantum Mechanics. It proposes that these frameworks describe the *measurable consequences* of medium dynamics rather than the dynamics themselves. Einstein's field equations describe the accounting: the relationship between energy distribution and geometric outcome. MCT asks what mechanism produces that outcome.
 
-For the full mathematical treatment, see the [Phase 2 formalization](phase2/mathematical-framework.md).
+For the full mathematical treatment, see the [Phase 2 formalization](formalization/mathematical-framework.md).
 
 ---
 
@@ -46,7 +46,7 @@ By the equivalence principle (Einstein, 1907), an observer in a continuously acc
 
 What General Relativity describes as spacetime curvature is the mathematical characterization of the poloidal flow field as measured from within, by observers who cannot perceive the medium directly.
 
-The [Phase 2 derivation](phase2/mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow) recovers Newton's law $\mathbf{F} = -\frac{GMm}{r^2}\hat{\mathbf{r}}$ from the medium's linear response to a coupling source. The [equivalence principle](phase2/mathematical-framework.md#3-derivation-the-equivalence-principle) is shown to be a structural identity, not an assumption.
+The [Phase 2 derivation](formalization/mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow) recovers Newton's law $\mathbf{F} = -\frac{GMm}{r^2}\hat{\mathbf{r}}$ from the medium's linear response to a coupling source. The [equivalence principle](formalization/mathematical-framework.md#3-derivation-the-equivalence-principle) is shown to be a structural identity, not an assumption.
 
 ### Postulate 2: Mass is coupling to the medium via angular momentum
 
@@ -61,7 +61,7 @@ This postulate implies:
 - **Mass is quantized** because angular momentum is quantized. Discrete spin states produce discrete coupling levels, yielding discrete mass values without requiring a separate mass-granting mechanism.
 - **Different particles have different masses** because they represent different angular momentum topologies. A proton (three quarks, gluon flux tubes, complex internal angular momentum) is a tighter, more elaborate knot in the flow than an electron (simpler rotational structure). The difference is structural complexity, not kind.
 
-See [Section 5](phase2/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum) of the Phase 2 document for the quantization argument and the connection to the Higgs mechanism.
+See [Section 5](formalization/mathematical-framework.md#5-derivation-mass-quantization-from-angular-momentum) of the Phase 2 document for the quantization argument and the connection to the Higgs mechanism.
 
 ### Postulate 3: Inertia is resistance from medium coupling
 
@@ -81,7 +81,7 @@ This reframes several features of Special Relativity:
 - **Lorentz invariance** emerges geometrically from the flow dynamics rather than being postulated.
 - **Light has no rest mass** because "mass" means "coupled to the medium," and light, by definition, is not.
 
-The [Phase 2 treatment](phase2/mathematical-framework.md#4-derivation-the-speed-of-light-as-separation-rate) formalizes this and derives the Lorentz transformation from the medium's finite characteristic speed.
+The [Phase 2 treatment](formalization/mathematical-framework.md#4-derivation-the-speed-of-light-as-separation-rate) formalizes this and derives the Lorentz transformation from the medium's finite characteristic speed.
 
 ### Postulate 5: Gravitational interaction with light is partial entrainment
 
@@ -91,7 +91,7 @@ In regions of extreme medium flow (near large mass concentrations), the flow int
 - **Gravitational redshift**: light losing energy as it climbs out of a high-flow region.
 - **Black holes**: regions where the medium flow exceeds the threshold at which even uncoupled light is fully entrained and cannot escape.
 
-The [Schwarzschild derivation](phase2/mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response) recovers GR's black hole solution from the nonlinear medium response. The [black hole information section](phase2/mathematical-framework.md#11-the-black-hole-information-paradox) addresses the information paradox.
+The [Schwarzschild derivation](formalization/mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response) recovers GR's black hole solution from the nonlinear medium response. The [black hole information section](formalization/mathematical-framework.md#11-the-black-hole-information-paradox) addresses the information paradox.
 
 ---
 
@@ -101,23 +101,23 @@ The [Schwarzschild derivation](phase2/mathematical-framework.md#6-derivation-sch
 
 In standard physics, the second law of thermodynamics is treated as a statistical axiom. MCT provides a **mechanical cause**: the medium is continuously churning. Entropy is what being stirred looks like from inside. Systems disperse not because of an abstract tendency toward disorder, but because the medium is actively dispersing them through its toroidal circulation.
 
-See [Section 7](phase2/mathematical-framework.md#7-derivation-entropy-from-medium-dynamics) for the entropy derivation.
+See [Section 7](formalization/mathematical-framework.md#7-derivation-entropy-from-medium-dynamics) for the entropy derivation.
 
 ### 3.2 Cosmological Expansion
 
 The poloidal flow naturally produces an expansion effect. The outer surface of the toroidal flow moves outward. Observers embedded within the medium would measure surrounding objects receding, consistent with observed cosmological expansion. Accelerating expansion may correspond to non-constant poloidal circulation rates, potentially removing the need for dark energy as a separate entity.
 
-MCT also dissolves the cosmological constant problem (the $10^{122}$ discrepancy between predicted and observed vacuum energy). Vacuum fluctuations are symmetric medium noise with no net flow, so they do not gravitate. See [Section 10](phase2/mathematical-framework.md#10-the-cosmological-constant-problem).
+MCT also dissolves the cosmological constant problem (the $10^{122}$ discrepancy between predicted and observed vacuum energy). Vacuum fluctuations are symmetric medium noise with no net flow, so they do not gravitate. See [Section 10](formalization/mathematical-framework.md#10-the-cosmological-constant-problem).
 
 ### 3.3 Dark Matter
 
 MCT provides a structural explanation: dark matter consists of topological structures in the medium with angular momentum that couples to the gravitational mode but not the electromagnetic mode. These structures would be invisible, massive, and gravitationally active, matching observations.
 
-This explains the Bullet Cluster observation (gravitational lensing separated from visible matter) and predicts a discrete mass spectrum for dark matter particles. See [Section 12](phase2/mathematical-framework.md#12-dark-matter-from-medium-topology).
+This explains the Bullet Cluster observation (gravitational lensing separated from visible matter) and predicts a discrete mass spectrum for dark matter particles. See [Section 12](formalization/mathematical-framework.md#12-dark-matter-from-medium-topology).
 
 ### 3.4 Cosmic Microwave Background Topology
 
-A toroidal large-scale structure predicts that sufficiently distant observations could reveal topological signatures, such as matched circles in the CMB, suppressed large-angle correlations, and alignment of low multipoles (the "axis of evil"). Some analyses of CMB data have shown hints consistent with these predictions. See [Prediction 2](phase2/mathematical-framework.md#143-prediction-2-cmb-toroidal-topology-signatures).
+A toroidal large-scale structure predicts that sufficiently distant observations could reveal topological signatures, such as matched circles in the CMB, suppressed large-angle correlations, and alignment of low multipoles (the "axis of evil"). Some analyses of CMB data have shown hints consistent with these predictions. See [Prediction 2](formalization/mathematical-framework.md#143-prediction-2-cmb-toroidal-topology-signatures).
 
 ### 3.5 Universal Particle Spin
 
@@ -127,13 +127,13 @@ Every known fundamental particle possesses intrinsic angular momentum (spin). St
 
 MCT derives the Schrodinger equation from the medium's micro-structure via Nelson's stochastic mechanics (1966). The medium has discrete micro-structure at the Planck scale. Coupled particles undergo Brownian motion from interactions with this micro-structure, and the resulting stochastic dynamics reproduce quantum mechanics exactly.
 
-This dissolves the measurement problem, derives the Born rule as an equilibrium theorem, and explains the uncertainty principle as the medium's resolution limit. See [Section 9](phase2/mathematical-framework.md#9-quantum-mechanics-from-medium-micro-structure).
+This dissolves the measurement problem, derives the Born rule as an equilibrium theorem, and explains the uncertainty principle as the medium's resolution limit. See [Section 9](formalization/mathematical-framework.md#9-quantum-mechanics-from-medium-micro-structure).
 
 ### 3.7 The Aharonov-Bohm Effect
 
 The AB effect (particles affected by electromagnetic potentials in regions of zero field) is mysterious only if fields are taken as fundamental and potentials as mathematical artifacts. MCT reverses this: the electromagnetic potential $\mathbf{A}$ is the medium's actual flow state. Fields $\mathbf{E}$ and $\mathbf{B}$ are derived quantities (gradients and curls). Particles couple to the medium, not to curls of the medium.
 
-See [Section 8](phase2/mathematical-framework.md#8-the-aharonov-bohm-effect-potentials-are-the-medium).
+See [Section 8](formalization/mathematical-framework.md#8-the-aharonov-bohm-effect-potentials-are-the-medium).
 
 ---
 
@@ -151,7 +151,7 @@ See [Section 8](phase2/mathematical-framework.md#8-the-aharonov-bohm-effect-pote
 
 ## 5. Testable Predictions
 
-MCT makes seven predictions that differ from standard physics. See [Section 14](phase2/mathematical-framework.md#14-testable-predictions-unique-to-mct) for full details.
+MCT makes seven predictions that differ from standard physics. See [Section 14](formalization/mathematical-framework.md#14-testable-predictions-unique-to-mct) for full details.
 
 | Prediction | Testable With |
 |---|---|
@@ -171,7 +171,7 @@ MCT makes seven predictions that differ from standard physics. See [Section 14](
 This document. Core postulates, qualitative phenomenon mapping, relationship to existing frameworks.
 
 ### Phase 2: Mathematical Formalization ✅
-[Complete.](phase2/mathematical-framework.md) Derives Newtonian gravity, the equivalence principle, Lorentz invariance, the Schrodinger equation, the Schwarzschild metric, and more from MCT postulates. Includes seven unique testable predictions.
+[Complete.](formalization/mathematical-framework.md) Derives Newtonian gravity, the equivalence principle, Lorentz invariance, the Schrodinger equation, the Schwarzschild metric, and more from MCT postulates. Includes seven unique testable predictions.
 
 ### Phase 3: Predictions
 Quantitative calculation of MCT-specific observables. CMB toroidal signatures, dark matter mass spectrum, Planck-scale decoherence rates, and gravitational AB effect magnitudes.

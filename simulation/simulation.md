@@ -1,6 +1,6 @@
 # Simulation: Computational Modeling of Medium Dynamics
 
-This document addresses Open Problem 6 from the [main framework](mathematical-framework.md#15-summary). The goal is computational modeling of toroidal vortex dynamics with embedded topological structures, the MCT equivalent of lattice QCD.
+This document addresses Open Problem 6 from the [main framework](../formalization/mathematical-framework.md#15-summary). The goal is computational modeling of toroidal vortex dynamics with embedded topological structures, the MCT equivalent of lattice QCD.
 
 ---
 
@@ -10,11 +10,11 @@ This document addresses Open Problem 6 from the [main framework](mathematical-fr
 
 MCT simulation has three levels of increasing difficulty:
 
-**Level 1: Medium flow around a fixed topology.** Place a knot-like boundary condition in a medium flow and solve for the steady-state velocity field. Extract the effective coupling $\kappa$ and therefore the mass. This directly tests the [mass spectrum predictions](mass-spectrum.md).
+**Level 1: Medium flow around a fixed topology.** Place a knot-like boundary condition in a medium flow and solve for the steady-state velocity field. Extract the effective coupling $\kappa$ and therefore the mass. This directly tests the [mass spectrum predictions](../extensions/mass-spectrum.md).
 
-**Level 2: Two-body dynamics.** Place two topological structures in the medium and let them evolve. Verify that they attract gravitationally with the correct $1/r^2$ law ([Section 2](mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow)). Measure the force at close range to check for deviations from Newtonian gravity near $r_s$ ([Section 6](mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response)).
+**Level 2: Two-body dynamics.** Place two topological structures in the medium and let them evolve. Verify that they attract gravitationally with the correct $1/r^2$ law ([Section 2](../formalization/mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow)). Measure the force at close range to check for deviations from Newtonian gravity near $r_s$ ([Section 6](../formalization/mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response)).
 
-**Level 3: Full toroidal cosmology.** Simulate the entire toroidal vortex with embedded structures. Verify cosmological expansion ([Section 10](mathematical-framework.md#10-the-cosmological-constant-problem)), measure effective $H_0$ at different positions ([torus-parameters.md](torus-parameters.md)), and test whether the Hubble tension emerges geometrically.
+**Level 3: Full toroidal cosmology.** Simulate the entire toroidal vortex with embedded structures. Verify cosmological expansion ([Section 10](../formalization/mathematical-framework.md#10-the-cosmological-constant-problem)), measure effective $H_0$ at different positions ([torus-parameters.md](../extensions/torus-parameters.md)), and test whether the Hubble tension emerges geometrically.
 
 ### 1.2 What success looks like
 
@@ -43,7 +43,7 @@ The recommended approach: **SPH for Levels 1-2**, **spectral methods for Level 3
 
 ### 2.2 The medium equations to solve
 
-From [Section 1](mathematical-framework.md#1-mathematical-setup):
+From [Section 1](../formalization/mathematical-framework.md#1-mathematical-setup):
 
 $$
 \nabla \cdot \mathbf{u} = \sigma(\mathbf{x}, t)
@@ -105,13 +105,13 @@ Apply an external uniform acceleration field to two knots of different topology 
 
 ### 4.3 Test 3: Gravitational waves
 
-Orbit two knots around each other, measure the medium flow perturbation at large distances. Compare the frequency, amplitude, and polarization to the GR prediction ([Section 13](mathematical-framework.md#13-gravitational-waves-as-medium-propagation)).
+Orbit two knots around each other, measure the medium flow perturbation at large distances. Compare the frequency, amplitude, and polarization to the GR prediction ([Section 13](../formalization/mathematical-framework.md#13-gravitational-waves-as-medium-propagation)).
 
 **Pass criterion:** Waveform matches GR to leading PN order.
 
 ### 4.4 Test 4: Mass ratios
 
-Compute the effective mass for the simplest knot topologies (trefoil, figure-eight, torus knots). Compare mass ratios to observed particle mass ratios (see [mass-spectrum.md](mass-spectrum.md)).
+Compute the effective mass for the simplest knot topologies (trefoil, figure-eight, torus knots). Compare mass ratios to observed particle mass ratios (see [mass-spectrum.md](../extensions/mass-spectrum.md)).
 
 **Pass criterion:** A consistent mapping between knot types and particles, with mass ratios within a factor of 2 of observed values (for a first-generation simulation).
 
@@ -183,7 +183,7 @@ Recommended tools:
 
 ## 7. Relation to Other Problems
 
-- Level 1 simulations directly test [mass-spectrum.md](mass-spectrum.md) predictions.
-- Level 2 simulations verify the [Newtonian gravity derivation](mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow) and [Schwarzschild metric recovery](mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response).
-- Level 3 simulations test [torus-parameters.md](torus-parameters.md) constraints and the [Hubble tension prediction](mathematical-framework.md#147-prediction-6-hubble-tension-resolution).
-- Simulations with compact dimensions could test [confinement](nuclear-forces.md#4-color-confinement-detailed-mechanism) and the [Kaluza-Klein structure](kaluza-klein.md).
+- Level 1 simulations directly test [mass-spectrum.md](../extensions/mass-spectrum.md) predictions.
+- Level 2 simulations verify the [Newtonian gravity derivation](../formalization/mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow) and [Schwarzschild metric recovery](../formalization/mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response).
+- Level 3 simulations test [torus-parameters.md](../extensions/torus-parameters.md) constraints and the [Hubble tension prediction](../formalization/mathematical-framework.md#147-prediction-6-hubble-tension-resolution).
+- Simulations with compact dimensions could test [confinement](../extensions/nuclear-forces.md#4-color-confinement-detailed-mechanism) and the [Kaluza-Klein structure](../extensions/kaluza-klein.md).

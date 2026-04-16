@@ -1,6 +1,6 @@
 # From Quantum Mechanics to Quantum Field Theory in MCT
 
-Section 9 of the [main framework](mathematical-framework.md#9-quantum-mechanics-from-medium-micro-structure) derived quantum mechanics from the medium's micro-structure via Nelson's stochastic mechanics. This gives the Schrödinger equation: non-relativistic, single-particle quantum mechanics.
+Section 9 of the [main framework](../formalization/mathematical-framework.md#9-quantum-mechanics-from-medium-micro-structure) derived quantum mechanics from the medium's micro-structure via Nelson's stochastic mechanics. This gives the Schrödinger equation: non-relativistic, single-particle quantum mechanics.
 
 Modern physics is quantum field theory (QFT): relativistic, multi-particle, with particle creation and annihilation. MCT must get there.
 
