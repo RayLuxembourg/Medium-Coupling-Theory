@@ -97,6 +97,45 @@ Caveats: figure-eight blows up (numerical instability). Overall correlation is w
 
 This is the most promising mechanism tested: modifying inertia rather than viscosity, using helicity rather than vorticity magnitude.
 
+## Finding 7: Critical Comparison Kills the Helicity-Inertia Hypothesis
+
+6 topologies x 3 coupling mechanisms (helicity, omega, random) at alpha=0.3:
+
+| Topology | |H|_total | |H|_abs | Helicity ratio | Omega ratio | Random ratio |
+|---|---|---|---|---|---|
+| Ring | 0.00 | 0.12 | 1.69 | 1.82 | 1.24 |
+| Hopf | 3.66 | 3.71 | 2.32 | 2.50 | 1.34 |
+| Trefoil | 9.08 | 9.14 | 1.98 | 2.24 | 1.29 |
+| Figure-8 | 0.20 | 11.08 | 2.01 | 2.09 | 1.28 |
+| T(2,5) | 17.23 | 17.33 | 1.73 | 1.80 | 1.25 |
+| T(2,7) | 24.86 | 24.99 | 1.91 | 1.98 | 1.26 |
+
+Correlations with |H|_total: **all negative** (helicity -0.23, omega -0.29, random -0.28).
+
+The v2 "positive" result (trefoil > ring at alpha=0.5) was real but misleading. With 4 topologies the correlation appeared positive. Adding T25 and T27 (highest helicity, among least stabilized) flipped it negative. Classic small-sample spurious correlation.
+
+**Helicity-inertia and omega-inertia produce nearly identical rankings.** Both rank hopf link first, ring near last. The ranking tracks geometric compactness (how concentrated the vorticity is), not topological invariants.
+
+**Conclusion: in incompressible pseudo-spectral simulations, no coupling mechanism we tested produces genuinely topology-dependent stabilization.** The physics distinguishes compact from diffuse structures, not knotted from unknotted.
+
+## Summary of All Findings
+
+After 7 rigorous experiments testing 5 coupling mechanisms on up to 6 topologies:
+
+1. **Gradient force (alpha * grad(phi)):** algebraically invisible in incompressible flow.
+2. **Variable viscosity (omega-based):** stabilizes compact structures more (wrong direction).
+3. **Variable viscosity (helicity-based):** same wrong direction.
+4. **Helicity-inertia (Boussinesq):** appeared correct with 4 topologies, reversed with 6.
+5. **Critical comparison:** helicity, omega, and random coupling all produce similar rankings based on geometric compactness, not topology.
+
+**No formulation of the coupling tested in incompressible spectral flow produces the MCT prediction that more complex topology = more mass/stability.**
+
+Possible reasons:
+- Spectral methods smooth all structure, destroying topological information
+- Incompressible flow may fundamentally not support topology-dependent coupling
+- The MCT coupling mechanism may require compressible flow, discrete vortex methods, or fundamentally different equations
+- The MCT hypothesis connecting topology to mass may be wrong
+
 ## Open Questions
 
 1. Is there any coupling formulation that survives the Leray projection AND produces topology-dependent stabilization in the correct direction?
