@@ -1,0 +1,2711 @@
+[
+  {
+    "step": 0,
+    "time": 0.0,
+    "KE": 4.323850131276319,
+    "enstrophy": 60.03459548039229,
+    "potential_exponent": -1.4695900865462874,
+    "potential_r2": 0.8662599593205347,
+    "potential_amplitude": 0.354608269274467
+  },
+  {
+    "step": 1,
+    "time": 0.002,
+    "KE": 4.321494549946035,
+    "enstrophy": 59.88611259704542,
+    "potential_exponent": -1.4695779316309165,
+    "potential_r2": 0.8662073518927741,
+    "potential_amplitude": 0.35460549188533347
+  },
+  {
+    "step": 2,
+    "time": 0.004,
+    "KE": 4.319144825024112,
+    "enstrophy": 59.73918135528396,
+    "potential_exponent": -1.4695627729586367,
+    "potential_r2": 0.8661555354841506,
+    "potential_amplitude": 0.3546004907049025
+  },
+  {
+    "step": 3,
+    "time": 0.006,
+    "KE": 4.31680081086896,
+    "enstrophy": 59.59376659736242,
+    "potential_exponent": -1.4695443995694648,
+    "potential_r2": 0.8661044660315269,
+    "potential_amplitude": 0.35459347281177417
+  },
+  {
+    "step": 4,
+    "time": 0.008,
+    "KE": 4.3144624477602305,
+    "enstrophy": 59.44983489308154,
+    "potential_exponent": -1.4695225821759332,
+    "potential_r2": 0.8660541055416305,
+    "potential_amplitude": 0.35458463830910525
+  },
+  {
+    "step": 5,
+    "time": 0.01,
+    "KE": 4.31212967731931,
+    "enstrophy": 59.307354268839546,
+    "potential_exponent": -1.4694971242850536,
+    "potential_r2": 0.866004417221632,
+    "potential_amplitude": 0.354574168524123
+  },
+  {
+    "step": 6,
+    "time": 0.012,
+    "KE": 4.309802442449703,
+    "enstrophy": 59.166294119222144,
+    "potential_exponent": -1.4694678578544766,
+    "potential_r2": 0.8659553646258868,
+    "potential_amplitude": 0.354562228550048
+  },
+  {
+    "step": 7,
+    "time": 0.014,
+    "KE": 4.3074806872807025,
+    "enstrophy": 59.02662512420455,
+    "potential_exponent": -1.469434631733997,
+    "potential_r2": 0.8659069127326646,
+    "potential_amplitude": 0.35454897110293465
+  },
+  {
+    "step": 8,
+    "time": 0.016,
+    "KE": 4.305164357114519,
+    "enstrophy": 58.8883191718769,
+    "potential_exponent": -1.4693972914243933,
+    "potential_r2": 0.8658590293810349,
+    "potential_amplitude": 0.3545345429537889
+  },
+  {
+    "step": 9,
+    "time": 0.018000000000000002,
+    "KE": 4.3028533983766915,
+    "enstrophy": 58.75134928642938,
+    "potential_exponent": -1.4693556995044905,
+    "potential_r2": 0.8658116834773252,
+    "potential_amplitude": 0.3545190790638771
+  },
+  {
+    "step": 10,
+    "time": 0.02,
+    "KE": 4.300547758569573,
+    "enstrophy": 58.615689561059284,
+    "potential_exponent": -1.4693097480067747,
+    "potential_r2": 0.8657648435578322,
+    "potential_amplitude": 0.3545026997522871
+  },
+  {
+    "step": 11,
+    "time": 0.022,
+    "KE": 4.298247386228675,
+    "enstrophy": 58.481315095461504,
+    "potential_exponent": -1.4692593521813924,
+    "potential_r2": 0.8657184777632123,
+    "potential_amplitude": 0.35448551359761865
+  },
+  {
+    "step": 12,
+    "time": 0.024,
+    "KE": 4.29595223088159,
+    "enstrophy": 58.34820193757969,
+    "potential_exponent": -1.4692044508927224,
+    "potential_r2": 0.8656725538714511,
+    "potential_amplitude": 0.35446761739393184
+  },
+  {
+    "step": 13,
+    "time": 0.026000000000000002,
+    "KE": 4.293662243009406,
+    "enstrophy": 58.21632702931825,
+    "potential_exponent": -1.4691450064641813,
+    "potential_r2": 0.8656270391477894,
+    "potential_amplitude": 0.35444909657763163
+  },
+  {
+    "step": 14,
+    "time": 0.028,
+    "KE": 4.291377374010348,
+    "enstrophy": 58.08566815593365,
+    "potential_exponent": -1.4690809997359229,
+    "potential_r2": 0.8655819002897313,
+    "potential_amplitude": 0.35443002748856944
+  },
+  {
+    "step": 15,
+    "time": 0.03,
+    "KE": 4.289097576165556,
+    "enstrophy": 57.95620389884425,
+    "potential_exponent": -1.4690124253981434,
+    "potential_r2": 0.8655371036464132,
+    "potential_amplitude": 0.3544104791194949
+  },
+  {
+    "step": 16,
+    "time": 0.032,
+    "KE": 4.286822802606805,
+    "enstrophy": 57.82791359161538,
+    "potential_exponent": -1.4689392824235996,
+    "potential_r2": 0.8654926164596135,
+    "potential_amplitude": 0.35439051530914395
+  },
+  {
+    "step": 17,
+    "time": 0.034,
+    "KE": 4.284553007286068,
+    "enstrophy": 57.700777278892495,
+    "potential_exponent": -1.4688615672035696,
+    "potential_r2": 0.8654484075502269,
+    "potential_amplitude": 0.35437019668519654
+  },
+  {
+    "step": 18,
+    "time": 0.036000000000000004,
+    "KE": 4.282288144946738,
+    "enstrophy": 57.57477567807034,
+    "potential_exponent": -1.4687792714868912,
+    "potential_r2": 0.8654044474794895,
+    "potential_amplitude": 0.35434958141540224
+  },
+  {
+    "step": 19,
+    "time": 0.038,
+    "KE": 4.280028171096511,
+    "enstrophy": 57.449890143501975,
+    "potential_exponent": -1.4686923838797628,
+    "potential_r2": 0.8653607083343501,
+    "potential_amplitude": 0.35432872501960627
+  },
+  {
+    "step": 20,
+    "time": 0.04,
+    "KE": 4.277773041981647,
+    "enstrophy": 57.326102633062376,
+    "potential_exponent": -1.4686008948474205,
+    "potential_r2": 0.8653171633772145,
+    "potential_amplitude": 0.35430767886298
+  },
+  {
+    "step": 21,
+    "time": 0.042,
+    "KE": 4.2755227145626975,
+    "enstrophy": 57.2033956768976,
+    "potential_exponent": -1.4685047992636517,
+    "potential_r2": 0.8652737867118603,
+    "potential_amplitude": 0.3542864897123004
+  },
+  {
+    "step": 22,
+    "time": 0.044,
+    "KE": 4.273277146491453,
+    "enstrophy": 57.081752348198734,
+    "potential_exponent": -1.4684040924721846,
+    "potential_r2": 0.865230553420471,
+    "potential_amplitude": 0.35426520133474143
+  },
+  {
+    "step": 23,
+    "time": 0.046,
+    "KE": 4.271036296089128,
+    "enstrophy": 56.961156235854574,
+    "potential_exponent": -1.4682987687253406,
+    "potential_r2": 0.8651874397148414,
+    "potential_amplitude": 0.35424385502167766
+  },
+  {
+    "step": 24,
+    "time": 0.048,
+    "KE": 4.26880012232565,
+    "enstrophy": 56.84159141884608,
+    "potential_exponent": -1.4681888252738615,
+    "potential_r2": 0.8651444227948872,
+    "potential_amplitude": 0.3542224881339799
+  },
+  {
+    "step": 25,
+    "time": 0.05,
+    "KE": 4.266568584800013,
+    "enstrophy": 56.72304244225675,
+    "potential_exponent": -1.468074261036707,
+    "potential_r2": 0.8651014810114321,
+    "potential_amplitude": 0.3542011345064223
+  },
+  {
+    "step": 26,
+    "time": 0.052000000000000005,
+    "KE": 4.264341643721578,
+    "enstrophy": 56.605494294781664,
+    "potential_exponent": -1.4679550749859647,
+    "potential_r2": 0.8650585940286113,
+    "potential_amplitude": 0.3541798249753549
+  },
+  {
+    "step": 27,
+    "time": 0.054,
+    "KE": 4.262119259892338,
+    "enstrophy": 56.48893238762876,
+    "potential_exponent": -1.4678312643215792,
+    "potential_r2": 0.8650157430550052,
+    "potential_amplitude": 0.3541585878698374
+  },
+  {
+    "step": 28,
+    "time": 0.056,
+    "KE": 4.259901394689998,
+    "enstrophy": 56.37334253471255,
+    "potential_exponent": -1.4677028247667463,
+    "potential_r2": 0.8649729108563557,
+    "potential_amplitude": 0.3541374489355553
+  },
+  {
+    "step": 29,
+    "time": 0.058,
+    "KE": 4.257688010051905,
+    "enstrophy": 56.25871093404956,
+    "potential_exponent": -1.4675697365998752,
+    "potential_r2": 0.864930083382883,
+    "potential_amplitude": 0.3541164347420822
+  },
+  {
+    "step": 30,
+    "time": 0.06,
+    "KE": 4.255479068459685,
+    "enstrophy": 56.14502415027147,
+    "potential_exponent": -1.4674319679949286,
+    "potential_r2": 0.8648872495695401,
+    "potential_amplitude": 0.35409557160656674
+  },
+  {
+    "step": 31,
+    "time": 0.062,
+    "KE": 4.253274532924638,
+    "enstrophy": 56.032269098178574,
+    "potential_exponent": -1.4672894684876199,
+    "potential_r2": 0.8648444022481407,
+    "potential_amplitude": 0.3540748869313659
+  },
+  {
+    "step": 32,
+    "time": 0.064,
+    "KE": 4.2510743669737705,
+    "enstrophy": 55.92043302726269,
+    "potential_exponent": -1.4671421640113804,
+    "potential_r2": 0.8648015390346422,
+    "potential_amplitude": 0.3540544098880044
+  },
+  {
+    "step": 33,
+    "time": 0.066,
+    "KE": 4.248878534636462,
+    "enstrophy": 55.80950350713347,
+    "potential_exponent": -1.4669899505073876,
+    "potential_r2": 0.8647586635217127,
+    "potential_amplitude": 0.3540341721999449
+  },
+  {
+    "step": 34,
+    "time": 0.068,
+    "KE": 4.246687000431734,
+    "enstrophy": 55.699468413787656,
+    "potential_exponent": -1.466832685085628,
+    "potential_r2": 0.8647157870155499,
+    "potential_amplitude": 0.354014209079804
+  },
+  {
+    "step": 35,
+    "time": 0.07,
+    "KE": 4.24449972935604,
+    "enstrophy": 55.59031591666543,
+    "potential_exponent": -1.466670173343764,
+    "potential_r2": 0.8646729310410635,
+    "potential_amplitude": 0.3539945605619702
+  },
+  {
+    "step": 36,
+    "time": 0.07200000000000001,
+    "KE": 4.24231668687163,
+    "enstrophy": 55.48203446644191,
+    "potential_exponent": -1.4665021564503065,
+    "potential_r2": 0.8646301304085441,
+    "potential_amplitude": 0.35397527200717305
+  },
+  {
+    "step": 37,
+    "time": 0.074,
+    "KE": 4.240137838895342,
+    "enstrophy": 55.37461278350508,
+    "potential_exponent": -1.4663282998745775,
+    "potential_r2": 0.8645874367980435,
+    "potential_amplitude": 0.35395639301765275
+  },
+  {
+    "step": 38,
+    "time": 0.076,
+    "KE": 4.237963151787931,
+    "enstrophy": 55.26803984707625,
+    "potential_exponent": -1.466148202466321,
+    "potential_r2": 0.8645449212957885,
+    "potential_amplitude": 0.3539379692376566
+  },
+  {
+    "step": 39,
+    "time": 0.078,
+    "KE": 4.235792592343761,
+    "enstrophy": 55.16230488493134,
+    "potential_exponent": -1.4659614271759067,
+    "potential_r2": 0.8645026736825128,
+    "potential_amplitude": 0.35392003017286133
+  },
+  {
+    "step": 40,
+    "time": 0.08,
+    "KE": 4.233626127780977,
+    "enstrophy": 55.05739736368379,
+    "potential_exponent": -1.4657675563081094,
+    "potential_r2": 0.8644607967817876,
+    "potential_amplitude": 0.35390257467178615
+  },
+  {
+    "step": 41,
+    "time": 0.082,
+    "KE": 4.231463725732016,
+    "enstrophy": 54.95330697959352,
+    "potential_exponent": -1.4655668926567575,
+    "potential_r2": 0.8644193354335143,
+    "potential_amplitude": 0.3538853849300389
+  },
+  {
+    "step": 42,
+    "time": 0.084,
+    "KE": 4.229305354234518,
+    "enstrophy": 54.8500236498686,
+    "potential_exponent": -1.4653619536936733,
+    "potential_r2": 0.8643780773498388,
+    "potential_amplitude": 0.353867709750141
+  },
+  {
+    "step": 43,
+    "time": 0.08600000000000001,
+    "KE": 4.227150981722567,
+    "enstrophy": 54.74753750442776,
+    "potential_exponent": -1.4651551485169665,
+    "potential_r2": 0.8643366833104607,
+    "potential_amplitude": 0.3538490570154802
+  },
+  {
+    "step": 44,
+    "time": 0.088,
+    "KE": 4.225000577018278,
+    "enstrophy": 54.64583887809459,
+    "potential_exponent": -1.4649458697949473,
+    "potential_r2": 0.8642950953638822,
+    "potential_amplitude": 0.35382977560773715
+  },
+  {
+    "step": 45,
+    "time": 0.09,
+    "KE": 4.222854109323674,
+    "enstrophy": 54.5449183031971,
+    "potential_exponent": -1.4647351495405596,
+    "potential_r2": 0.8642531849545898,
+    "potential_amplitude": 0.35380961886245166
+  },
+  {
+    "step": 46,
+    "time": 0.092,
+    "KE": 4.2207115482128925,
+    "enstrophy": 54.44476650254592,
+    "potential_exponent": -1.4645227348920056,
+    "potential_r2": 0.8642108962629509,
+    "potential_amplitude": 0.35378877727304814
+  },
+  {
+    "step": 47,
+    "time": 0.094,
+    "KE": 4.218572863624621,
+    "enstrophy": 54.345374382768725,
+    "potential_exponent": -1.4643077277392904,
+    "potential_r2": 0.8641681484426368,
+    "potential_amplitude": 0.35376776412025346
+  },
+  {
+    "step": 48,
+    "time": 0.096,
+    "KE": 4.216438025854865,
+    "enstrophy": 54.24673302797806,
+    "potential_exponent": -1.4640901598312954,
+    "potential_r2": 0.8641248477049946,
+    "potential_amplitude": 0.3537467093461735
+  },
+  {
+    "step": 49,
+    "time": 0.098,
+    "KE": 4.214307005549905,
+    "enstrophy": 54.14883369375227,
+    "potential_exponent": -1.4638701994432866,
+    "potential_r2": 0.8640809295935696,
+    "potential_amplitude": 0.3537256340435086
+  },
+  {
+    "step": 50,
+    "time": 0.1,
+    "KE": 4.212179773699533,
+    "enstrophy": 54.05166780141071,
+    "potential_exponent": -1.463647990655458,
+    "potential_r2": 0.8640363482489307,
+    "potential_amplitude": 0.3537045384553747
+  },
+  {
+    "step": 51,
+    "time": 0.10200000000000001,
+    "KE": 4.2100563016305035,
+    "enstrophy": 53.95522693256483,
+    "potential_exponent": -1.463423644795385,
+    "potential_r2": 0.8639910688116805,
+    "potential_amplitude": 0.3536834184694052
+  },
+  {
+    "step": 52,
+    "time": 0.10400000000000001,
+    "KE": 4.207936561000205,
+    "enstrophy": 53.85950282392909,
+    "potential_exponent": -1.4631972476504977,
+    "potential_r2": 0.8639450633454786,
+    "potential_amplitude": 0.3536622693424387
+  },
+  {
+    "step": 53,
+    "time": 0.106,
+    "KE": 4.2058205237905275,
+    "enstrophy": 53.76448736237596,
+    "potential_exponent": -1.462968865982004,
+    "potential_r2": 0.8638983085797777,
+    "potential_amplitude": 0.3536410866767482
+  },
+  {
+    "step": 54,
+    "time": 0.108,
+    "KE": 4.203708162301947,
+    "enstrophy": 53.670172580220935,
+    "potential_exponent": -1.4627385516703626,
+    "potential_r2": 0.86385078465684,
+    "potential_amplitude": 0.35361986674123747
+  },
+  {
+    "step": 55,
+    "time": 0.11,
+    "KE": 4.20159944914777,
+    "enstrophy": 53.576550650723284,
+    "potential_exponent": -1.4625063449365496,
+    "potential_r2": 0.8638024742936024,
+    "potential_amplitude": 0.353598606499033
+  },
+  {
+    "step": 56,
+    "time": 0.112,
+    "KE": 4.199494357248595,
+    "enstrophy": 53.48361388379142,
+    "potential_exponent": -1.4622722766875609,
+    "potential_r2": 0.8637533622235567,
+    "potential_amplitude": 0.3535773035454678
+  },
+  {
+    "step": 57,
+    "time": 0.114,
+    "KE": 4.197392859826893,
+    "enstrophy": 53.391354721879885,
+    "potential_exponent": -1.4620363704305042,
+    "potential_r2": 0.8637034347881611,
+    "potential_amplitude": 0.353555955982296
+  },
+  {
+    "step": 58,
+    "time": 0.116,
+    "KE": 4.195294930401804,
+    "enstrophy": 53.29976573606779,
+    "potential_exponent": -1.4617986437594135,
+    "potential_r2": 0.8636526796303658,
+    "potential_amplitude": 0.35353456230595776
+  },
+  {
+    "step": 59,
+    "time": 0.11800000000000001,
+    "KE": 4.193200542784048,
+    "enstrophy": 53.20883962230846,
+    "potential_exponent": -1.461559109373898,
+    "potential_r2": 0.8636010854937585,
+    "potential_amplitude": 0.3535131213217475
+  },
+  {
+    "step": 60,
+    "time": 0.12,
+    "KE": 4.191109671071003,
+    "enstrophy": 53.11856919784036,
+    "potential_exponent": -1.4613177758407678,
+    "potential_r2": 0.8635486420669225,
+    "potential_amplitude": 0.3534916320937272
+  },
+  {
+    "step": 61,
+    "time": 0.122,
+    "KE": 4.189022289641942,
+    "enstrophy": 53.02894739775098,
+    "potential_exponent": -1.4610746481248484,
+    "potential_r2": 0.8634953398767344,
+    "potential_amplitude": 0.35347009391232165
+  },
+  {
+    "step": 62,
+    "time": 0.124,
+    "KE": 4.1869383731533585,
+    "enstrophy": 52.93996727168506,
+    "potential_exponent": -1.4608297280687912,
+    "potential_r2": 0.8634411701929168,
+    "potential_amplitude": 0.3534485062647157
+  },
+  {
+    "step": 63,
+    "time": 0.126,
+    "KE": 4.18485789653448,
+    "enstrophy": 52.85162198068909,
+    "potential_exponent": -1.4605830148398513,
+    "potential_r2": 0.8633861249557012,
+    "potential_amplitude": 0.3534268687803715
+  },
+  {
+    "step": 64,
+    "time": 0.128,
+    "KE": 4.18278083498284,
+    "enstrophy": 52.76390479418528,
+    "potential_exponent": -1.4603345054880825,
+    "potential_r2": 0.8633301966800481,
+    "potential_amplitude": 0.35340518116701236
+  },
+  {
+    "step": 65,
+    "time": 0.13,
+    "KE": 4.180707163960062,
+    "enstrophy": 52.67680908706802,
+    "potential_exponent": -1.4600841953253982,
+    "potential_r2": 0.8632733783907588,
+    "potential_amplitude": 0.35338344317230974
+  },
+  {
+    "step": 66,
+    "time": 0.132,
+    "KE": 4.1786368591876535,
+    "enstrophy": 52.59032833691577,
+    "potential_exponent": -1.4598320777405225,
+    "potential_r2": 0.863215663645483,
+    "potential_amplitude": 0.3533616546432246
+  },
+  {
+    "step": 67,
+    "time": 0.134,
+    "KE": 4.176569896642986,
+    "enstrophy": 52.50445612131334,
+    "potential_exponent": -1.459578143949578,
+    "potential_r2": 0.8631570465447985,
+    "potential_amplitude": 0.35333981563500216
+  },
+  {
+    "step": 68,
+    "time": 0.136,
+    "KE": 4.174506252555358,
+    "enstrophy": 52.419186115278265,
+    "potential_exponent": -1.4593223828988644,
+    "potential_r2": 0.8630975217290903,
+    "potential_amplitude": 0.35331792647551763
+  },
+  {
+    "step": 69,
+    "time": 0.138,
+    "KE": 4.172445903402145,
+    "enstrophy": 52.33451208878605,
+    "potential_exponent": -1.4590647814162236,
+    "potential_r2": 0.8630370843513028,
+    "potential_amplitude": 0.35329598776125787
+  },
+  {
+    "step": 70,
+    "time": 0.14,
+    "KE": 4.170388825905066,
+    "enstrophy": 52.25042790438897,
+    "potential_exponent": -1.458805324555849,
+    "potential_r2": 0.8629757300274201,
+    "potential_amplitude": 0.35327400030582395
+  },
+  {
+    "step": 71,
+    "time": 0.14200000000000002,
+    "KE": 4.168334997026548,
+    "enstrophy": 52.1669275149247,
+    "potential_exponent": -1.4585439959725226,
+    "potential_r2": 0.8629134547927596,
+    "potential_amplitude": 0.35325196506503126
+  },
+  {
+    "step": 72,
+    "time": 0.14400000000000002,
+    "KE": 4.1662843939661585,
+    "enstrophy": 52.08400496130908,
+    "potential_exponent": -1.4582807783427407,
+    "potential_r2": 0.8628502550495238,
+    "potential_amplitude": 0.3532298830557303
+  },
+  {
+    "step": 73,
+    "time": 0.146,
+    "KE": 4.164236994157146,
+    "enstrophy": 52.00165437040977,
+    "potential_exponent": -1.4580156537027877,
+    "potential_r2": 0.8627861275217238,
+    "potential_amplitude": 0.3532077552978678
+  },
+  {
+    "step": 74,
+    "time": 0.148,
+    "KE": 4.162192775263051,
+    "enstrophy": 51.91986995299645,
+    "potential_exponent": -1.4577486036902845,
+    "potential_r2": 0.8627210692260743,
+    "potential_amplitude": 0.3531855827710888
+  },
+  {
+    "step": 75,
+    "time": 0.15,
+    "KE": 4.160151715174412,
+    "enstrophy": 51.83864600176409,
+    "potential_exponent": -1.4574796097007652,
+    "potential_r2": 0.8626550774487568,
+    "potential_amplitude": 0.35316336639789914
+  },
+  {
+    "step": 76,
+    "time": 0.152,
+    "KE": 4.158113792005534,
+    "enstrophy": 51.75797688942572,
+    "potential_exponent": -1.4572086530088346,
+    "potential_r2": 0.8625881497265522,
+    "potential_amplitude": 0.3531411070342267
+  },
+  {
+    "step": 77,
+    "time": 0.154,
+    "KE": 4.156078984091355,
+    "enstrophy": 51.67785706687144,
+    "potential_exponent": -1.4569357148842674,
+    "potential_r2": 0.8625202838307842,
+    "potential_amplitude": 0.35311880545668595
+  },
+  {
+    "step": 78,
+    "time": 0.156,
+    "KE": 4.154047269984347,
+    "enstrophy": 51.59828106139059,
+    "potential_exponent": -1.4566607766907262,
+    "potential_r2": 0.862451477753468,
+    "potential_amplitude": 0.35309646235294323
+  },
+  {
+    "step": 79,
+    "time": 0.158,
+    "KE": 4.1520186284515335,
+    "enstrophy": 51.519243474954386,
+    "potential_exponent": -1.4563838199604393,
+    "potential_r2": 0.8623817296951917,
+    "potential_amplitude": 0.3530740783188785
+  },
+  {
+    "step": 80,
+    "time": 0.16,
+    "KE": 4.149993038471541,
+    "enstrophy": 51.440738982556134,
+    "potential_exponent": -1.4561048264551126,
+    "potential_r2": 0.8623110380544934,
+    "potential_amplitude": 0.3530516538584342
+  },
+  {
+    "step": 81,
+    "time": 0.162,
+    "KE": 4.14797047923173,
+    "enstrophy": 51.36276233060648,
+    "potential_exponent": -1.4558237782179042,
+    "potential_r2": 0.862239401418745,
+    "potential_amplitude": 0.3530291893840036
+  },
+  {
+    "step": 82,
+    "time": 0.164,
+    "KE": 4.145950930125388,
+    "enstrophy": 51.28530833538102,
+    "potential_exponent": -1.4555406576126881,
+    "potential_r2": 0.8621668185568592,
+    "potential_amplitude": 0.353006685218476
+  },
+  {
+    "step": 83,
+    "time": 0.166,
+    "KE": 4.143934370748981,
+    "enstrophy": 51.208371881518914,
+    "potential_exponent": -1.4552554473613128,
+    "potential_r2": 0.8620932884123927,
+    "potential_amplitude": 0.3529841415966566
+  },
+  {
+    "step": 84,
+    "time": 0.168,
+    "KE": 4.14192078089947,
+    "enstrophy": 51.13194792056934,
+    "potential_exponent": -1.454968130566109,
+    "potential_r2": 0.8620188100980111,
+    "potential_amplitude": 0.35296155867003165
+  },
+  {
+    "step": 85,
+    "time": 0.17,
+    "KE": 4.139910140571674,
+    "enstrophy": 51.05603146958382,
+    "potential_exponent": -1.4546786907153413,
+    "potential_r2": 0.861943382891619,
+    "potential_amplitude": 0.35293893651537805
+  },
+  {
+    "step": 86,
+    "time": 0.17200000000000001,
+    "KE": 4.137902429955702,
+    "enstrophy": 50.98061760975342,
+    "potential_exponent": -1.4543871116785667,
+    "potential_r2": 0.8618670062338152,
+    "potential_amplitude": 0.352916275144774
+  },
+  {
+    "step": 87,
+    "time": 0.17400000000000002,
+    "KE": 4.1358976294344405,
+    "enstrophy": 50.90570148508796,
+    "potential_exponent": -1.4540933777715188,
+    "potential_r2": 0.8617896797191509,
+    "potential_amplitude": 0.3528935744948597
+  },
+  {
+    "step": 88,
+    "time": 0.176,
+    "KE": 4.133895719581065,
+    "enstrophy": 50.831278301136,
+    "potential_exponent": -1.4537974737721142,
+    "potential_r2": 0.8617114030922846,
+    "potential_amplitude": 0.3528708344284862
+  },
+  {
+    "step": 89,
+    "time": 0.178,
+    "KE": 4.131896681156642,
+    "enstrophy": 50.75734332374392,
+    "potential_exponent": -1.4534993849581157,
+    "potential_r2": 0.8616321762418505,
+    "potential_amplitude": 0.35284805473003433
+  },
+  {
+    "step": 90,
+    "time": 0.18,
+    "KE": 4.129900495107753,
+    "enstrophy": 50.683891877852425,
+    "potential_exponent": -1.4531990971207032,
+    "potential_r2": 0.8615519991967173,
+    "potential_amplitude": 0.3528252351065718
+  },
+  {
+    "step": 91,
+    "time": 0.182,
+    "KE": 4.127907142564169,
+    "enstrophy": 50.61091934632883,
+    "potential_exponent": -1.452896596558434,
+    "potential_r2": 0.8614708721240498,
+    "potential_amplitude": 0.35280237519391666
+  },
+  {
+    "step": 92,
+    "time": 0.184,
+    "KE": 4.125916604836589,
+    "enstrophy": 50.538421168834425,
+    "potential_exponent": -1.4525918700859084,
+    "potential_r2": 0.8613887953258795,
+    "potential_amplitude": 0.352779474558188
+  },
+  {
+    "step": 93,
+    "time": 0.186,
+    "KE": 4.1239288634144,
+    "enstrophy": 50.46639284072422,
+    "potential_exponent": -1.4522849050306967,
+    "potential_r2": 0.8613057692369082,
+    "potential_amplitude": 0.35275653269985036
+  },
+  {
+    "step": 94,
+    "time": 0.188,
+    "KE": 4.121943899963495,
+    "enstrophy": 50.39482991197962,
+    "potential_exponent": -1.4519756892522004,
+    "potential_r2": 0.8612217944200931,
+    "potential_amplitude": 0.352733549051374
+  },
+  {
+    "step": 95,
+    "time": 0.19,
+    "KE": 4.11996169632412,
+    "enstrophy": 50.32372798617088,
+    "potential_exponent": -1.4516642111228761,
+    "potential_r2": 0.8611368715664347,
+    "potential_amplitude": 0.35271052298379124
+  },
+  {
+    "step": 96,
+    "time": 0.192,
+    "KE": 4.117982234508793,
+    "enstrophy": 50.25308271944952,
+    "potential_exponent": -1.4513504594913322,
+    "potential_r2": 0.8610510014958956,
+    "potential_amplitude": 0.35268745381884614
+  },
+  {
+    "step": 97,
+    "time": 0.194,
+    "KE": 4.116005496700218,
+    "enstrophy": 50.18288981956955,
+    "potential_exponent": -1.4510344237336326,
+    "potential_r2": 0.8609641851502621,
+    "potential_amplitude": 0.3526643408156694
+  },
+  {
+    "step": 98,
+    "time": 0.196,
+    "KE": 4.114031465249273,
+    "enstrophy": 50.11314504493524,
+    "potential_exponent": -1.4507160935922865,
+    "potential_r2": 0.8608764236064961,
+    "potential_amplitude": 0.3526411832155178
+  },
+  {
+    "step": 99,
+    "time": 0.198,
+    "KE": 4.112060122673015,
+    "enstrophy": 50.043844203676166,
+    "potential_exponent": -1.4503954594286974,
+    "potential_r2": 0.8607877180483036,
+    "potential_amplitude": 0.3526179801755169
+  },
+  {
+    "step": 100,
+    "time": 0.2,
+    "KE": 4.1100914516527425,
+    "enstrophy": 49.97498315274722,
+    "potential_exponent": -1.4500725121103468,
+    "potential_r2": 0.8606980697752779,
+    "potential_amplitude": 0.35259473079866627
+  },
+  {
+    "step": 101,
+    "time": 0.202,
+    "KE": 4.1081254350320675,
+    "enstrophy": 49.90655779705321,
+    "potential_exponent": -1.4497472429063518,
+    "potential_r2": 0.8606074802102912,
+    "potential_amplitude": 0.3525714341628593
+  },
+  {
+    "step": 102,
+    "time": 0.20400000000000001,
+    "KE": 4.106162055815045,
+    "enstrophy": 49.83856408859755,
+    "potential_exponent": -1.4494196437128692,
+    "potential_r2": 0.8605159508738669,
+    "potential_amplitude": 0.35254808926076514
+  },
+  {
+    "step": 103,
+    "time": 0.20600000000000002,
+    "KE": 4.104201297164323,
+    "enstrophy": 49.770998025653306,
+    "potential_exponent": -1.449089706968052,
+    "potential_r2": 0.8604234833897104,
+    "potential_amplitude": 0.3525246950229035
+  },
+  {
+    "step": 104,
+    "time": 0.20800000000000002,
+    "KE": 4.102243142399333,
+    "enstrophy": 49.70385565195667,
+    "potential_exponent": -1.4487574256309639,
+    "potential_r2": 0.8603300794836549,
+    "potential_amplitude": 0.3525012503235574
+  },
+  {
+    "step": 105,
+    "time": 0.21,
+    "KE": 4.100287574994497,
+    "enstrophy": 49.63713305592152,
+    "potential_exponent": -1.4484227931664195,
+    "potential_r2": 0.8602357409819357,
+    "potential_amplitude": 0.35247775398499215
+  },
+  {
+    "step": 106,
+    "time": 0.212,
+    "KE": 4.098334578577485,
+    "enstrophy": 49.57082636987478,
+    "potential_exponent": -1.4480858035270623,
+    "potential_r2": 0.8601404698096955,
+    "potential_amplitude": 0.35245420478227424
+  },
+  {
+    "step": 107,
+    "time": 0.214,
+    "KE": 4.096384136927502,
+    "enstrophy": 49.50493176931144,
+    "potential_exponent": -1.4477464511342868,
+    "potential_r2": 0.8600442679895699,
+    "potential_amplitude": 0.3524306014482557
+  },
+  {
+    "step": 108,
+    "time": 0.216,
+    "KE": 4.094436233973586,
+    "enstrophy": 49.43944547216894,
+    "potential_exponent": -1.447404730859429,
+    "potential_r2": 0.8599471376402146,
+    "potential_amplitude": 0.3524069426783464
+  },
+  {
+    "step": 109,
+    "time": 0.218,
+    "KE": 4.0924908537929445,
+    "enstrophy": 49.3743637381197,
+    "potential_exponent": -1.447060638005943,
+    "potential_r2": 0.8598490809747057,
+    "potential_amplitude": 0.35238322713488063
+  },
+  {
+    "step": 110,
+    "time": 0.22,
+    "KE": 4.0905479806093314,
+    "enstrophy": 49.30968286788221,
+    "potential_exponent": -1.446714168292132,
+    "potential_r2": 0.8597501002988664,
+    "potential_amplitude": 0.3523594534511948
+  },
+  {
+    "step": 111,
+    "time": 0.222,
+    "KE": 4.088607598791433,
+    "enstrophy": 49.24539920254892,
+    "potential_exponent": -1.4463653178317397,
+    "potential_r2": 0.8596501980097923,
+    "potential_amplitude": 0.35233562023613985
+  },
+  {
+    "step": 112,
+    "time": 0.224,
+    "KE": 4.086669692851282,
+    "enstrophy": 49.18150912293086,
+    "potential_exponent": -1.446014083108858,
+    "potential_r2": 0.8595493765949372,
+    "potential_amplitude": 0.35231172607998784
+  },
+  {
+    "step": 113,
+    "time": 0.226,
+    "KE": 4.0847342474427135,
+    "enstrophy": 49.11800904891903,
+    "potential_exponent": -1.4456604609501205,
+    "potential_r2": 0.8594476386314602,
+    "potential_amplitude": 0.3522877695609455
+  },
+  {
+    "step": 114,
+    "time": 0.228,
+    "KE": 4.08280124735983,
+    "enstrophy": 49.054895438860775,
+    "potential_exponent": -1.4453044485048658,
+    "potential_r2": 0.8593449867847608,
+    "potential_amplitude": 0.3522637492494055
+  },
+  {
+    "step": 115,
+    "time": 0.23,
+    "KE": 4.080870677535498,
+    "enstrophy": 48.99216478895206,
+    "potential_exponent": -1.4449460432350862,
+    "potential_r2": 0.8592414238060259,
+    "potential_amplitude": 0.3522396637094459
+  },
+  {
+    "step": 116,
+    "time": 0.232,
+    "KE": 4.078942523039865,
+    "enstrophy": 48.929813632644105,
+    "potential_exponent": -1.4445852429066386,
+    "potential_r2": 0.859136952529648,
+    "potential_amplitude": 0.35221551149988184
+  },
+  {
+    "step": 117,
+    "time": 0.234,
+    "KE": 4.077016769078905,
+    "enstrophy": 48.8678385400647,
+    "potential_exponent": -1.4442220455819825,
+    "potential_r2": 0.859031575870489,
+    "potential_amplitude": 0.3521912911748013
+  },
+  {
+    "step": 118,
+    "time": 0.23600000000000002,
+    "KE": 4.075093400992981,
+    "enstrophy": 48.80623611745325,
+    "potential_exponent": -1.443856449618181,
+    "potential_r2": 0.8589252968206252,
+    "potential_amplitude": 0.35216700128258993
+  },
+  {
+    "step": 119,
+    "time": 0.23800000000000002,
+    "KE": 4.07317240425544,
+    "enstrophy": 48.745003006609736,
+    "potential_exponent": -1.4434884536654837,
+    "potential_r2": 0.8588181184460468,
+    "potential_amplitude": 0.35214264036470794
+  },
+  {
+    "step": 120,
+    "time": 0.24,
+    "KE": 4.071253764471211,
+    "enstrophy": 48.68413588435649,
+    "potential_exponent": -1.4431180566615744,
+    "potential_r2": 0.8587100438838111,
+    "potential_amplitude": 0.35211820695556056
+  },
+  {
+    "step": 121,
+    "time": 0.242,
+    "KE": 4.069337467375444,
+    "enstrophy": 48.623631462013066,
+    "potential_exponent": -1.4427452578219442,
+    "potential_r2": 0.8586010763396098,
+    "potential_amplitude": 0.35209369958335596
+  },
+  {
+    "step": 122,
+    "time": 0.244,
+    "KE": 4.067423498832158,
+    "enstrophy": 48.563486484883654,
+    "potential_exponent": -1.4423700566287654,
+    "potential_r2": 0.8584912190855182,
+    "potential_amplitude": 0.3520691167713259
+  },
+  {
+    "step": 123,
+    "time": 0.246,
+    "KE": 4.065511844832913,
+    "enstrophy": 48.50369773175616,
+    "potential_exponent": -1.4419924528198282,
+    "potential_r2": 0.8583804754577739,
+    "potential_amplitude": 0.35204445703890663
+  },
+  {
+    "step": 124,
+    "time": 0.248,
+    "KE": 4.063602491495512,
+    "enstrophy": 48.444262014413475,
+    "potential_exponent": -1.4416124463781304,
+    "potential_r2": 0.8582688488545336,
+    "potential_amplitude": 0.35201971890273726
+  },
+  {
+    "step": 125,
+    "time": 0.25,
+    "KE": 4.0616954250626875,
+    "enstrophy": 48.38517617715586,
+    "potential_exponent": -1.4412300375222413,
+    "potential_r2": 0.8581563427336055,
+    "potential_amplitude": 0.3519949008774651
+  },
+  {
+    "step": 126,
+    "time": 0.252,
+    "KE": 4.059790631900855,
+    "enstrophy": 48.32643709633411,
+    "potential_exponent": -1.4408452266973906,
+    "potential_r2": 0.8580429606101656,
+    "potential_amplitude": 0.3519700014763893
+  },
+  {
+    "step": 127,
+    "time": 0.254,
+    "KE": 4.057888098498845,
+    "enstrophy": 48.268041679893614,
+    "potential_exponent": -1.4404580145671955,
+    "potential_r2": 0.8579287060544767,
+    "potential_amplitude": 0.35194501921198174
+  },
+  {
+    "step": 128,
+    "time": 0.256,
+    "KE": 4.055987811466678,
+    "enstrophy": 48.20998686692839,
+    "potential_exponent": -1.440068402005971,
+    "potential_r2": 0.8578135826896226,
+    "potential_amplitude": 0.351919952596324
+  },
+  {
+    "step": 129,
+    "time": 0.258,
+    "KE": 4.054089757534348,
+    "enstrophy": 48.15226962724497,
+    "potential_exponent": -1.4396763900915448,
+    "potential_r2": 0.8576975941892725,
+    "potential_amplitude": 0.3518948001414967
+  },
+  {
+    "step": 130,
+    "time": 0.26,
+    "KE": 4.0521939235506075,
+    "enstrophy": 48.094886960936044,
+    "potential_exponent": -1.439281980098525,
+    "potential_r2": 0.857580744275487,
+    "potential_amplitude": 0.3518695603599478
+  },
+  {
+    "step": 131,
+    "time": 0.262,
+    "KE": 4.050300296481813,
+    "enstrophy": 48.03783589796285,
+    "potential_exponent": -1.4388851734919688,
+    "potential_r2": 0.8574630367165772,
+    "potential_amplitude": 0.35184423176487395
+  },
+  {
+    "step": 132,
+    "time": 0.264,
+    "KE": 4.0484088634107245,
+    "enstrophy": 47.98111349774705,
+    "potential_exponent": -1.4384859719213965,
+    "potential_r2": 0.8573444753250276,
+    "potential_amplitude": 0.351818812870635
+  },
+  {
+    "step": 133,
+    "time": 0.266,
+    "KE": 4.046519611535386,
+    "enstrophy": 47.92471684877067,
+    "potential_exponent": -1.4380843772151,
+    "potential_r2": 0.8572250639554952,
+    "potential_amplitude": 0.3517933021932263
+  },
+  {
+    "step": 134,
+    "time": 0.268,
+    "KE": 4.044632528167968,
+    "enstrophy": 47.868643068185065,
+    "potential_exponent": -1.437680391374703,
+    "potential_r2": 0.8571048065028917,
+    "potential_amplitude": 0.35176769825082216
+  },
+  {
+    "step": 135,
+    "time": 0.27,
+    "KE": 4.042747600733667,
+    "enstrophy": 47.81288930142781,
+    "potential_exponent": -1.4372740165699212,
+    "potential_r2": 0.8569837069005566,
+    "potential_amplitude": 0.3517419995644045
+  },
+  {
+    "step": 136,
+    "time": 0.272,
+    "KE": 4.040864816769586,
+    "enstrophy": 47.75745272184764,
+    "potential_exponent": -1.436865255133515,
+    "potential_r2": 0.8568617691185263,
+    "potential_amplitude": 0.35171620465848047
+  },
+  {
+    "step": 137,
+    "time": 0.274,
+    "KE": 4.038984163923653,
+    "enstrophy": 47.702330530337704,
+    "potential_exponent": -1.4364541095563934,
+    "potential_r2": 0.8567389971619014,
+    "potential_amplitude": 0.35169031206188567
+  },
+  {
+    "step": 138,
+    "time": 0.276,
+    "KE": 4.037105629953543,
+    "enstrophy": 47.6475199549766,
+    "potential_exponent": -1.4360405824828855,
+    "potential_r2": 0.8566153950693072,
+    "potential_amplitude": 0.35166432030866873
+  },
+  {
+    "step": 139,
+    "time": 0.278,
+    "KE": 4.035229202725618,
+    "enstrophy": 47.593018250676636,
+    "potential_exponent": -1.435624676706168,
+    "potential_r2": 0.8564909669114491,
+    "potential_amplitude": 0.3516382279390399
+  },
+  {
+    "step": 140,
+    "time": 0.28,
+    "KE": 4.033354870213882,
+    "enstrophy": 47.538822698840775,
+    "potential_exponent": -1.4352063951638834,
+    "potential_r2": 0.8563657167897472,
+    "potential_amplitude": 0.3516120335003652
+  },
+  {
+    "step": 141,
+    "time": 0.28200000000000003,
+    "KE": 4.031482620498945,
+    "enstrophy": 47.4849306070258,
+    "potential_exponent": -1.4347857409339637,
+    "potential_r2": 0.8562396488350438,
+    "potential_amplitude": 0.35158573554818134
+  },
+  {
+    "step": 142,
+    "time": 0.28400000000000003,
+    "KE": 4.029612441767004,
+    "enstrophy": 47.431339308613936,
+    "potential_exponent": -1.4343627172306999,
+    "potential_r2": 0.8561127672063683,
+    "potential_amplitude": 0.35155933264719835
+  },
+  {
+    "step": 143,
+    "time": 0.28600000000000003,
+    "KE": 4.027744322308836,
+    "enstrophy": 47.37804616249112,
+    "potential_exponent": -1.43393732740109,
+    "potential_r2": 0.8559850760897438,
+    "potential_amplitude": 0.3515328233722631
+  },
+  {
+    "step": 144,
+    "time": 0.28800000000000003,
+    "KE": 4.025878250518793,
+    "enstrophy": 47.32504855273217,
+    "potential_exponent": -1.4335095749214937,
+    "potential_r2": 0.8558565796970187,
+    "potential_amplitude": 0.3515062063092408
+  },
+  {
+    "step": 145,
+    "time": 0.29,
+    "KE": 4.0240142148938345,
+    "enstrophy": 47.272343888293065,
+    "potential_exponent": -1.4330794633946267,
+    "potential_r2": 0.8557272822647062,
+    "potential_amplitude": 0.3514794800557926
+  },
+  {
+    "step": 146,
+    "time": 0.292,
+    "KE": 4.022152204032552,
+    "enstrophy": 47.21992960270946,
+    "potential_exponent": -1.4326469965468804,
+    "potential_r2": 0.8555971880528179,
+    "potential_amplitude": 0.35145264322200864
+  },
+  {
+    "step": 147,
+    "time": 0.294,
+    "KE": 4.020292206634206,
+    "enstrophy": 47.16780315380116,
+    "potential_exponent": -1.4322121782259716,
+    "potential_r2": 0.8554663013436767,
+    "potential_amplitude": 0.351425694430882
+  },
+  {
+    "step": 148,
+    "time": 0.296,
+    "KE": 4.018434211497775,
+    "enstrophy": 47.11596202338314,
+    "potential_exponent": -1.431775012398867,
+    "potential_r2": 0.8553346264407005,
+    "potential_amplitude": 0.3513986323186007
+  },
+  {
+    "step": 149,
+    "time": 0.298,
+    "KE": 4.016578207521032,
+    "enstrophy": 47.06440371698159,
+    "potential_exponent": -1.431335503149932,
+    "potential_r2": 0.8552021676671491,
+    "potential_amplitude": 0.3513714555346512
+  },
+  {
+    "step": 150,
+    "time": 0.3,
+    "KE": 4.01472418369961,
+    "enstrophy": 47.013125763555614,
+    "potential_exponent": -1.4308936546792033,
+    "potential_r2": 0.8550689293648356,
+    "potential_amplitude": 0.35134416274173647
+  },
+  {
+    "step": 151,
+    "time": 0.302,
+    "KE": 4.012872129126087,
+    "enstrophy": 46.96212571522353,
+    "potential_exponent": -1.4304494713006988,
+    "potential_r2": 0.8549349158928023,
+    "potential_amplitude": 0.3513167526155159
+  },
+  {
+    "step": 152,
+    "time": 0.304,
+    "KE": 4.011022032989089,
+    "enstrophy": 46.911401146994734,
+    "potential_exponent": -1.4300029574406334,
+    "potential_r2": 0.8548001316259701,
+    "potential_amplitude": 0.35128922384418754
+  },
+  {
+    "step": 153,
+    "time": 0.306,
+    "KE": 4.009173884572387,
+    "enstrophy": 46.86094965650528,
+    "potential_exponent": -1.4295541176354445,
+    "potential_r2": 0.8546645809537697,
+    "potential_amplitude": 0.3512615751279391
+  },
+  {
+    "step": 154,
+    "time": 0.308,
+    "KE": 4.007327673254025,
+    "enstrophy": 46.810768863758746,
+    "potential_exponent": -1.4291029565295053,
+    "potential_r2": 0.8545282682787693,
+    "potential_amplitude": 0.3512338051782974
+  },
+  {
+    "step": 155,
+    "time": 0.31,
+    "KE": 4.005483388505442,
+    "enstrophy": 46.76085641087089,
+    "potential_exponent": -1.4286494788724602,
+    "potential_r2": 0.8543911980153102,
+    "potential_amplitude": 0.35120591271741136
+  },
+  {
+    "step": 156,
+    "time": 0.312,
+    "KE": 4.003641019890605,
+    "enstrophy": 46.71120996181887,
+    "potential_exponent": -1.4281936895161178,
+    "potential_r2": 0.8542533745881676,
+    "potential_amplitude": 0.35117789647730185
+  },
+  {
+    "step": 157,
+    "time": 0.314,
+    "KE": 4.001800557065166,
+    "enstrophy": 46.661827202194814,
+    "potential_exponent": -1.4277355934108933,
+    "potential_r2": 0.8541148024312456,
+    "potential_amplitude": 0.3511497551991126
+  },
+  {
+    "step": 158,
+    "time": 0.316,
+    "KE": 3.999961989775605,
+    "enstrophy": 46.61270583896355,
+    "potential_exponent": -1.4272751956018341,
+    "potential_r2": 0.8539754859863199,
+    "potential_amplitude": 0.3511214876323867
+  },
+  {
+    "step": 159,
+    "time": 0.318,
+    "KE": 3.9981253078584182,
+    "enstrophy": 46.56384360022497,
+    "potential_exponent": -1.4268125012243018,
+    "potential_r2": 0.8538354297018352,
+    "potential_amplitude": 0.35109309253439136
+  },
+  {
+    "step": 160,
+    "time": 0.32,
+    "KE": 3.9962905012392573,
+    "enstrophy": 46.51523823498068,
+    "potential_exponent": -1.4263475154994552,
+    "potential_r2": 0.8536946380317597,
+    "potential_amplitude": 0.35106456866950647
+  },
+  {
+    "step": 161,
+    "time": 0.322,
+    "KE": 3.9944575599321634,
+    "enstrophy": 46.466887512905274,
+    "potential_exponent": -1.4258802437297122,
+    "potential_r2": 0.8535531154344939,
+    "potential_amplitude": 0.3510359148086675
+  },
+  {
+    "step": 162,
+    "time": 0.324,
+    "KE": 3.9926264740387145,
+    "enstrophy": 46.418789224122236,
+    "potential_exponent": -1.425410691294516,
+    "potential_r2": 0.8534108663718196,
+    "potential_amplitude": 0.35100712972883585
+  },
+  {
+    "step": 163,
+    "time": 0.326,
+    "KE": 3.990797233747245,
+    "enstrophy": 46.37094117898429,
+    "potential_exponent": -1.4249388636469111,
+    "potential_r2": 0.8532678953078512,
+    "potential_amplitude": 0.35097821221240305
+  },
+  {
+    "step": 164,
+    "time": 0.328,
+    "KE": 3.9889698293320723,
+    "enstrophy": 46.32334120785844,
+    "potential_exponent": -1.4244647663118037,
+    "potential_r2": 0.8531242067079154,
+    "potential_amplitude": 0.3509491610463322
+  },
+  {
+    "step": 165,
+    "time": 0.33,
+    "KE": 3.987144251152695,
+    "enstrophy": 46.27598716091558,
+    "potential_exponent": -1.4239884048864173,
+    "potential_r2": 0.8529798050373194,
+    "potential_amplitude": 0.3509199750209349
+  },
+  {
+    "step": 166,
+    "time": 0.332,
+    "KE": 3.9853204896530197,
+    "enstrophy": 46.228876907924274,
+    "potential_exponent": -1.4235097850371279,
+    "potential_r2": 0.8528346947605693,
+    "potential_amplitude": 0.35089065292994137
+  },
+  {
+    "step": 167,
+    "time": 0.334,
+    "KE": 3.9834985353606127,
+    "enstrophy": 46.18200833804887,
+    "potential_exponent": -1.4230289124752435,
+    "potential_r2": 0.8526888803427323,
+    "potential_amplitude": 0.3508611935767662
+  },
+  {
+    "step": 168,
+    "time": 0.336,
+    "KE": 3.981678378885927,
+    "enstrophy": 46.13537935965158,
+    "potential_exponent": -1.422545792932059,
+    "potential_r2": 0.8525423662509698,
+    "potential_amplitude": 0.35083159578129536
+  },
+  {
+    "step": 169,
+    "time": 0.338,
+    "KE": 3.979860010921564,
+    "enstrophy": 46.08898790009811,
+    "potential_exponent": -1.4220604321795733,
+    "potential_r2": 0.8523951569517523,
+    "potential_amplitude": 0.35080185837421746
+  },
+  {
+    "step": 170,
+    "time": 0.34,
+    "KE": 3.978043422241522,
+    "enstrophy": 46.04283190556696,
+    "potential_exponent": -1.421572836053452,
+    "potential_r2": 0.8522472569079467,
+    "potential_amplitude": 0.35077198019100764
+  },
+  {
+    "step": 171,
+    "time": 0.342,
+    "KE": 3.9762286037004655,
+    "enstrophy": 45.99690934086148,
+    "potential_exponent": -1.4210830104538477,
+    "potential_r2": 0.852098670578123,
+    "potential_amplitude": 0.3507419600723509
+  },
+  {
+    "step": 172,
+    "time": 0.34400000000000003,
+    "KE": 3.9744155462330046,
+    "enstrophy": 45.95121818922508,
+    "potential_exponent": -1.420590961341664,
+    "potential_r2": 0.8519494024163725,
+    "potential_amplitude": 0.35071179686605264
+  },
+  {
+    "step": 173,
+    "time": 0.34600000000000003,
+    "KE": 3.97260424085296,
+    "enstrophy": 45.90575645215889,
+    "potential_exponent": -1.420096694736778,
+    "potential_r2": 0.8517994568719962,
+    "potential_amplitude": 0.3506814894285512
+  },
+  {
+    "step": 174,
+    "time": 0.34800000000000003,
+    "KE": 3.970794678652656,
+    "enstrophy": 45.860522149241525,
+    "potential_exponent": -1.4196002167177522,
+    "potential_r2": 0.8516488383891015,
+    "potential_amplitude": 0.35065103662610075
+  },
+  {
+    "step": 175,
+    "time": 0.35000000000000003,
+    "KE": 3.9689868508022283,
+    "enstrophy": 45.8155133179511,
+    "potential_exponent": -1.4191015334221766,
+    "potential_r2": 0.8514975514061762,
+    "potential_amplitude": 0.3506204373357929
+  },
+  {
+    "step": 176,
+    "time": 0.352,
+    "KE": 3.9671807485488992,
+    "enstrophy": 45.77072801348931,
+    "potential_exponent": -1.4186006510472662,
+    "potential_r2": 0.8513456003556724,
+    "potential_amplitude": 0.35058969044645427
+  },
+  {
+    "step": 177,
+    "time": 0.354,
+    "KE": 3.9653763632162984,
+    "enstrophy": 45.72616430860767,
+    "potential_exponent": -1.4180975758505896,
+    "potential_r2": 0.8511929896635984,
+    "potential_amplitude": 0.350558794859387
+  },
+  {
+    "step": 178,
+    "time": 0.356,
+    "KE": 3.963573686203783,
+    "enstrophy": 45.681820293435024,
+    "potential_exponent": -1.4175923141507618,
+    "potential_r2": 0.8510397237491314,
+    "potential_amplitude": 0.3505277494889428
+  },
+  {
+    "step": 179,
+    "time": 0.358,
+    "KE": 3.961772708985743,
+    "enstrophy": 45.637694075307806,
+    "potential_exponent": -1.4170848723277822,
+    "potential_r2": 0.8508858070242682,
+    "potential_amplitude": 0.3504965532629724
+  },
+  {
+    "step": 180,
+    "time": 0.36,
+    "KE": 3.9599734231109416,
+    "enstrophy": 45.593783778601846,
+    "potential_exponent": -1.416575256822665,
+    "potential_r2": 0.8507312438935453,
+    "potential_amplitude": 0.35046520512321894
+  },
+  {
+    "step": 181,
+    "time": 0.362,
+    "KE": 3.958175820201846,
+    "enstrophy": 45.550087544566836,
+    "potential_exponent": -1.416063474136099,
+    "potential_r2": 0.8505760387538406,
+    "potential_amplitude": 0.35043370402570545
+  },
+  {
+    "step": 182,
+    "time": 0.364,
+    "KE": 3.9563798919539597,
+    "enstrophy": 45.506603531162945,
+    "potential_exponent": -1.4155495308260002,
+    "potential_r2": 0.8504201959942695,
+    "potential_amplitude": 0.3504020489411532
+  },
+  {
+    "step": 183,
+    "time": 0.366,
+    "KE": 3.9545856301351736,
+    "enstrophy": 45.4633299129002,
+    "potential_exponent": -1.4150334335037438,
+    "potential_r2": 0.8502637199961869,
+    "potential_amplitude": 0.3503702388554958
+  },
+  {
+    "step": 184,
+    "time": 0.368,
+    "KE": 3.9527930265851348,
+    "enstrophy": 45.42026488068058,
+    "potential_exponent": -1.414515188828851,
+    "potential_r2": 0.8501066151333143,
+    "potential_amplitude": 0.35033827277057433
+  },
+  {
+    "step": 185,
+    "time": 0.37,
+    "KE": 3.951002073214579,
+    "enstrophy": 45.37740664164276,
+    "potential_exponent": -1.4139948035025895,
+    "potential_r2": 0.8499488857719448,
+    "potential_amplitude": 0.35030614970490914
+  },
+  {
+    "step": 186,
+    "time": 0.372,
+    "KE": 3.9492127620047066,
+    "enstrophy": 45.334753419010234,
+    "potential_exponent": -1.4134722842622829,
+    "potential_r2": 0.8497905362710474,
+    "potential_amplitude": 0.3502738686940951
+  },
+  {
+    "step": 187,
+    "time": 0.374,
+    "KE": 3.947425085006568,
+    "enstrophy": 45.292303451942,
+    "potential_exponent": -1.412947637878113,
+    "potential_r2": 0.8496315709820916,
+    "potential_amplitude": 0.3502414287903557
+  },
+  {
+    "step": 188,
+    "time": 0.376,
+    "KE": 3.94563903434042,
+    "enstrophy": 45.250054995386414,
+    "potential_exponent": -1.412420871152038,
+    "potential_r2": 0.8494719942486313,
+    "potential_amplitude": 0.3502088290614191
+  },
+  {
+    "step": 189,
+    "time": 0.378,
+    "KE": 3.9438546021951177,
+    "enstrophy": 45.20800631993786,
+    "potential_exponent": -1.4118919909170642,
+    "potential_r2": 0.8493118104058126,
+    "potential_amplitude": 0.350176068589247
+  },
+  {
+    "step": 190,
+    "time": 0.38,
+    "KE": 3.9420717808274945,
+    "enstrophy": 45.166155711696,
+    "potential_exponent": -1.4113610040360938,
+    "potential_r2": 0.8491510237798869,
+    "potential_amplitude": 0.350143146468889
+  },
+  {
+    "step": 191,
+    "time": 0.382,
+    "KE": 3.94029056256177,
+    "enstrophy": 45.12450147212767,
+    "potential_exponent": -1.410827917400662,
+    "potential_r2": 0.8489896386876938,
+    "potential_amplitude": 0.3501100618074088
+  },
+  {
+    "step": 192,
+    "time": 0.384,
+    "KE": 3.9385109397889333,
+    "enstrophy": 45.083041917930835,
+    "potential_exponent": -1.410292737930067,
+    "potential_r2": 0.8488276594360693,
+    "potential_amplitude": 0.35007681372278177
+  },
+  {
+    "step": 193,
+    "time": 0.386,
+    "KE": 3.936732904966156,
+    "enstrophy": 45.04177538090079,
+    "potential_exponent": -1.4097554725711134,
+    "potential_r2": 0.8486650903211621,
+    "potential_amplitude": 0.350043401342724
+  },
+  {
+    "step": 194,
+    "time": 0.388,
+    "KE": 3.9349564506161943,
+    "enstrophy": 45.00070020779752,
+    "potential_exponent": -1.4092161282984328,
+    "potential_r2": 0.848501935627666,
+    "potential_amplitude": 0.3500098238034773
+  },
+  {
+    "step": 195,
+    "time": 0.39,
+    "KE": 3.9331815693268046,
+    "enstrophy": 44.95981476021521,
+    "potential_exponent": -1.4086747121152108,
+    "potential_r2": 0.8483381996279937,
+    "potential_amplitude": 0.3499760802486047
+  },
+  {
+    "step": 196,
+    "time": 0.392,
+    "KE": 3.931408253750172,
+    "enstrophy": 44.919117414452316,
+    "potential_exponent": -1.4081312310540994,
+    "potential_r2": 0.8481738865814265,
+    "potential_amplitude": 0.34994216982785625
+  },
+  {
+    "step": 197,
+    "time": 0.394,
+    "KE": 3.9296364966023107,
+    "enstrophy": 44.87860656138287,
+    "potential_exponent": -1.4075856921780632,
+    "potential_r2": 0.8480090007332737,
+    "potential_amplitude": 0.34990809169616477
+  },
+  {
+    "step": 198,
+    "time": 0.396,
+    "KE": 3.9278662906625117,
+    "enstrophy": 44.83828060632851,
+    "potential_exponent": -1.4070381025809195,
+    "potential_r2": 0.8478435463140801,
+    "potential_amplitude": 0.34987384501282304
+  },
+  {
+    "step": 199,
+    "time": 0.398,
+    "KE": 3.9260976287727796,
+    "enstrophy": 44.79813796893146,
+    "potential_exponent": -1.4064884693873858,
+    "potential_r2": 0.8476775275389159,
+    "potential_amplitude": 0.3498394289408842
+  },
+  {
+    "step": 200,
+    "time": 0.4,
+    "KE": 3.9243305038372505,
+    "enstrophy": 44.75817708302784,
+    "potential_exponent": -1.4059367997524403,
+    "potential_r2": 0.8475109486067803,
+    "potential_amplitude": 0.34980484264681116
+  },
+  {
+    "step": 201,
+    "time": 0.402,
+    "KE": 3.922564908821651,
+    "enstrophy": 44.718396396521946,
+    "potential_exponent": -1.4053831008599331,
+    "potential_r2": 0.8473438137001406,
+    "potential_amplitude": 0.3497700853003886
+  },
+  {
+    "step": 202,
+    "time": 0.404,
+    "KE": 3.920800836752742,
+    "enstrophy": 44.678794371261255,
+    "potential_exponent": -1.4048273799203974,
+    "potential_r2": 0.8471761269846254,
+    "potential_amplitude": 0.3497351560748914
+  },
+  {
+    "step": 203,
+    "time": 0.406,
+    "KE": 3.919038280717771,
+    "enstrophy": 44.63936948291242,
+    "potential_exponent": -1.404269644168137,
+    "potential_r2": 0.8470078926088729,
+    "potential_amplitude": 0.3497000541474862
+  },
+  {
+    "step": 204,
+    "time": 0.40800000000000003,
+    "KE": 3.9172772338639312,
+    "enstrophy": 44.600120220838235,
+    "potential_exponent": -1.4037099008577145,
+    "potential_r2": 0.8468391147045304,
+    "potential_amplitude": 0.3496647786998315
+  },
+  {
+    "step": 205,
+    "time": 0.41000000000000003,
+    "KE": 3.915517689397827,
+    "enstrophy": 44.561045087975984,
+    "potential_exponent": -1.4031481572600115,
+    "potential_r2": 0.8466697973863914,
+    "potential_amplitude": 0.34962932891883247
+  },
+  {
+    "step": 206,
+    "time": 0.41200000000000003,
+    "KE": 3.9137596405849298,
+    "enstrophy": 44.52214260071738,
+    "potential_exponent": -1.4025844206581044,
+    "potential_r2": 0.8464999447526496,
+    "potential_amplitude": 0.3495937039974953
+  },
+  {
+    "step": 207,
+    "time": 0.41400000000000003,
+    "KE": 3.9120030807490727,
+    "enstrophy": 44.48341128878976,
+    "potential_exponent": -1.4020186983431469,
+    "potential_r2": 0.8463295608852461,
+    "potential_amplitude": 0.34955790313583457
+  },
+  {
+    "step": 208,
+    "time": 0.41600000000000004,
+    "KE": 3.9102480032718914,
+    "enstrophy": 44.44484969513951,
+    "potential_exponent": -1.4014509976105343,
+    "potential_r2": 0.8461586498502798,
+    "potential_amplitude": 0.34952192554178135
+  },
+  {
+    "step": 209,
+    "time": 0.418,
+    "KE": 3.908494401592349,
+    "enstrophy": 44.4064563758172,
+    "potential_exponent": -1.4008813257565402,
+    "potential_r2": 0.8459872156984504,
+    "potential_amplitude": 0.34948577043204404
+  },
+  {
+    "step": 210,
+    "time": 0.42,
+    "KE": 3.906742269206178,
+    "enstrophy": 44.36822989986445,
+    "potential_exponent": -1.4003096900756604,
+    "potential_r2": 0.8458152624655013,
+    "potential_amplitude": 0.3494494370328817
+  },
+  {
+    "step": 211,
+    "time": 0.422,
+    "KE": 3.9049915996654154,
+    "enstrophy": 44.33016884920333,
+    "potential_exponent": -1.3997360978588196,
+    "potential_r2": 0.8456427941726272,
+    "potential_amplitude": 0.34941292458075257
+  },
+  {
+    "step": 212,
+    "time": 0.424,
+    "KE": 3.903242386577856,
+    "enstrophy": 44.292271818527055,
+    "potential_exponent": -1.39916055639258,
+    "potential_r2": 0.8454698148268172,
+    "potential_amplitude": 0.3493762323228118
+  },
+  {
+    "step": 213,
+    "time": 0.426,
+    "KE": 3.901494623606569,
+    "enstrophy": 44.25453741519287,
+    "potential_exponent": -1.3985830729594242,
+    "potential_r2": 0.8452963284211038,
+    "potential_amplitude": 0.3493393595172391
+  },
+  {
+    "step": 214,
+    "time": 0.428,
+    "KE": 3.899748304469411,
+    "enstrophy": 44.21696425911648,
+    "potential_exponent": -1.398003654839128,
+    "potential_r2": 0.8451223389346981,
+    "potential_amplitude": 0.34930230543339313
+  },
+  {
+    "step": 215,
+    "time": 0.43,
+    "KE": 3.8980034229385065,
+    "enstrophy": 44.17955098266785,
+    "potential_exponent": -1.397422309311146,
+    "potential_r2": 0.8449478503329935,
+    "potential_amplitude": 0.34926506935179535
+  },
+  {
+    "step": 216,
+    "time": 0.432,
+    "KE": 3.896259972839778,
+    "enstrophy": 44.14229623056852,
+    "potential_exponent": -1.3968390436579028,
+    "potential_r2": 0.8447728665674337,
+    "potential_amplitude": 0.349227650563966
+  },
+  {
+    "step": 217,
+    "time": 0.434,
+    "KE": 3.8945179480524628,
+    "enstrophy": 44.10519865978972,
+    "potential_exponent": -1.3962538651687568,
+    "potential_r2": 0.8445973915752519,
+    "potential_amplitude": 0.3491900483721376
+  },
+  {
+    "step": 218,
+    "time": 0.436,
+    "KE": 3.8927773425086083,
+    "enstrophy": 44.06825693945118,
+    "potential_exponent": -1.3956667811443602,
+    "potential_r2": 0.844421429279098,
+    "potential_amplitude": 0.349152262088889
+  },
+  {
+    "step": 219,
+    "time": 0.438,
+    "KE": 3.891038150192622,
+    "enstrophy": 44.031469750721136,
+    "potential_exponent": -1.3950777989010246,
+    "potential_r2": 0.8442449835865931,
+    "potential_amplitude": 0.3491142910367537
+  },
+  {
+    "step": 220,
+    "time": 0.44,
+    "KE": 3.8893003651407763,
+    "enstrophy": 43.99483578671615,
+    "potential_exponent": -1.3944869257746586,
+    "potential_r2": 0.8440680583898638,
+    "potential_amplitude": 0.3490761345478596
+  },
+  {
+    "step": 221,
+    "time": 0.442,
+    "KE": 3.887563981440747,
+    "enstrophy": 43.958353752401436,
+    "potential_exponent": -1.3938941691238687,
+    "potential_r2": 0.8438906575651062,
+    "potential_amplitude": 0.3490377919636538
+  },
+  {
+    "step": 222,
+    "time": 0.444,
+    "KE": 3.885828993231144,
+    "enstrophy": 43.92202236449167,
+    "potential_exponent": -1.3932995363320113,
+    "potential_r2": 0.8437127849722041,
+    "potential_amplitude": 0.34899926263473346
+  },
+  {
+    "step": 223,
+    "time": 0.446,
+    "KE": 3.8840953947010592,
+    "enstrophy": 43.88584035135182,
+    "potential_exponent": -1.3927030348082472,
+    "potential_r2": 0.8435344444543917,
+    "potential_amplitude": 0.34896054592076675
+  },
+  {
+    "step": 224,
+    "time": 0.448,
+    "KE": 3.8823631800895884,
+    "enstrophy": 43.84980645289806,
+    "potential_exponent": -1.392104671987544,
+    "potential_r2": 0.8433556398379698,
+    "potential_amplitude": 0.3489216411904994
+  },
+  {
+    "step": 225,
+    "time": 0.45,
+    "KE": 3.88063234368539,
+    "enstrophy": 43.813919420499225,
+    "potential_exponent": -1.391504455329159,
+    "potential_r2": 0.8431763749321706,
+    "potential_amplitude": 0.3488825478218998
+  },
+  {
+    "step": 226,
+    "time": 0.452,
+    "KE": 3.878902879826232,
+    "enstrophy": 43.77817801687856,
+    "potential_exponent": -1.3909023923131112,
+    "potential_r2": 0.8429966535292753,
+    "potential_amplitude": 0.3488432652024998
+  },
+  {
+    "step": 227,
+    "time": 0.454,
+    "KE": 3.8771747828985426,
+    "enstrophy": 43.742581016015926,
+    "potential_exponent": -1.3902984904351028,
+    "potential_r2": 0.8428164794049248,
+    "potential_amplitude": 0.3488037927298523
+  },
+  {
+    "step": 228,
+    "time": 0.456,
+    "KE": 3.8754480473369672,
+    "enstrophy": 43.70712720305114,
+    "potential_exponent": -1.3896927572008382,
+    "potential_r2": 0.8426358563184916,
+    "potential_amplitude": 0.34876412981196575
+  },
+  {
+    "step": 229,
+    "time": 0.458,
+    "KE": 3.8737226676239276,
+    "enstrophy": 43.67181537418738,
+    "potential_exponent": -1.3890852001202478,
+    "potential_r2": 0.8424547880134536,
+    "potential_amplitude": 0.34872427586764015
+  },
+  {
+    "step": 230,
+    "time": 0.46,
+    "KE": 3.871998638289192,
+    "enstrophy": 43.636644336596476,
+    "potential_exponent": -1.3884758267016566,
+    "potential_r2": 0.8422732782177932,
+    "potential_amplitude": 0.34868423032669343
+  },
+  {
+    "step": 231,
+    "time": 0.462,
+    "KE": 3.870275953909436,
+    "enstrophy": 43.601612908324846,
+    "potential_exponent": -1.3878646444458151,
+    "potential_r2": 0.8420913306444606,
+    "potential_amplitude": 0.34864399263010065
+  },
+  {
+    "step": 232,
+    "time": 0.464,
+    "KE": 3.868554609107816,
+    "enstrophy": 43.56671991820074,
+    "potential_exponent": -1.387251660839973,
+    "potential_r2": 0.8419089489919029,
+    "potential_amplitude": 0.34860356223002553
+  },
+  {
+    "step": 233,
+    "time": 0.466,
+    "KE": 3.8668345985535533,
+    "enstrophy": 43.53196420574332,
+    "potential_exponent": -1.3866368833525347,
+    "potential_r2": 0.841726136944576,
+    "potential_amplitude": 0.34856293858968096
+  },
+  {
+    "step": 234,
+    "time": 0.468,
+    "KE": 3.865115916961489,
+    "enstrophy": 43.49734462107246,
+    "potential_exponent": -1.3860203194289185,
+    "potential_r2": 0.8415428981733568,
+    "potential_amplitude": 0.34852212118295306
+  },
+  {
+    "step": 235,
+    "time": 0.47000000000000003,
+    "KE": 3.863398559091702,
+    "enstrophy": 43.46286002482025,
+    "potential_exponent": -1.3854019764889252,
+    "potential_r2": 0.8413592363358056,
+    "potential_amplitude": 0.3484811094937574
+  },
+  {
+    "step": 236,
+    "time": 0.47200000000000003,
+    "KE": 3.8616825197490607,
+    "enstrophy": 43.42850928804417,
+    "potential_exponent": -1.3847818619257077,
+    "potential_r2": 0.8411751550762638,
+    "potential_amplitude": 0.3484399030151468
+  },
+  {
+    "step": 237,
+    "time": 0.47400000000000003,
+    "KE": 3.8599677937828325,
+    "enstrophy": 43.394291292140615,
+    "potential_exponent": -1.3841599831063658,
+    "potential_r2": 0.8409906580257783,
+    "potential_amplitude": 0.3483985012481953
+  },
+  {
+    "step": 238,
+    "time": 0.47600000000000003,
+    "KE": 3.858254376086265,
+    "enstrophy": 43.36020492876067,
+    "potential_exponent": -1.383536347374097,
+    "potential_r2": 0.8408057488018399,
+    "potential_amplitude": 0.34835690370070016
+  },
+  {
+    "step": 239,
+    "time": 0.47800000000000004,
+    "KE": 3.8565422615961915,
+    "enstrophy": 43.326249099725544,
+    "potential_exponent": -1.3829109620518527,
+    "potential_r2": 0.8406204310079304,
+    "potential_amplitude": 0.34831510988574876
+  },
+  {
+    "step": 240,
+    "time": 0.48,
+    "KE": 3.854831445292619,
+    "enstrophy": 43.29242271694387,
+    "potential_exponent": -1.3822838344472497,
+    "potential_r2": 0.8404347082328847,
+    "potential_amplitude": 0.348273119320221
+  },
+  {
+    "step": 241,
+    "time": 0.482,
+    "KE": 3.853121922198337,
+    "enstrophy": 43.25872470232902,
+    "potential_exponent": -1.3816549718583464,
+    "potential_r2": 0.8402485840501103,
+    "potential_amplitude": 0.34823093152331536
+  },
+  {
+    "step": 242,
+    "time": 0.484,
+    "KE": 3.851413687378519,
+    "enstrophy": 43.225153987716844,
+    "potential_exponent": -1.3810243815797083,
+    "potential_r2": 0.8400620620167321,
+    "potential_amplitude": 0.34818854601520455
+  },
+  {
+    "step": 243,
+    "time": 0.486,
+    "KE": 3.849706735940337,
+    "enstrophy": 43.19170951478397,
+    "potential_exponent": -1.3803920709082014,
+    "potential_r2": 0.8398751456727338,
+    "potential_amplitude": 0.34814596231591943
+  },
+  {
+    "step": 244,
+    "time": 0.488,
+    "KE": 3.848001063032562,
+    "enstrophy": 43.15839023496602,
+    "potential_exponent": -1.3797580471480406,
+    "potential_r2": 0.839687838540156,
+    "potential_amplitude": 0.34810317994453344
+  },
+  {
+    "step": 245,
+    "time": 0.49,
+    "KE": 3.846296663845181,
+    "enstrophy": 43.12519510937596,
+    "potential_exponent": -1.3791223176147867,
+    "potential_r2": 0.8395001441223919,
+    "potential_amplitude": 0.3480601984186919
+  },
+  {
+    "step": 246,
+    "time": 0.492,
+    "KE": 3.844593533609026,
+    "enstrophy": 43.09212310872234,
+    "potential_exponent": -1.37848488963808,
+    "potential_r2": 0.8393120659036079,
+    "potential_amplitude": 0.3480170172545053
+  },
+  {
+    "step": 247,
+    "time": 0.494,
+    "KE": 3.8428916675953877,
+    "enstrophy": 43.05917321322805,
+    "potential_exponent": -1.377845770563034,
+    "potential_r2": 0.8391236073483019,
+    "potential_amplitude": 0.34797363596680103
+  },
+  {
+    "step": 248,
+    "time": 0.496,
+    "KE": 3.8411910611156252,
+    "enstrophy": 43.02634441254832,
+    "potential_exponent": -1.3772049677502243,
+    "potential_r2": 0.8389347719010205,
+    "potential_amplitude": 0.34793005406972344
+  },
+  {
+    "step": 249,
+    "time": 0.498,
+    "KE": 3.839491709520817,
+    "enstrophy": 42.99363570568971,
+    "potential_exponent": -1.3765624885741843,
+    "potential_r2": 0.8387455629862585,
+    "potential_amplitude": 0.34788627107766606
+  },
+  {
+    "step": 250,
+    "time": 0.5,
+    "KE": 3.8377936082013764,
+    "enstrophy": 42.961046100928655,
+    "potential_exponent": -1.3759183404203534,
+    "potential_r2": 0.8385559840085763,
+    "potential_amplitude": 0.3478422865065121
+  },
+  {
+    "step": 251,
+    "time": 0.502,
+    "KE": 3.8360967525866934,
+    "enstrophy": 42.92857461573081,
+    "potential_exponent": -1.3752725306805036,
+    "potential_r2": 0.8383660383529514,
+    "potential_amplitude": 0.34779809987514654
+  },
+  {
+    "step": 252,
+    "time": 0.504,
+    "KE": 3.8344011381447576,
+    "enstrophy": 42.896220276670675,
+    "potential_exponent": -1.3746250667468423,
+    "potential_r2": 0.8381757293853606,
+    "potential_amplitude": 0.347753710707175
+  },
+  {
+    "step": 253,
+    "time": 0.506,
+    "KE": 3.832706760381821,
+    "enstrophy": 42.86398211935214,
+    "potential_exponent": -1.373975956005214,
+    "potential_r2": 0.8379850604535486,
+    "potential_amplitude": 0.3477091185327536
+  },
+  {
+    "step": 254,
+    "time": 0.508,
+    "KE": 3.8310136148420173,
+    "enstrophy": 42.83185918832941,
+    "potential_exponent": -1.3733252058285659,
+    "potential_r2": 0.8377940348878148,
+    "potential_amplitude": 0.3476643228903384
+  },
+  {
+    "step": 255,
+    "time": 0.51,
+    "KE": 3.829321697107022,
+    "enstrophy": 42.79985053702927,
+    "potential_exponent": -1.372672823572564,
+    "potential_r2": 0.8376026560015148,
+    "potential_amplitude": 0.3476193233280512
+  },
+  {
+    "step": 256,
+    "time": 0.512,
+    "KE": 3.8276310027957043,
+    "enstrophy": 42.76795522767434,
+    "potential_exponent": -1.3720188165722023,
+    "potential_r2": 0.8374109270915061,
+    "potential_amplitude": 0.347574119404809
+  },
+  {
+    "step": 257,
+    "time": 0.514,
+    "KE": 3.8259415275637645,
+    "enstrophy": 42.736172331206866,
+    "potential_exponent": -1.3713631921349616,
+    "potential_r2": 0.8372188514393126,
+    "potential_amplitude": 0.3475287106918157
+  },
+  {
+    "step": 258,
+    "time": 0.516,
+    "KE": 3.8242532671034075,
+    "enstrophy": 42.70450092721465,
+    "potential_exponent": -1.3707059575331768,
+    "potential_r2": 0.8370264323125656,
+    "potential_amplitude": 0.347483096774033
+  },
+  {
+    "step": 259,
+    "time": 0.518,
+    "KE": 3.8225662171429806,
+    "enstrophy": 42.67294010385693,
+    "potential_exponent": -1.3700471200000093,
+    "potential_r2": 0.8368336729659601,
+    "potential_amplitude": 0.3474372772510083
+  },
+  {
+    "step": 260,
+    "time": 0.52,
+    "KE": 3.820880373446662,
+    "enstrophy": 42.641488957792326,
+    "potential_exponent": -1.3693866867281335,
+    "potential_r2": 0.8366405766418784,
+    "potential_amplitude": 0.3473912517371823
+  },
+  {
+    "step": 261,
+    "time": 0.522,
+    "KE": 3.819195731814096,
+    "enstrophy": 42.61014659410711,
+    "potential_exponent": -1.3687246648699094,
+    "potential_r2": 0.836447146570871,
+    "potential_amplitude": 0.3473450198618537
+  },
+  {
+    "step": 262,
+    "time": 0.524,
+    "KE": 3.817512288080073,
+    "enstrophy": 42.5789121262445,
+    "potential_exponent": -1.3680610615391733,
+    "potential_r2": 0.8362533859719551,
+    "potential_amplitude": 0.3472985812687965
+  },
+  {
+    "step": 263,
+    "time": 0.526,
+    "KE": 3.8158300381142034,
+    "enstrophy": 42.547784675934885,
+    "potential_exponent": -1.3673958838149614,
+    "potential_r2": 0.8360592980526412,
+    "potential_amplitude": 0.3472519356154975
+  },
+  {
+    "step": 264,
+    "time": 0.528,
+    "KE": 3.8141489778205795,
+    "enstrophy": 42.516763373126444,
+    "potential_exponent": -1.3667291387471152,
+    "potential_r2": 0.8358648860086624,
+    "potential_amplitude": 0.34720508257204513
+  },
+  {
+    "step": 265,
+    "time": 0.53,
+    "KE": 3.8124691031374547,
+    "enstrophy": 42.48584735591609,
+    "potential_exponent": -1.366060833363429,
+    "potential_r2": 0.8356701530234257,
+    "potential_amplitude": 0.3471580218197346
+  },
+  {
+    "step": 266,
+    "time": 0.532,
+    "KE": 3.8107904100369194,
+    "enstrophy": 42.455035770480876,
+    "potential_exponent": -1.3653909746778514,
+    "potential_r2": 0.8354751022672273,
+    "potential_amplitude": 0.34711075304948974
+  },
+  {
+    "step": 267,
+    "time": 0.534,
+    "KE": 3.8091128945245876,
+    "enstrophy": 42.424327771009416,
+    "potential_exponent": -1.3647195696992558,
+    "potential_r2": 0.8352797368962732,
+    "potential_amplitude": 0.34706327596018643
+  },
+  {
+    "step": 268,
+    "time": 0.536,
+    "KE": 3.807436552639262,
+    "enstrophy": 42.39372251963324,
+    "potential_exponent": -1.3640466254403467,
+    "potential_r2": 0.8350840600515486,
+    "potential_amplitude": 0.3470155902569638
+  },
+  {
+    "step": 269,
+    "time": 0.538,
+    "KE": 3.805761380452643,
+    "enstrophy": 42.363219186358236,
+    "potential_exponent": -1.363372148926195,
+    "potential_r2": 0.8348880748575899,
+    "potential_amplitude": 0.3469676956496138
+  },
+  {
+    "step": 270,
+    "time": 0.54,
+    "KE": 3.8040873740689953,
+    "enstrophy": 42.33281694899586,
+    "potential_exponent": -1.3626961472015984,
+    "potential_r2": 0.8346917844212814,
+    "potential_amplitude": 0.346919591851165
+  },
+  {
+    "step": 271,
+    "time": 0.542,
+    "KE": 3.802414529624848,
+    "enstrophy": 42.302514993094114,
+    "potential_exponent": -1.3620186273362531,
+    "potential_r2": 0.8344951918308413,
+    "potential_amplitude": 0.3468712785768167
+  },
+  {
+    "step": 272,
+    "time": 0.544,
+    "KE": 3.800742843288694,
+    "enstrophy": 42.2723125118684,
+    "potential_exponent": -1.3613395964273731,
+    "potential_r2": 0.8342983001550602,
+    "potential_amplitude": 0.34682275554326586
+  },
+  {
+    "step": 273,
+    "time": 0.546,
+    "KE": 3.7990723112606646,
+    "enstrophy": 42.24220870613247,
+    "potential_exponent": -1.360659061600325,
+    "potential_r2": 0.8341011124427089,
+    "potential_amplitude": 0.3467740224683411
+  },
+  {
+    "step": 274,
+    "time": 0.548,
+    "KE": 3.79740292977226,
+    "enstrophy": 42.212202784229085,
+    "potential_exponent": -1.3599770300078549,
+    "potential_r2": 0.8339036317220403,
+    "potential_amplitude": 0.3467250790708525
+  },
+  {
+    "step": 275,
+    "time": 0.55,
+    "KE": 3.7957346950860207,
+    "enstrophy": 42.182293961961065,
+    "potential_exponent": -1.359293508827127,
+    "potential_r2": 0.8337058610005472,
+    "potential_amplitude": 0.3466759250707497
+  },
+  {
+    "step": 276,
+    "time": 0.552,
+    "KE": 3.7940676034952467,
+    "enstrophy": 42.15248146252249,
+    "potential_exponent": -1.3586085052530466,
+    "potential_r2": 0.8335078032652831,
+    "potential_amplitude": 0.34662656018979066
+  },
+  {
+    "step": 277,
+    "time": 0.554,
+    "KE": 3.792401651323705,
+    "enstrophy": 42.12276451643021,
+    "potential_exponent": -1.3579220264895369,
+    "potential_r2": 0.8333094614834948,
+    "potential_amplitude": 0.3465769841524668
+  },
+  {
+    "step": 278,
+    "time": 0.556,
+    "KE": 3.7907368349253354,
+    "enstrophy": 42.09314236145595,
+    "potential_exponent": -1.3572340797436027,
+    "potential_r2": 0.8331108386027866,
+    "potential_amplitude": 0.3465271966865007
+  },
+  {
+    "step": 279,
+    "time": 0.558,
+    "KE": 3.789073150683965,
+    "enstrophy": 42.06361424255932,
+    "potential_exponent": -1.3565446722207064,
+    "potential_r2": 0.8329119375511065,
+    "potential_amplitude": 0.3464771975231159
+  },
+  {
+    "step": 280,
+    "time": 0.56,
+    "KE": 3.787410595013023,
+    "enstrophy": 42.03417941182122,
+    "potential_exponent": -1.3558538111131428,
+    "potential_r2": 0.8327127612380245,
+    "potential_amplitude": 0.34642698639825614
+  },
+  {
+    "step": 281,
+    "time": 0.562,
+    "KE": 3.7857491643552605,
+    "enstrophy": 42.00483712837856,
+    "potential_exponent": -1.3551615035855409,
+    "potential_r2": 0.832513312556628,
+    "potential_amplitude": 0.3463765630541778
+  },
+  {
+    "step": 282,
+    "time": 0.5640000000000001,
+    "KE": 3.7840888551824614,
+    "enstrophy": 41.97558665835974,
+    "potential_exponent": -1.3544677567644543,
+    "potential_r2": 0.8323135943848724,
+    "potential_amplitude": 0.346325927240436
+  },
+  {
+    "step": 283,
+    "time": 0.5660000000000001,
+    "KE": 3.782429663995181,
+    "enstrophy": 41.94642727482123,
+    "potential_exponent": -1.3537725777306477,
+    "potential_r2": 0.8321136095866494,
+    "potential_amplitude": 0.3462750787144757
+  },
+  {
+    "step": 284,
+    "time": 0.5680000000000001,
+    "KE": 3.7807715873224566,
+    "enstrophy": 41.91735825768506,
+    "potential_exponent": -1.3530759735126328,
+    "potential_r2": 0.8319133610128366,
+    "potential_amplitude": 0.34622401724205426
+  },
+  {
+    "step": 285,
+    "time": 0.5700000000000001,
+    "KE": 3.77911462172155,
+    "enstrophy": 41.888378893677725,
+    "potential_exponent": -1.3523779510818819,
+    "potential_r2": 0.8317128515022597,
+    "potential_amplitude": 0.34617274259743613
+  },
+  {
+    "step": 286,
+    "time": 0.5720000000000001,
+    "KE": 3.7774587637776658,
+    "enstrophy": 41.85948847626936,
+    "potential_exponent": -1.351678517350449,
+    "potential_r2": 0.8315120838824396,
+    "potential_amplitude": 0.3461212545632889
+  },
+  {
+    "step": 287,
+    "time": 0.5740000000000001,
+    "KE": 3.7758040101036814,
+    "enstrophy": 41.83068630561432,
+    "potential_exponent": -1.3509776791707693,
+    "potential_r2": 0.8313110609701467,
+    "potential_amplitude": 0.346069552930334
+  },
+  {
+    "step": 288,
+    "time": 0.5760000000000001,
+    "KE": 3.7741503573399013,
+    "enstrophy": 41.80197168849227,
+    "potential_exponent": -1.3502754433372037,
+    "potential_r2": 0.8311097855718064,
+    "potential_amplitude": 0.3460176374968431
+  },
+  {
+    "step": 289,
+    "time": 0.578,
+    "KE": 3.772497802153774,
+    "enstrophy": 41.773343938249766,
+    "potential_exponent": -1.3495718165898016,
+    "potential_r2": 0.8309082604836466,
+    "potential_amplitude": 0.345965508067932
+  },
+  {
+    "step": 290,
+    "time": 0.58,
+    "KE": 3.7708463412396394,
+    "enstrophy": 41.744802374742385,
+    "potential_exponent": -1.3488668056204116,
+    "potential_r2": 0.8307064884915277,
+    "potential_amplitude": 0.3459131644546416
+  },
+  {
+    "step": 291,
+    "time": 0.582,
+    "KE": 3.7691959713184664,
+    "enstrophy": 41.71634632427716,
+    "potential_exponent": -1.3481604170806019,
+    "potential_r2": 0.8305044723705022,
+    "potential_amplitude": 0.34586060647290057
+  },
+  {
+    "step": 292,
+    "time": 0.584,
+    "KE": 3.767546689137608,
+    "enstrophy": 41.687975119555006,
+    "potential_exponent": -1.347452657590924,
+    "potential_r2": 0.8303022148841368,
+    "potential_amplitude": 0.34580783394245146
+  },
+  {
+    "step": 293,
+    "time": 0.586,
+    "KE": 3.7658984914705353,
+    "enstrophy": 41.659688099613206,
+    "potential_exponent": -1.3467435337511153,
+    "potential_r2": 0.8300997187836163,
+    "potential_amplitude": 0.34575484668580075
+  },
+  {
+    "step": 294,
+    "time": 0.588,
+    "KE": 3.764251375116589,
+    "enstrophy": 41.63148460976793,
+    "potential_exponent": -1.3460330521516135,
+    "potential_r2": 0.8298969868065277,
+    "potential_amplitude": 0.3457016445271378
+  },
+  {
+    "step": 295,
+    "time": 0.59,
+    "KE": 3.7626053369007337,
+    "enstrophy": 41.603364001556336,
+    "potential_exponent": -1.3453212193882358,
+    "potential_r2": 0.8296940216749771,
+    "potential_amplitude": 0.34564822729092726
+  },
+  {
+    "step": 296,
+    "time": 0.592,
+    "KE": 3.760960373673304,
+    "enstrophy": 41.575325632678584,
+    "potential_exponent": -1.3446080420753432,
+    "potential_r2": 0.8294908260937933,
+    "potential_amplitude": 0.345594594800859
+  },
+  {
+    "step": 297,
+    "time": 0.594,
+    "KE": 3.759316482309768,
+    "enstrophy": 41.5473688669396,
+    "potential_exponent": -1.3438935268502405,
+    "potential_r2": 0.8292874027500099,
+    "potential_amplitude": 0.34554074688022346
+  },
+  {
+    "step": 298,
+    "time": 0.596,
+    "KE": 3.757673659710473,
+    "enstrophy": 41.519493074190486,
+    "potential_exponent": -1.3431776803756943,
+    "potential_r2": 0.8290837543124703,
+    "potential_amplitude": 0.34548668335262694
+  },
+  {
+    "step": 299,
+    "time": 0.598,
+    "KE": 3.7560319028004208,
+    "enstrophy": 41.49169763027011,
+    "potential_exponent": -1.3424605093429305,
+    "potential_r2": 0.8288798834311748,
+    "potential_amplitude": 0.34543240404263853
+  },
+  {
+    "step": 300,
+    "time": 0.6,
+    "KE": 3.7543912085290185,
+    "enstrophy": 41.46398191694604,
+    "potential_exponent": -1.3417420204707666,
+    "potential_r2": 0.8286757927371153,
+    "potential_amplitude": 0.34537790877695934
+  }
+]
