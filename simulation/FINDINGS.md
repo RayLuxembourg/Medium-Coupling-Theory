@@ -66,6 +66,37 @@ The coupling stabilizes structures (more enstrophy survives). This is real and n
 
 **Implication for MCT:** The naive "more vorticity = less viscosity" coupling does not produce the right topology dependence. If MCT is correct, the coupling mechanism must be more subtle than spatially variable viscosity proportional to vorticity magnitude.
 
+## Finding 4: Helicity Distinguishes Topologies (Known Result, Validated)
+
+Helicity H = integral(u . omega) correctly distinguishes topologies:
+- Ring: H = 0 (unknot, no self-linking)
+- Hopf link: H = -3.66 (linking number contribution)
+- Trefoil: H = -9.08 (large, knotted)
+- Figure-eight: H ~ 0 total but |H|_abs = 11.08 (amphicheiral, locally helical but globally cancels)
+
+This is a known result (Moffatt 1969) but validates our Biot-Savart initialization.
+
+## Finding 5: Helicity-Based Variable Viscosity Also Wrong Direction
+
+Using nu_eff = nu_0 * (1 - beta * |h|/h_ref) instead of omega-based viscosity produces the same wrong direction: ring (|H|=0) stabilized MORE than trefoil (|H|=9.08). Correlation -0.52 to -0.59.
+
+The problem is geometric, not about what drives the viscosity. Any local viscosity reduction favors compact structures. The ring has a tighter core regardless of what field we use for the viscosity model.
+
+## Finding 6: Helicity-Inertia (Boussinesq) Shows First Correct Direction
+
+Formulation: rho_eff(x) = 1 + alpha * |h(x)|/h_ref. Knotted regions have more inertia.
+
+At alpha=0.5:
+- Ring (|H|=0): stability ratio 2.67
+- Trefoil (|H|=9.08): stability ratio 3.93
+- Hopf link (|H|=3.66): stability ratio 4.45
+
+**First time a knotted structure is more stabilized than an unknotted one.**
+
+Caveats: figure-eight blows up (numerical instability). Overall correlation is weak. Alpha=2.0 causes blowups. The effect may be driven by the inertia-viscosity interaction (heavier regions dissipate slower because nu/rho_eff is smaller) rather than true topological protection. Need parameter study.
+
+This is the most promising mechanism tested: modifying inertia rather than viscosity, using helicity rather than vorticity magnitude.
+
 ## Open Questions
 
 1. Is there any coupling formulation that survives the Leray projection AND produces topology-dependent stabilization in the correct direction?
