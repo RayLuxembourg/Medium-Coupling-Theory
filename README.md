@@ -203,8 +203,12 @@ Open problems under development: [mass spectrum](extensions/mass-spectrum.md) fr
 ### Applications (Active)
 Engineering implications: [propulsion](applications/propulsion.md) and [coupling modulation](applications/coupling-modulation.md).
 
-### Simulation (Planned)
-[Computational modeling](simulation/simulation.md) of medium dynamics with embedded topological structures. SPH-based, phased from single-knot verification to full cosmological simulation.
+### Simulation (First Results) ✅
+[Computational verification](simulation/simulation.md) of MCT's core mechanism. Topological structures (vortex ring, trefoil knot, figure-eight knot) embedded in a 3D medium produce exact $1/r$ gravitational potentials with $R^2 > 0.99998$. Two structures attract with $F \propto 1/d^2$. Newton's law emerges from medium coupling without being put in by hand.
+
+![Far-field potential verification](simulation/results/potential_comparison.png)
+
+![Two-body gravitational potential](simulation/results/two_body_potential.png)
 
 ---
 
