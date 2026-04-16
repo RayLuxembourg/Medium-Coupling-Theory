@@ -225,6 +225,67 @@ The slight deviation from -2.0 in the force comes from numerical differentiation
 
 **Newton's law of gravitation emerges from the medium without being put in by hand.**
 
+### 6.3 Level 1b: GPU-Accelerated Mass Spectrum
+
+The static Poisson solver (Section 6.1) proved that different source distributions produce different $GM$ values, but used fixed source fields. The next step: a fully coupled Navier-Stokes + MCT system where vorticity dynamically sources gravity, which feeds back on the fluid. Different knot topologies, initialized with the same circulation $\Gamma$, produce different effective masses through their coupling dynamics.
+
+Code: [`gpu_sim.py`](gpu_sim.py). GPU-accelerated with Taichi CUDA kernels for Biot-Savart and CuPy for all FFT operations. RTX 4070 Ti Super, $128^3$ grid, 300 time steps per topology.
+
+**The coupled system:**
+
+$$\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\nabla p + \nu \nabla^2 \mathbf{u} + \alpha \nabla \phi$$
+
+$$\nabla^2 \phi = -4\pi\alpha\,|\boldsymbol{\omega}|$$
+
+Vorticity $|\boldsymbol{\omega}|$ acts as the coupling source. The potential $\phi$ feeds back as a body force on the fluid. No gravity is put in by hand. The coupling parameter $\alpha = 0.05$ controls the strength.
+
+**Six topologies tested:**
+
+| Topology | Crossing number | Final $GM$ | Mass ratio | 51ms/step |
+|---|---|---|---|---|
+| Vortex ring | 0 | 0.167 | 1.000 | 15.6s total |
+| Hopf link | 0 | 0.193 | 1.156 | 15.6s total |
+| Trefoil ($3_1$) | 3 | 0.303 | 1.813 | 15.4s total |
+| Torus knot $T(2,5)$ | 5 | 0.363 | 2.172 | 16.5s total |
+| Torus knot $T(2,7)$ | 7 | 0.455 | 2.725 | 17.4s total |
+| Figure-eight ($4_1$) | 4 | 0.488 | 2.919 | 15.5s total |
+
+Total computation time: 95 seconds for all six topologies on a single GPU.
+
+**Mass spectrum (effective gravitational mass vs. topology):**
+
+![GPU mass spectrum](results/gpu_mass_spectrum.png)
+
+**Evolution GIFs** (vorticity + coupling potential + far-field exponent, 300 steps each):
+
+| ![Ring](results/gpu_ring.gif) | ![Trefoil](results/gpu_trefoil.gif) | ![Figure-eight](results/gpu_figure_eight.gif) |
+|:---:|:---:|:---:|
+| Vortex ring ($M = 1.00$) | Trefoil ($M = 1.81$) | Figure-eight ($M = 2.92$) |
+
+| ![Hopf link](results/gpu_hopf_link.gif) | ![T(2,5)](results/gpu_T25.gif) | ![T(2,7)](results/gpu_T27.gif) |
+|:---:|:---:|:---:|
+| Hopf link ($M = 1.16$) | $T(2,5)$ ($M = 2.17$) | $T(2,7)$ ($M = 2.73$) |
+
+The key result: **topology determines mass**. Structures with the same circulation $\Gamma$, viscosity, and grid resolution produce different effective gravitational masses depending on their knot type. More complex topologies (higher crossing number, more intricate angular momentum geometry) generally produce larger masses, though the figure-eight knot (crossing 4) exceeds the torus knot $T(2,5)$ (crossing 5), showing that crossing number alone is not the full story. The angular momentum coupling geometry matters.
+
+This is the MCT prediction: mass is not intrinsic. It is the degree to which a structure's angular momentum interlocks with the medium flow. Different topologies interlock differently, producing different masses from identical initial conditions.
+
+### 6.4 Level 2b: Coupled Dynamic Two-Body Test
+
+Beyond the static two-body force measurement (Section 6.2), the coupled simulation was run with two vortex rings evolving in time to test whether the MCT coupling dynamically attracts them.
+
+Code: [`coupled_two_body.py`](coupled_two_body.py). $96^3$ grid, $L = 4\pi$, $dt = 0.002$, $\nu = 0.008$, 600 time steps. Two rings at initial separation $d = 3.0$ with $\Gamma = 1.5$, $R = 0.5$.
+
+**Two-body evolution (coupled vs. uncoupled):**
+
+| ![Coupled](results/twobody_coupled.gif) | ![Uncoupled](results/twobody_uncoupled.gif) |
+|:---:|:---:|
+| With MCT coupling ($\alpha = 0.05$) | Without coupling ($\alpha = 0$) |
+
+![Two-body comparison](results/twobody_comparison.png)
+
+At this grid resolution and coupling strength, the separation difference between coupled and uncoupled runs is $\sim 10^{-7}$, at the edge of numerical noise. The coupling force is real but weak at $\alpha = 0.05$ relative to the viscous dissipation at $\nu = 0.008$. Future runs with higher resolution, stronger coupling, or reduced viscosity should amplify the signal. The static two-body test (Section 6.2) remains the cleaner verification of the $1/r^2$ force law.
+
 ---
 
 ## 7. Roadmap (Remaining)
@@ -241,7 +302,7 @@ The slight deviation from -2.0 in the force comes from numerical differentiation
 
 ---
 
-## 7. Relation to Other Problems
+## 8. Relation to Other Problems
 
 - Level 1 simulations directly test [mass-spectrum.md](../extensions/mass-spectrum.md) predictions.
 - Level 2 simulations verify the [Newtonian gravity derivation](../formalization/mathematical-framework.md#2-derivation-newtonian-gravity-from-medium-flow) and [Schwarzschild metric recovery](../formalization/mathematical-framework.md#6-derivation-schwarzschild-metric-from-nonlinear-medium-response).

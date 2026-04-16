@@ -1,0 +1,61 @@
+{
+  "params": {
+    "N": 128,
+    "L": 6.283185307179586,
+    "dt": 0.002,
+    "nu": 0.008,
+    "alpha": 0.05,
+    "Gamma": 2.0,
+    "steps": 300
+  },
+  "results": [
+    {
+      "name": "ring",
+      "final_exponent": -1.527778738617795,
+      "final_GM": 0.1671371977495771,
+      "time_seconds": 15.619652509689331,
+      "crossing_number": 0,
+      "mass_ratio": 1.0
+    },
+    {
+      "name": "trefoil",
+      "final_exponent": -1.6154946422056988,
+      "final_GM": 0.30294907872150884,
+      "time_seconds": 15.378669500350952,
+      "crossing_number": 3,
+      "mass_ratio": 1.8125772287711779
+    },
+    {
+      "name": "figure_eight",
+      "final_exponent": -1.2430567554545635,
+      "final_GM": 0.48792066064323164,
+      "time_seconds": 15.467982053756714,
+      "crossing_number": 4,
+      "mass_ratio": 2.9192822855286034
+    },
+    {
+      "name": "T25",
+      "final_exponent": -1.6638876132319573,
+      "final_GM": 0.3630917830936735,
+      "time_seconds": 16.485402584075928,
+      "crossing_number": 5,
+      "mass_ratio": 2.1724175586436276
+    },
+    {
+      "name": "T27",
+      "final_exponent": -1.6649578704366996,
+      "final_GM": 0.4554688711050975,
+      "time_seconds": 17.406681299209595,
+      "crossing_number": 7,
+      "mass_ratio": 2.7251197054741207
+    },
+    {
+      "name": "hopf_link",
+      "final_exponent": -1.8382549139995965,
+      "final_GM": 0.19321874656205368,
+      "time_seconds": 15.558492660522461,
+      "crossing_number": 0,
+      "mass_ratio": 1.1560487381842715
+    }
+  ]
+}

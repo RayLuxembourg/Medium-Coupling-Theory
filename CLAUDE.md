@@ -179,5 +179,13 @@ MCT/
 │   └── propulsion.md                    # Coupling modulation, inertia reduction
 │
 └── simulation/                          # Computational program
-    └── simulation.md                    # SPH modeling, verification tests, roadmap
+    ├── simulation.md                    # Methods, verification tests, roadmap
+    ├── mct_sim.py                       # Free-space Poisson solver (static 1/r verification)
+    ├── two_body.py                      # Static two-body force measurement
+    ├── coupled_mct.py                   # CPU coupled NS + MCT (first dynamic test)
+    ├── gpu_sim.py                       # GPU mass spectrum (Taichi + CuPy, 6 topologies)
+    ├── gpu_test.py                      # GPU benchmark script
+    ├── coupled_two_body.py              # Dynamic two-body attraction test
+    ├── mass_spectrum_sim.py             # CPU mass spectrum (pre-GPU version)
+    └── results/                         # Output images, GIFs, and data
 ```

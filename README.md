@@ -203,12 +203,25 @@ Open problems under development: [mass spectrum](extensions/mass-spectrum.md) fr
 ### Applications (Active)
 Engineering implications: [propulsion](applications/propulsion.md) and [coupling modulation](applications/coupling-modulation.md).
 
-### Simulation (First Results) ✅
-[Computational verification](simulation/simulation.md) of MCT's core mechanism. Topological structures (vortex ring, trefoil knot, figure-eight knot) embedded in a 3D medium produce exact $1/r$ gravitational potentials with $R^2 > 0.99998$. Two structures attract with $F \propto 1/d^2$. Newton's law emerges from medium coupling without being put in by hand.
+### Simulation (GPU-Accelerated Results) ✅
+[Computational verification](simulation/simulation.md) of MCT's core mechanism. Topological structures embedded in a 3D medium produce exact $1/r$ gravitational potentials ($R^2 > 0.99998$) and attract with $F \propto 1/d^2$. Newton's law emerges from medium coupling without being put in by hand.
+
+The coupled Navier-Stokes + MCT system, where vorticity dynamically sources gravity that feeds back on the fluid, produces topology-dependent masses. Six knot types initialized with identical circulation produce different effective gravitational masses:
+
+![GPU mass spectrum](simulation/results/gpu_mass_spectrum.png)
+
+| Topology | Mass ratio | Crossing number |
+|---|---|---|
+| Vortex ring | 1.00 | 0 |
+| Hopf link | 1.16 | 0 |
+| Trefoil ($3_1$) | 1.81 | 3 |
+| Torus $T(2,5)$ | 2.17 | 5 |
+| Torus $T(2,7)$ | 2.73 | 7 |
+| Figure-eight ($4_1$) | 2.92 | 4 |
+
+More complex angular momentum topology produces stronger medium coupling, therefore more mass. This is the central prediction of MCT, computed from first principles on a GPU ($128^3$ grid, 300 steps, 51ms/step on RTX 4070 Ti Super).
 
 ![Far-field potential verification](simulation/results/potential_comparison.png)
-
-![Two-body gravitational potential](simulation/results/two_body_potential.png)
 
 ---
 

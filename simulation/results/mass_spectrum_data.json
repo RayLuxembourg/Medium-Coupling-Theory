@@ -1,0 +1,61 @@
+{
+  "parameters": {
+    "N": 96,
+    "L": 6.283185307179586,
+    "dt": 0.002,
+    "nu": 0.008,
+    "alpha": 0.05,
+    "Gamma": 2.0,
+    "steps": 300
+  },
+  "results": [
+    {
+      "name": "ring",
+      "final_exponent": -1.4539829375797004,
+      "final_GM": 0.16426926248885948,
+      "final_enstrophy": 17.28551777027392,
+      "crossing_number": 0,
+      "mass_ratio": 1.0
+    },
+    {
+      "name": "trefoil",
+      "final_exponent": -1.524240403502948,
+      "final_GM": 0.299730377510304,
+      "final_enstrophy": 38.88519656447926,
+      "crossing_number": 3,
+      "mass_ratio": 1.824628496951043
+    },
+    {
+      "name": "figure_eight",
+      "final_exponent": -1.0671941776651128,
+      "final_GM": 0.45709232708766434,
+      "final_enstrophy": 71.46754132447225,
+      "crossing_number": 4,
+      "mass_ratio": 2.782579772759762
+    },
+    {
+      "name": "T25_cinquefoil",
+      "final_exponent": -1.563729076919997,
+      "final_GM": 0.34977588872671744,
+      "final_enstrophy": 47.22888563616202,
+      "crossing_number": 5,
+      "mass_ratio": 2.1292838564392946
+    },
+    {
+      "name": "T27",
+      "final_exponent": -1.5523549364582663,
+      "final_GM": 0.4494023999317054,
+      "final_enstrophy": 73.80138790068602,
+      "crossing_number": 7,
+      "mass_ratio": 2.735766832594036
+    },
+    {
+      "name": "hopf_link",
+      "final_exponent": -1.7125657043353406,
+      "final_GM": 0.18898469001592386,
+      "final_enstrophy": 22.986896357822857,
+      "crossing_number": 0,
+      "mass_ratio": 1.1504567997238104
+    }
+  ]
+}
