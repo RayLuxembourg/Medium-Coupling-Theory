@@ -1025,3 +1025,7 @@ These documents address deeper structural questions about the theory.
 11. **[Quantum field theory](quantum-field-theory.md).** Extending Nelson's stochastic mechanics to relativistic field theory. Stochastic fields, the path integral, particle creation/annihilation, and UV finiteness from medium micro-structure.
 
 12. **[Why 3+1 dimensions](why-3plus1.md).** The toroidal vortex is stable only in 3 spatial dimensions. Dynamical compactification explains why extra dimensions are compact.
+
+### Applications
+
+13. **[Propulsion](propulsion.md).** If mass is coupling, coupling can be modulated. Inertia reduction, asymmetric coupling drives, and testable experiments with rotating superconductors and polarized nuclear spins.
