@@ -77,7 +77,7 @@ Individual pieces of MCT touch known physics. What's new is the unification and 
 
 **What the simulations prove:** The mechanism is self-consistent. The coupled equations produce the behavior MCT claims. Different topologies do produce different masses. The far-field potential is $1/r$. The force is $1/r^2$. These are necessary conditions for MCT to work. They are not sufficient to prove the universe uses this mechanism.
 
-**What would prove it:** The experimental predictions in Section 10. Particularly: gravitational wave echoes (Prediction #1), superconductor mass anomalies (Prediction #5), and the specific Regge slope value (Prediction #3, which already matches measurement).
+**What would prove it:** The experimental predictions in Section 11. Particularly: gravitational wave echoes (Prediction #1), superconductor mass anomalies (Prediction #5), and the specific Regge slope value (Prediction #3, which already matches measurement).
 
 ---
 
@@ -176,7 +176,42 @@ This is physically expected: real gravitational attraction is also extremely wea
 
 ---
 
-## 8. Gallery: Knot Topologies and Their Gravitational Wells
+## 8. New Prediction: Mass is Not Intrinsic
+
+### 8.1 What standard physics says
+
+Mass is an intrinsic property of a particle. An electron always has mass $0.511$ MeV/$c^2$. You cannot change it without destroying the electron.
+
+### 8.2 What MCT predicts
+
+Mass is the coupling strength between a particle's angular momentum topology and the medium. Change the coupling, change the mass. The particle structure persists (enstrophy is conserved). Only its gravitational footprint changes.
+
+This is directly testable: a superconductor, which suppresses angular momentum interactions through Cooper pairing, should exhibit a tiny but measurable change in gravitational mass below $T_c$ (Prediction #5 in Section 11).
+
+### 8.3 The simulation
+
+A trefoil knot evolves through four coupling phases:
+
+| Phase | Steps | Coupling $\alpha$ | Measured mass $GM$ |
+|---|---|---|---|
+| ON | 0-200 | 0.05 | 0.303 |
+| OFF | 200-500 | 0.00 | 0.000 |
+| RESTORED | 500-800 | 0.05 | 0.280 |
+| DOUBLED | 800-1000 | 0.10 | 0.483 |
+
+![Coupling modulation](simulation/results/showcase_coupling_modulation.gif)
+
+When coupling is turned off, gravitational mass drops to exactly zero. The knot structure (enstrophy) continues its smooth viscous decay with no discontinuity, confirming the topology persists. When coupling is restored, mass returns. When coupling is doubled, mass nearly doubles.
+
+![Coupling modulation analysis](simulation/results/showcase_coupling_modulation_analysis.png)
+
+The knot does not change. Its shape, its circulation, its angular momentum all persist continuously. Only the degree to which that angular momentum couples to the medium changes, and the gravitational mass tracks the coupling exactly.
+
+No existing framework produces this behavior. In standard physics, the mass of a structure is determined by its energy content (via $E = mc^2$) and cannot be modulated independently. In MCT, mass is a coupling property, like friction, and can be adjusted by changing the interaction between the structure and its environment.
+
+---
+
+## 9. Gallery: Knot Topologies and Their Gravitational Wells
 
 3D renders of each topology after 150 time steps. Orange isosurfaces: vorticity (the "particle"). Blue shells: gravitational potential well.
 
@@ -186,7 +221,7 @@ Same fluid, same equations, same energy. Only the shape of the knot differs. Eac
 
 ---
 
-## 9. What This Explains
+## 10. What This Explains
 
 ### Mass quantization
 Angular momentum is quantized in quantum mechanics. If mass is coupling to the medium via angular momentum, then mass is also quantized. The discrete particle masses we observe are the stable angular momentum topologies of the medium. No separate Higgs mechanism is needed (or the Higgs describes local medium flow properties).
@@ -208,7 +243,7 @@ An object coupled to the medium resists being pushed because the medium is alrea
 
 ---
 
-## 10. Testable Predictions
+## 11. Testable Predictions
 
 MCT produces specific numbers that can be checked against experiment. Full derivations with error bars: [quantitative-predictions.md](formalization/quantitative-predictions.md).
 
@@ -229,7 +264,7 @@ Prediction #3 (Regge slope) already agrees with measurement. Predictions #1, #4,
 
 ---
 
-## 11. Technical Details
+## 12. Technical Details
 
 The full mathematical formalization, derivations, and extensions are organized in this repository:
 

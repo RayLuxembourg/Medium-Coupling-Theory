@@ -12,6 +12,8 @@ MCT does not dispute the mathematical validity of General Relativity or Quantum 
 
 For the full mathematical treatment, see the [Phase 2 formalization](formalization/mathematical-framework.md).
 
+**Start here:** [DISCOVERY.md](DISCOVERY.md) tells the complete story from mechanism to simulation to testable predictions, with embedded visualizations.
+
 ---
 
 ## 1. The Medium
